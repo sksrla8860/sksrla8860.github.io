@@ -1,0 +1,357 @@
+.container {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .container * {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Nanum Barun Gothic";
+    letter-spacing: -1px; }
+  .container > .section {
+    background-color: #fff;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box; }
+    .container > .section > .title_box {
+      width: 100%;
+      border-bottom: 1px solid #aaa; }
+      .container > .section > .title_box > h3 {
+        font-weight: bold;
+        color: #1c4682; }
+      .container > .section > .title_box > p {
+        color: #484848; }
+    .container > .section > .form_box {
+      width: 100%; }
+      .container > .section > .form_box > form {
+        width: 100%; }
+        .container > .section > .form_box > form > fieldset {
+          border-top: 2px solid #484848;
+          box-sizing: border-box; }
+          .container > .section > .form_box > form > fieldset > legend {
+            width: 0;
+            height: 0;
+            display: block;
+            overflow: hidden; }
+          .container > .section > .form_box > form > fieldset > div {
+            width: 100%;
+            border-bottom: 1px solid #aaa;
+            box-sizing: border-box; }
+            .container > .section > .form_box > form > fieldset > div > * {
+              float: left; }
+            .container > .section > .form_box > form > fieldset > div > label {
+              background-color: #EFEFEF;
+              display: block;
+              text-align: center;
+              font-weight: bold;
+              color: #333; }
+            .container > .section > .form_box > form > fieldset > div > div > div {
+              float: left;
+              border: 0; }
+            .container > .section > .form_box > form > fieldset > div > div > * {
+              float: left;
+              border: 1px solid #dadada;
+              box-sizing: border-box; }
+            .container > .section > .form_box > form > fieldset > div > div > input[type="text"] {
+              text-indent: 5px; }
+            .container > .section > .form_box > form > fieldset > div > div > input[type="text"]:focus {
+              background-color: #f3fbff; }
+            .container > .section > .form_box > form > fieldset > div > div > textarea:focus {
+              background-color: #f3fbff; }
+            .container > .section > .form_box > form > fieldset > div > div > textarea {
+              line-height: 26px;
+              text-indent: 5px;
+              resize: none; }
+          .container > .section > .form_box > form > fieldset > .e_mail_box > div > p {
+            border: 0; }
+          .container > .section > .form_box > form > fieldset > .agreement_box > div > p {
+            border: 0;
+            border-bottom: 1px solid #dadada;
+            box-sizing: border-box; }
+            .container > .section > .form_box > form > fieldset > .agreement_box > div > p > a {
+              color: #006CB8;
+              font-weight: bold;
+              text-decoration: none; }
+          .container > .section > .form_box > form > fieldset > .agreement_box > div > label {
+            border: 0; }
+          .container > .section > .form_box > form > fieldset > .btn_box {
+            border: 0; }
+            .container > .section > .form_box > form > fieldset > .btn_box > input {
+              font-weight: bold;
+              color: #fff;
+              border: 0;
+              cursor: pointer; }
+            .container > .section > .form_box > form > fieldset > .btn_box > #okBtn {
+              background-color: #006CB8; }
+            .container > .section > .form_box > form > fieldset > .btn_box > #cancleBtn {
+              background-color: #aaa; }
+          .container > .section > .form_box > form > fieldset > div:after {
+            content: "";
+            display: block;
+            clear: both; }
+
+.container:after {
+  background-image: url(/assets/img/sub/pyramidalWaveBG.png);
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 75px;
+  z-index: -2;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pyramidalWaveBG.png', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pyramidalWaveBG.png', sizingMethod='scale')"; }
+
+/* For larger displays */
+@media all and (min-width: 1080px) {
+  .container {
+    padding: 90px 0; }
+    .container > .section {
+      width: 980px;
+      height: 1230px;
+      padding: 50px 50px 0 50px; }
+      .container > .section > .title_box {
+        height: 100px;
+        margin-bottom: 50px; }
+        .container > .section > .title_box > h3 {
+          width: auto;
+          height: 50px;
+          font-size: 44px;
+          margin-bottom: 6px; }
+        .container > .section > .title_box > p {
+          font-size: 16px; }
+      .container > .section > .form_box > form > fieldset > div {
+        height: auto; }
+        .container > .section > .form_box > form > fieldset > div > label {
+          width: 150px;
+          height: auto;
+          padding-top: 22px;
+          padding-bottom: 22px;
+          font-size: 14px; }
+        .container > .section > .form_box > form > fieldset > div > div {
+          width: 713px;
+          padding-left: 15px; }
+          .container > .section > .form_box > form > fieldset > div > div > * {
+            height: 30px;
+            margin-top: 14px; }
+      .container > .section > .form_box > form > fieldset > .currBtn1_box > div > select {
+        width: 170px; }
+      .container > .section > .form_box > form > fieldset > .campus_box > div > select {
+        width: 170px; }
+      .container > .section > .form_box > form > fieldset > .name_box > div > input {
+        width: 170px; }
+      .container > .section > .form_box > form > fieldset > .number_box > div > input {
+        width: 230px; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > input {
+        width: 170px; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > p {
+        font-size: 14px;
+        margin-left: 6px;
+        margin-right: 6px;
+        line-height: 28px; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > select {
+        width: 160px;
+        margin-left: 6px; }
+      .container > .section > .form_box > form > fieldset > .curriculum_box > div > input {
+        width: 470px; }
+      .container > .section > .form_box > form > fieldset > .text_box {
+        height: auto; }
+        .container > .section > .form_box > form > fieldset > .text_box > label {
+          line-height: 204px; }
+        .container > .section > .form_box > form > fieldset > .text_box > div > .counsel_text {
+          width: 700px;
+          height: 220px;
+          margin-bottom: 14px; }
+      .container > .section > .form_box > form > fieldset > .agreement_box {
+        height: auto;
+        margin-bottom: 25px; }
+        .container > .section > .form_box > form > fieldset > .agreement_box > label {
+          padding-top: 115px;
+          padding-bottom: 115px;
+          line-height: 22px; }
+        .container > .section > .form_box > form > fieldset > .agreement_box > div > p {
+          width: 700px;
+          height: 200px;
+          display: block;
+          margin-top: 20px;
+          line-height: 24px; }
+        .container > .section > .form_box > form > fieldset > .agreement_box > div > input {
+          margin-left: 10px; }
+        .container > .section > .form_box > form > fieldset > .agreement_box > div > label {
+          margin-left: 10px;
+          line-height: 28px; }
+      .container > .section > .form_box > form > fieldset > .btn_box {
+        width: 210px;
+        height: 35px;
+        margin: 0 auto; }
+        .container > .section > .form_box > form > fieldset > .btn_box > input {
+          width: 100px;
+          height: 100%; }
+        .container > .section > .form_box > form > fieldset > .btn_box > #okBtn {
+          margin-right: 10px; } }
+
+@media (min-width: 641px) and (max-width: 1079px) {
+  .container {
+    padding: 4% 0; }
+    .container > .section {
+      width: 96%;
+      padding: 3%; }
+      .container > .section > .title_box {
+        height: 120px; }
+        .container > .section > .title_box > h3 {
+          font-size: 30px;
+          height: 32px;
+          width: auto; }
+        .container > .section > .title_box > p {
+          font-size: 14px;
+          margin-top: 6px; }
+      .container > .section > .form_box > form > fieldset > div > label {
+        width: 23%;
+        padding-top: 3%;
+        padding-bottom: 3%; }
+      .container > .section > .form_box > form > fieldset > div > div {
+        width: 77%;
+        margin-top: 2.5%; }
+        .container > .section > .form_box > form > fieldset > div > div > * {
+          height: 28px;
+          margin-left: 3%; }
+      .container > .section > .form_box > form > fieldset > .currBtn1_box > div > select {
+        width: 35%; }
+      .container > .section > .form_box > form > fieldset > .campus_box > div > .w_120 {
+        width: 35%; }
+      .container > .section > .form_box > form > fieldset > .name_box > div > .name_text {
+        width: 35%; }
+      .container > .section > .form_box > form > fieldset > .number_box > div > .number_text {
+        width: 55%; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > input {
+        width: 25%; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > p {
+        line-height: 28px; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > select {
+        width: 25%; }
+      .container > .section > .form_box > form > fieldset > .curriculum_box > div > input {
+        width: 35%; }
+      .container > .section > .form_box > form > fieldset > .text_box > label {
+        padding-top: 140px;
+        padding-bottom: 140px; }
+      .container > .section > .form_box > form > fieldset > .text_box > div {
+        height: auto; }
+        .container > .section > .form_box > form > fieldset > .text_box > div > textarea {
+          width: 95%;
+          height: 100%; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > label {
+        padding-top: 130px;
+        padding-bottom: 130px;
+        line-height: 22px; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > div > p {
+        width: 95%;
+        height: auto;
+        display: block;
+        padding-bottom: 10px;
+        margin-bottom: 6px;
+        font-size: 14px;
+        line-height: 24px; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > div > input {
+        margin-left: 10px; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > div > label {
+        margin-left: 10px;
+        line-height: 28px;
+        font-size: 14px; }
+      .container > .section > .form_box > form > fieldset > .btn_box {
+        width: 40%;
+        height: 45px;
+        margin: 0 auto;
+        margin-top: 4%; }
+        .container > .section > .form_box > form > fieldset > .btn_box > input {
+          width: 48%;
+          height: 100%;
+          font-size: 14px; }
+        .container > .section > .form_box > form > fieldset > .btn_box > #okBtn {
+          margin-right: 4%; } }
+
+@media (max-width: 640px) {
+  .container {
+    padding: 4% 0; }
+    .container > .section {
+      width: 96%;
+      padding: 3%; }
+      .container > .section > .title_box {
+        height: 120px; }
+        .container > .section > .title_box > h3 {
+          font-size: 20px;
+          height: 26px;
+          width: auto; }
+        .container > .section > .title_box > p {
+          font-size: 12px;
+          line-height: 22px; }
+      .container > .section > .form_box > form > fieldset > div > label {
+        width: 23%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 12px; }
+      .container > .section > .form_box > form > fieldset > div > div {
+        width: 77%;
+        margin-top: 6px; }
+        .container > .section > .form_box > form > fieldset > div > div > * {
+          height: 30px;
+          margin-left: 2%; }
+      .container > .section > .form_box > form > fieldset > .currBtn1_box > div > select {
+        width: 40%; }
+      .container > .section > .form_box > form > fieldset > .campus_box > div > .w_120 {
+        width: 40%; }
+      .container > .section > .form_box > form > fieldset > .name_box > div > .name_text {
+        width: 40%; }
+      .container > .section > .form_box > form > fieldset > .number_box > div > .number_text {
+        width: 90%; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > label {
+        padding-top: 34px;
+        padding-bottom: 34px; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > #email1 {
+        width: 85%;
+        margin-bottom: 2%; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > #email2 {
+        width: 43%; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > p {
+        line-height: 28px; }
+      .container > .section > .form_box > form > fieldset > .e_mail_box > div > select {
+        width: 40%; }
+      .container > .section > .form_box > form > fieldset > .curriculum_box > div > input {
+        width: 90%; }
+      .container > .section > .form_box > form > fieldset > .text_box > label {
+        padding-top: 120px;
+        padding-bottom: 120px; }
+      .container > .section > .form_box > form > fieldset > .text_box > div {
+        height: 240px; }
+        .container > .section > .form_box > form > fieldset > .text_box > div > textarea {
+          width: 95%;
+          height: 100%; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > label {
+        padding-top: 110px;
+        padding-bottom: 110px;
+        line-height: 22px; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > div > p {
+        width: 95%;
+        height: auto;
+        display: block;
+        padding-bottom: 2%;
+        margin-bottom: 2%;
+        font-size: 11px;
+        line-height: 18px; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > div > input {
+        margin-left: 10px; }
+      .container > .section > .form_box > form > fieldset > .agreement_box > div > label {
+        margin-left: 10px;
+        line-height: 30px;
+        font-size: 11px; }
+      .container > .section > .form_box > form > fieldset > .btn_box {
+        width: 40%;
+        height: 45px;
+        margin: 0 auto;
+        margin-top: 4%; }
+        .container > .section > .form_box > form > fieldset > .btn_box > input {
+          width: 48%;
+          height: 100%; }
+        .container > .section > .form_box > form > fieldset > .btn_box > #okBtn {
+          margin-right: 4%; } }

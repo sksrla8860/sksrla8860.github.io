@@ -1,0 +1,438 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .container * {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: -1px; }
+  .container > .section {
+    margin: 0 auto; }
+    .container > .section > ul {
+      margin: 0 auto; }
+      .container > .section > ul > li {
+        float: left; }
+        .container > .section > ul > li > p {
+          font-weight: 900;
+          float: left;
+          color: #999;
+          text-align: center; }
+          .container > .section > ul > li > p > span {
+            font-weight: 900;
+            float: left;
+            color: #999;
+            text-align: center;
+            text-indent: 2px; }
+        .container > .section > ul > li > h3 {
+          font-weight: bold;
+          float: left;
+          color: #999; }
+      .container > .section > ul > .step_01 {
+        border-bottom: 5px solid #4BABFF; }
+        .container > .section > ul > .step_01 > p {
+          color: #4BABFF; }
+          .container > .section > ul > .step_01 > p > span {
+            color: #006CBA; }
+        .container > .section > ul > .step_01 > h3 {
+          color: #333; }
+      .container > .section > ul > span {
+        background-image: url(/_img/main/signup/arrow.png);
+        float: left; }
+    .container > .section > form {
+      margin: 0 auto; }
+      .container > .section > form > fieldset > legend {
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden; }
+      .container > .section > form > fieldset > ul {
+        border: 1px solid #aaa;
+        box-sizing: border-box;
+				background-color: #fff;}
+        .container > .section > form > fieldset > ul > li > div {
+          overflow: hidden;
+					position: relative; }
+        .container > .section > form > fieldset > ul > li > div > h4 {
+          font-weight: bold;
+          color: #333;
+          float: left; }
+          .container > .section > form > fieldset > ul > li > div > h4 > span {
+            color: #4BABFF;
+            font-weight: bold;
+            display: inline-block;
+            text-align: center; }
+        .container > .section > form > fieldset > ul > li > div > input[type=checkbox] {
+          width: 0;
+          height: 0;
+          display: block;
+          overflow: hidden;
+					position: absolute;
+					z-index:-500; }
+        .container > .section > form > fieldset > ul > li > div > input[type=checkbox] + label {
+          float: right;
+          background-image: url(/_img/main/signup/check_icon.png?2); }
+        .container > .section > form > fieldset > ul > li > div > input[type=checkbox]:checked + label {
+          float: right;
+          background-image: url(/_img/main/signup/check_icon_o.png?2); }
+        .container > .section > form > fieldset > ul > li > div > label {
+          cursor: pointer; }
+          .container > .section > form > fieldset > ul > li > div > label > span {
+            width: 0;
+            height: 0;
+            display: block;
+            overflow: hidden; }
+        .container > .section > form > fieldset > ul > li > div > .t_box {
+          border: 1px solid #BACAD1;
+          box-sizing: border-box;
+          background-color: #EEF8FF;
+          overflow-x: hidden; }
+        .container > .section > form > fieldset > ul > .box_01 {
+          border-bottom: 1px solid #aaa;
+          box-sizing: border-box; }
+          .container > .section > form > fieldset > ul > .box_01 > div > * {
+            float: left; }
+        .container > .section > form > fieldset > ul > .box_02 > .check_02 > p > .blue {
+          color: #4BABFF; }
+        .container > .section > form > fieldset > ul > .box_02 > .check_02 > p > span {
+          font-weight: bold; }
+      .container > .section > form > fieldset > .btn_box {
+        margin: 0 auto; }
+        .container > .section > form > fieldset > .btn_box > input {
+          float: left;
+          cursor: pointer;
+          border: 0; }
+        .container > .section > form > fieldset > .btn_box > #okBtn {
+          background-color: #4BABFF;
+          color: #fff; }
+        .container > .section > form > fieldset > .btn_box > #cancleBtn {
+          color: #555;
+          float: right; }
+      .container > .section > form > fieldset div:after {
+        content: "";
+        display: block;
+        clear: both; }
+
+@media all and (min-width: 1080px) {
+  .container > .section {
+    width: 1080px;
+    padding-top: 135px; }
+    .container > .section > ul {
+      width: 700px;
+      height: 64px;
+      margin-bottom: 65px; }
+      .container > .section > ul > li {
+        width: auto;
+        height: 100%;
+        float: left; }
+        .container > .section > ul > li > p {
+          width: 50px;
+          font-weight: 900;
+          font-size: 20px;
+          float: left;
+          color: #999;
+          text-align: center; }
+          .container > .section > ul > li > p > span {
+            font-weight: 900;
+            font-size: 42px;
+            float: left;
+            color: #999;
+            line-height: 38px;
+            text-align: center;
+            text-indent: 2px; }
+        .container > .section > ul > li > h3 {
+          width: auto;
+          font-weight: bold;
+          font-size: 24px;
+          height: 100%;
+          float: left;
+          color: #999;
+					line-height: 28px;
+					margin-left: 4px; }
+      .container > .section > ul > span {
+        width: 20px;
+        height: 32px;
+        margin: 16px 50px 0 50px; }
+    .container > .section > form {
+      width: 700px; }
+      .container > .section > form > fieldset {
+        width: 100%; }
+        .container > .section > form > fieldset > ul {
+          width: 100%;
+          height: 770px;
+          margin-bottom: 34px; }
+          .container > .section > form > fieldset > ul > li {
+            width: 100%; }
+            .container > .section > form > fieldset > ul > li > div {
+              padding: 0 22px; }
+              .container > .section > form > fieldset > ul > li > div > h4 {
+                width: auto;
+                height: auto;
+                font-size: 18px;
+                line-height: 32px;
+                margin-bottom: 12px; }
+                .container > .section > form > fieldset > ul > li > div > h4 > span {
+                  width: 32px;
+                  font-size: 12px; }
+              .container > .section > form > fieldset > ul > li > div > input[type=checkbox] + label {
+                width: 28px;
+                height: 28px; }
+              .container > .section > form > fieldset > ul > li > div > input[type=checkbox]:checked + label {
+                width: 28px;
+                height: 28px; }
+              .container > .section > form > fieldset > ul > li > div > .t_box {
+                width: 650px;
+                height: 150px; }
+          .container > .section > form > fieldset > ul > .box_01 {
+            height: 100px;
+            padding-top: 18px; }
+            .container > .section > form > fieldset > ul > .box_01 > div > h4 {
+              height: 60px; }
+            .container > .section > form > fieldset > ul > .box_01 > div > label {
+              margin-top: 14px; }
+          .container > .section > form > fieldset > ul > .box_02 {
+            height: 670px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_01 {
+              height: 197px;
+              padding-top: 18px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_02 {
+              height: 357px;
+              padding-top: 18px; }
+              .container > .section > form > fieldset > ul > .box_02 > .check_02 > p {
+                font-size: 12px;
+                line-height: 20px; }
+              .container > .section > form > fieldset > ul > .box_02 > .check_02 > .t_box {
+                margin-bottom: 16px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_03 {
+              height: 68px;
+              padding-top: 18px; }
+        .container > .section > form > fieldset > .btn_box {
+          width: 500px;
+          height: 76px;
+          margin: 0 auto;
+          margin-bottom: 210px; }
+          .container > .section > form > fieldset > .btn_box > input {
+            width: 245px;
+            height: 100%;
+            font-size: 25px; } }
+@media (min-width: 641px) and (max-width: 1079px) {
+  .container > .section {
+    width: 96%;
+    padding-top: 80px; }
+    .container > .section > ul {
+      width: 80%;
+      height: 50px;
+      margin-bottom: 65px; }
+      .container > .section > ul > li {
+        width: 25%;
+        height: 100%; }
+        .container > .section > ul > li > p {
+          width: 26px;
+          font-weight: 900;
+          font-size: 16px;
+          margin-right: 4%; }
+          .container > .section > ul > li > p > span {
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 24px;
+            text-indent: 2px; }
+        .container > .section > ul > li > h3 {
+          width: auto;
+          font-size: 18px;
+          height: 100%;
+          float: left;
+          margin-left: 4px; }
+      .container > .section > ul > span {
+        width: 10%;
+        height: 24px;
+        margin: 16px 1% 0 1%;
+        background-size: contain; }
+    .container > .section > form {
+      width: 100%; }
+      .container > .section > form > fieldset {
+        width: 100%; }
+        .container > .section > form > fieldset > legend {
+          width: 0;
+          height: 0;
+          display: block;
+          overflow: hidden; }
+        .container > .section > form > fieldset > ul {
+          width: 100%;
+          height: auto;
+          margin-bottom: 34px;
+          border: 1px solid #aaa;
+          box-sizing: border-box;
+          padding-bottom: 8px; }
+          .container > .section > form > fieldset > ul > li {
+            width: 100%; }
+            .container > .section > form > fieldset > ul > li > div {
+              padding: 0 5%; }
+              .container > .section > form > fieldset > ul > li > div > h4 {
+                width: auto;
+                height: auto;
+                font-weight: bold;
+                font-size: 18px;
+                color: #333;
+                line-height: 32px;
+                float: left; }
+                .container > .section > form > fieldset > ul > li > div > h4 > span {
+                  width: 44px;
+                  font-size: 14px;
+                  display: inline-block;
+                  text-align: center; }
+              .container > .section > form > fieldset > ul > li > div > input[type=checkbox] + label {
+                width: 25px;
+                height: 25px; }
+              .container > .section > form > fieldset > ul > li > div > input[type=checkbox]:checked + label {
+                width: 25px;
+                height: 25px; }
+              .container > .section > form > fieldset > ul > li > div > label {
+                margin-bottom: 15px; }
+              .container > .section > form > fieldset > ul > li > div > .t_box {
+                width: 100%;
+                height: 110px; }
+          .container > .section > form > fieldset > ul > .box_01 {
+            height: 100px;
+            padding-top: 20px; }
+            .container > .section > form > fieldset > ul > .box_01 > div > label {
+              margin-top: 8px; }
+          .container > .section > form > fieldset > ul > .box_02 {
+            height: auto; }
+            .container > .section > form > fieldset > ul > .box_02 > div h4 {
+              margin-top: 6px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_01 {
+              height: 160px;
+              padding-top: 18px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_02 {
+              height: auto;
+              padding-top: 18px;
+              margin-bottom: 15px; }
+              .container > .section > form > fieldset > ul > .box_02 > .check_02 > p {
+                font-size: 14px;
+                line-height: 26px; }
+                .container > .section > form > fieldset > ul > .box_02 > .check_02 > p > span {
+                  font-weight: bold; }
+              .container > .section > form > fieldset > ul > .box_02 > .check_02 > .t_box {
+                margin-bottom: 16px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_03 {
+              height: auto;
+              padding-top: 18px; }
+        .container > .section > form > fieldset > .btn_box {
+          width: 60%;
+          height: 55px;
+          margin: 0 auto;
+          margin-bottom: 80px; }
+          .container > .section > form > fieldset > .btn_box > input {
+            width: 47%;
+            height: 100%;
+            font-size: 22px; } }
+@media (max-width: 640px) {
+  .container > .section {
+    width: 96%;
+    padding-top: 80px; }
+    .container > .section > ul {
+      width: 95%;
+      height: 40px;
+      margin-bottom: 65px; }
+      .container > .section > ul > li {
+        width: 25%;
+        height: 100%; }
+        .container > .section > ul > li > p {
+          width: 26px;
+          font-weight: 900;
+          font-size: 12px; }
+          .container > .section > ul > li > p > span {
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 24px;
+            text-indent: 2px; }
+        .container > .section > ul > li > h3 {
+          width: auto;
+          font-size: 15px;
+          height: 100%;
+          float: left;
+          margin-left: 4px;
+					margin-top: 2px; }
+      .container > .section > ul > span {
+        width: 8%;
+        height: 24px;
+        margin: 16px 1% 0 1%;
+        background-size: contain; }
+    .container > .section > form {
+      width: 100%; }
+      .container > .section > form > fieldset {
+        width: 100%; }
+        .container > .section > form > fieldset > legend {
+          width: 0;
+          height: 0;
+          display: block;
+          overflow: hidden; }
+        .container > .section > form > fieldset > ul {
+          width: 100%;
+          height: auto;
+          margin-bottom: 34px;
+          border: 1px solid #aaa;
+          box-sizing: border-box;
+          padding-bottom: 8px; }
+          .container > .section > form > fieldset > ul > li {
+            width: 100%; }
+            .container > .section > form > fieldset > ul > li > div {
+              padding: 0 2%; }
+              .container > .section > form > fieldset > ul > li > div > h4 {
+                width: auto;
+                height: auto;
+                font-weight: bold;
+                font-size: 14px;
+                color: #333;
+                line-height: 22px;
+                float: left; }
+                .container > .section > form > fieldset > ul > li > div > h4 > span {
+                  width: 32px;
+                  font-size: 12px;
+                  display: inline-block;
+                  text-align: center; }
+              .container > .section > form > fieldset > ul > li > div > input[type=checkbox] + label {
+                width: 20px;
+                height: 20px; }
+              .container > .section > form > fieldset > ul > li > div > input[type=checkbox]:checked + label {
+                width: 20px;
+                height: 20px; }
+              .container > .section > form > fieldset > ul > li > div > label {
+                margin-bottom: 8px; }
+              .container > .section > form > fieldset > ul > li > div > .t_box {
+                width: 100%;
+                height: 110px; }
+          .container > .section > form > fieldset > ul > .box_01 {
+            height: 60px;
+            padding-top: 10px; }
+            .container > .section > form > fieldset > ul > .box_01 > div > label {
+              margin-top: 8px; }
+          .container > .section > form > fieldset > ul > .box_02 {
+            height: auto; }
+            .container > .section > form > fieldset > ul > .box_02 > div h4 {
+              margin-top: 6px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_01 {
+              height: 142px;
+              padding-top: 18px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_02 {
+              height: auto;
+              padding-top: 18px; }
+              .container > .section > form > fieldset > ul > .box_02 > .check_02 > p {
+                font-size: 12px;
+                line-height: 20px; }
+                .container > .section > form > fieldset > ul > .box_02 > .check_02 > p > span {
+                  font-weight: bold; }
+              .container > .section > form > fieldset > ul > .box_02 > .check_02 > .t_box {
+                margin-bottom: 16px; }
+            .container > .section > form > fieldset > ul > .box_02 > .check_03 {
+              height: auto;
+              padding-top: 18px; }
+        .container > .section > form > fieldset > .btn_box {
+          width: 60%;
+          height: 36px;
+          margin: 0 auto;
+          margin-bottom: 80px; }
+          .container > .section > form > fieldset > .btn_box > input {
+            width: 47%;
+            height: 100%;
+            font-size: 16px; } }

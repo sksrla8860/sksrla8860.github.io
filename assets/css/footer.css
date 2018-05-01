@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* For larger displays */
+@media all and (min-width:1080px){
+	/*footer*/
+	.footerBG{width:100%;height:225px;background-color:#F1F2F2;border-top:1px solid #cdcdcd;}
+	.footerNavigationBG{width:100%;height:47px;border-bottom:1px solid #959595;}
+	.footerNavigation{text-align:center;}
+	.footerNavigation li{display:inline;}
+	.footerNavigation li:after{content:'|';}
+	.footerNavigation li:last-child:after{content:'';}
+	.footerNavigation li a{display:inline-block;padding:16px 30px;font-size:15px;text-decoration:none;color:#383E42;}
+
+	.footerInfoBG{width:1080px; margin:0 auto;}
+	.footerLogo{float:left;width: 180px;height:66px;margin-top:30px;margin-right:18px; text-indent:-9999px; font-size:0px;}
+	.footerLogo>a>img{width: 180px;height:66px; display:block; text-indent:-9999px;}
+
+	/* footerAddress */
+	.footerAddress{float:left; width:631px;height:66px;margin-top:25px; }
+	.footerAddress li{float:left;line-height:23px; margin-right:15px;}
+
+	/* footerTel */
+	.footerTel0{float:left;margin-top:5.5px;width:194px;height:36px;margin-top:30px;}
+	.footerTel0 > a{width: 100%; height: 100%; display: block; text-decoration: none; }
+	.footerTel0 > a > h2{width: 37px; height: 100%;background-image:url('/assets/img/main/campusTel/campusTel0.png'); background-repeat: no-repeat; background-position: 0 0; background-size: cover; float: left; }
+	.footerTel0 > a > h2 > span{width: 0; height: 0; display: block; overflow: hidden;}
+	.footerTel0 > a > div{width: 145px; height: 100%; float: left; padding-left: 8px; }
+	.footerTel0 > a > div > h3{width: 100%; height: 40%; font-size: 16px; font-weight: bold; color: #355B89; letter-spacing: -2px; }
+	.footerTel0 > a > div > div{width: 100%; height: 60%; font-size: 21px; color: #355B89; font-weight: bold; }
+
+
+
+	.footerInfoTablePop>a{text-decoration:none;color:#595959;}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+	/*footer*/
+	.footerBG{width:100%;background-color:#F1F2F2;border-top:1px solid #cdcdcd;}
+	.footerNavigationBG{width:100%;height:47px;border-bottom:1px solid #959595;}
+	.footerNavigation{text-align:center;}
+	.footerNavigation li{display:inline;}
+	.footerNavigation li:after{content:'|';}
+	.footerNavigation li:last-child:after{content:'';}
+	.footerNavigation li a{display:inline-block;padding:16px 10px;font-size:15px;text-decoration:none;color:#383E42;}
+
+	.footerLogo{margin:0 auto;padding-top:40px;width:400px;height:147px; font-size:0px;}
+	.footerLogo>a>img{width: 400px;height:147px; display:block; text-indent:-9999px; font-size:0px;}
+	.footerInfoBG{width:640px; margin:0 auto; }
+
+	.footerAddress{display:inline-block;text-align:center; margin-bottom: 20px;}
+	.footerAddress li{display:inline-block;text-align:center;line-height:23px; margin-right:8px;}
+
+		/* footerTel */
+	 .footerTel0{width:275px;height:50px; margin:0 auto; padding-bottom:75px;}
+	.footerTel0 > a{width: 100%; height: 100%; display: block; text-decoration: none;}
+	.footerTel0 > a > h2{width: 55px; height: 100%;background-image:url('/assets/img/main/campusTel/campusTel0.png'); background-repeat: no-repeat; background-position: 0 0; background-size: cover; float: left; }
+	.footerTel0 > a > h2 > span{width: 0; height: 0; display: block; overflow: hidden;}
+	.footerTel0 > a > div{width: 212px; height: 100%; float: left; padding-left: 8px; }
+	.footerTel0 > a > div > h3{width: 100%; height: 40%; font-size: 20px; font-weight: bold; color: #355B89; letter-spacing: -2px; }
+	.footerTel0 > a > div > div{width: 100%; height: 60%; font-size: 35px; color: #355B89; font-weight: bold; }
+
+
+	.footerInfoTablePop>a{text-decoration:none;color:#595959;}
+
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+	/* footer */
+	.footerBG{width:100%;background-color:#F1F2F2;border-top:1px solid #cdcdcd;}
+	.footerNavigationBG{width:100%;height:56px;border-bottom:1px solid #959595;}
+	.footerNavigation{text-align:center;}
+	.footerNavigation li{float:left;width:33%;height:28px;line-height:28px;}
+	.footerNavigation li a{display:block;position:relative;font-size:12px;text-decoration:none;color:#383E42;}
+	.footerNavigation a.bar:after{content: "|";position:absolute;right:0;}
+
+	.footerInfoBG{width:320px; margin:0 auto;}
+	.footerLogo{margin:0 auto;width: 200px;height:73px;margin-top:24px;text-indent:-9999px; font-size:0px;}
+	.footerLogo>a>img{width: 200px;height:73px; display:block; text-indent:-9999px;}
+
+	.footerAddress{display:inline-block;text-align:center; margin-bottom: 25px; }
+	.footerAddress li{display:inline-block;text-align:center;line-height:18px;}
+
+	/* footerTel */
+	.footerTel0{width:275px;height:50px; margin:0 auto; padding-bottom:75px;}
+	.footerTel0 > a{width: 100%; height: 100%; display: block; text-decoration: none;}
+	.footerTel0 > a > h2{width: 55px; height: 100%;background-image:url('/assets/img/main/campusTel/campusTel0.png'); background-repeat: no-repeat; background-position: 0 0; background-size: cover; float: left; }
+	.footerTel0 > a > h2 > span{width: 0; height: 0; display: block; overflow: hidden;}
+	.footerTel0 > a > div{width: 212px; height: 100%; float: left; padding-left: 8px; }
+	.footerTel0 > a > div > h3{width: 100%; height: 40%; font-size: 20px; font-weight: bold; color: #355B89; letter-spacing: -2px; }
+	.footerTel0 > a > div > div{width: 100%; height: 60%; font-size: 35px; color: #355B89; font-weight: bold; }
+	.footerInfoTablePop{display:block;}
+	.footerInfoTablePop>a{text-decoration:none;color:#595959;}
+}
+
+.footerBL{width: 100%; height: 100%; display: block; cursor: default; }
+.footerBL>span{width: 0; height: 0; display: block; overflow: hidden; }
+.footerInfoBG > div{display: block; background-position: center center; }
+.footerInfoBG > div > a{width: 100%; height: 100%; display: block; }

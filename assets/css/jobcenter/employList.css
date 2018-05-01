@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+
+/* For larger displays */
+@media all and (min-width:1080px){
+
+.employSpecialListBG{padding-top:94px;padding-bottom:34px;width:100%;background-color:#f7f7f7;}
+.congratulation1{margin:12px auto;width:1080px;text-align:center;letter-spacing:10px;font-size:20px;}
+.congratulation2{margin:22px auto;width:1080px;text-align:center;letter-spacing:3px;font-size:45px;color:#1c4684;font-weight:bold;}
+.congratulation3{margin:12px auto;width:1080px;text-align:center;letter-spacing:2px;font-size:20px;color:#787d7f;}
+.greenEmploySituation{margin:0 auto;width:1110px;}
+.greenEmploySituation > li{float:left;width:159px;height:137px;margin:10px 13px;}
+.greenEmploySituation
+.employeeInfo{text-decoration:none;}
+.employee{color:#fff;font-size:15px;}
+ .employeeBG1{background-color:#FF7676;}
+ .employeeBG2{background-color:#C6C158;}
+ .employeeBG3{background-color:#3A77DB;}
+ .employeeBG4{background-color:#3FBCBC;}
+ .employeeBG5{background-color:#C47FDD;}
+ .employeeBG6{background-color:#F98D5D;}
+.employeeCompany{margin:27px 3px 15px 3px;height:19px;line-height:20px;font-size:19px;font-weight:bold;text-align:center;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.employeeCurri{text-align:center;padding:0 5px;height:30px;line-height:15px;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.employeeName{text-align:center;margin-top:10px;}
+
+/* 분야선택 */
+.educationField{margin:0 auto;margin-top:26px;width:1080px;border-top:1px solid #CACACA;border-right:1px solid #CACACA;}
+.educationField li{float:left;width:134px;height:52px;border-left:1px solid #CACACA;border-bottom:1px solid #CACACA;}
+.educationField li a{display:block;text-decoration:none;text-align:center;line-height:52px;font-size:17px;color:#565656;}
+.educationField li a:hover{background-color:#006cba;color:#fff;font-weight:bold;}
+.educationField li a.on{background-color:#006cba;color:#fff;font-weight:bold;}
+
+/* 취업현황 리스트 */
+.employList{margin:46px auto;width:1110px;}
+.employList > li{float:left;width:157px;height:135px;margin:10px 13px;border:1px solid #595959 ;}
+.employList > li > .employee{color:#888888;font-size:15px;}
+.employList > li > .employee > .employeeCompany{margin:27px 3px 15px 3px;height:19px;line-height:20px;font-size:19px;font-weight:bold;text-align:center;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.employList > li > .employee > .employeeCurri{text-align:center;padding:0 5px;height:30px;line-height:15px;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.employList > li > .employee > .employeeName{text-align:center;margin-top:10px;}
+
+.moreBtn{display:block;margin:60px auto;margin-bottom:200px;width:1078px;height:52px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:52px;font-size:22px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+/*new icon*/
+.newIcon{background-image:url('/_img/sub/jobcenter/newIcon.png');background-size:contain;}
+
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+
+
+.employSpecialListBG{padding-top:58px;padding-bottom:34px;width:100%;background-color:#f7f7f7;}
+.congratulation1{margin:12px auto;width:100%;text-align:center;letter-spacing:10px;font-size:14px;}
+.congratulation2{margin:22px auto;width:100%;text-align:center;letter-spacing:3px;font-size:31px;color:#1c4684;font-weight:bold;}
+.congratulation3{margin:12px auto;width:100%;text-align:center;letter-spacing:2px;font-size:14px;color:#787d7f;}
+.greenEmploySituation{margin:0 auto;width:537px;}
+.greenEmploySituation > li{float:left;width:159px;height:137px;margin:10px;}
+.greenEmploySituation
+.employeeInfo{text-decoration:none;}
+.employee{color:#fff;font-size:15px;}
+ .employeeBG1{background-color:#FF7676;}
+ .employeeBG2{background-color:#C6C158;}
+ .employeeBG3{background-color:#3A77DB;}
+ .employeeBG4{background-color:#3FBCBC;}
+ .employeeBG5{background-color:#C47FDD;}
+ .employeeBG6{background-color:#F98D5D;}
+.employeeCompany{margin:27px 3px 15px 3px;height:19px;line-height:20px;font-size:19px;font-weight:bold;text-align:center;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.employeeCurri{text-align:center;padding:0 5px;height:30px;line-height:15px;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.employeeName{text-align:center;margin-top:10px;}
+
+/* 분야선택 */
+.educationField{margin:0 5%;margin-top:26px;width:90%;border-left:1px solid #CACACA;}
+.educationField li{float:left;width:24.8%;height:52px;border-right:1px solid #CACACA;border-bottom:1px solid #CACACA;}
+.educationField li a{display:block;text-decoration:none;text-align:center;line-height:52px;font-size:17px;color:#565656;}
+.educationField li a.on{background-color:#006cba;color:#fff;font-weight:bold;}
+.TbdbCACACA{border-top:1px solid #CACACA;}
+
+/* 취업현황 리스트 */
+.employList{margin:46px auto;width:537px;}
+.employList > li{float:left;width:157px;height:135px;margin:10px;border:1px solid #595959 ;}
+.employList > li > .employee{color:#888888;font-size:15px;}
+.employList > li > .employee > .employeeCompany{margin:27px 3px 15px 3px;height:19px;line-height:20px;font-size:19px;font-weight:bold;text-align:center;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.employList > li > .employee > .employeeCurri{text-align:center;padding:0 5px;height:30px;line-height:15px;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.employList > li > .employee > .employeeName{text-align:center;margin-top:10px;}
+
+.moreBtn{display:block;margin:30px 5%;margin-bottom:100px;width:90%;height:52px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:52px;font-size:22px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+/*new icon*/
+.newIcon{background-image:url('/_img/sub/jobcenter/newIcon.png');background-size:contain;}
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+
+.employSpecialListBG{padding-top:40px;padding-bottom:34px;width:100%;background-color:#f7f7f7;}
+.congratulation1{margin:6px auto;width:100%;text-align:center;letter-spacing:5px;font-size:12px;}
+.congratulation2{margin:11px auto;width:100%;text-align:center;letter-spacing:2px;font-size:20px;color:#1c4684;font-weight:bold;}
+.congratulation3{margin:8px auto;width:100%;text-align:center;letter-spacing:0px;font-size:12px;color:#787d7f;}
+.greenEmploySituation{margin:0 auto;width:300px;}
+.greenEmploySituation > li{float:left;width:140px;height:110px;margin:5px;}
+.greenEmploySituation
+.employeeInfo{text-decoration:none;}
+.employee{color:#fff;font-size:12px;}
+ .employeeBG1{background-color:#FF7676;}
+ .employeeBG2{background-color:#C6C158;}
+ .employeeBG3{background-color:#3A77DB;}
+ .employeeBG4{background-color:#3FBCBC;}
+ .employeeBG5{background-color:#C47FDD;}
+ .employeeBG6{background-color:#F98D5D;}
+.employeeCompany{margin:17px 3px 14px 3px;height:14px;line-height:16px;font-size:14px;font-weight:bold;text-align:center;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.employeeCurri{text-align:center;padding:0 5px;height:26px;line-height:13px;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.employeeName{text-align:center;margin-top:10px;}
+
+
+/* 분야선택 */
+.educationField{margin:0 4%;margin-top:26px;width:92%;border-left:1px solid #CACACA;}
+.educationField li{float:left;min-width:90px;width:32.9%;height:26px;border-right:1px solid #CACACA;border-bottom:1px solid #CACACA;}
+.educationField li a{display:block;text-decoration:none;text-align:center;line-height:26px;font-size:12px;color:#565656;}
+.educationField li a.on{background-color:#006cba;color:#fff;font-weight:bold;}
+.MbdbCACACA{border-top:1px solid #CACACA;}
+
+/* 취업현황 리스트 */
+.employList{margin:46px auto;width:300px;}
+.employList > li{float:left;width:138px;height:108px;margin:5px;border:1px solid #595959 ;}
+.employList > li > .employee{color:#888;font-size:12px;}
+.employList > li > .employee > .employeeCompany{margin:17px 3px 14px 3px;height:14px;line-height:16px;font-size:14px;font-weight:bold;text-align:center;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;}
+.employList > li > .employee > .employeeCurri{text-align:center;padding:0 5px;height:26px;line-height:13px;white-space: normal;overflow: hidden;word-wrap: break-word;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.employList > li > .employee > .employeeName{text-align:center;margin-top:10px;}
+
+.moreBtn{display:block;margin:20px 5%;margin-bottom:100px;width:90%;height:38px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:38px;font-size:16px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+/*new icon*/
+.newIcon{background-image:url('/_img/sub/jobcenter/newIcon_m.png');background-size:contain;}
+}

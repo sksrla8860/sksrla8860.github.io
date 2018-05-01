@@ -1,0 +1,80 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	background:transparent;
+	background-repeat:no-repeat;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+nav, ol, ul, li {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define visible focus styles!
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;display:block;content:'';}
+.clearfix {*zoom: 1;}
+/**/
+.floatLeft{float:left;}
+/*말 줄임 style - 2017.01.20 삽입*/
+.ellipsisStyle{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.ellipsisLine2{ overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2;/*  라인수 */-webkit-box-orient: vertical;word-wrap:break-word; }
+.ellipsisLine3{ overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 3;/*  라인수 */-webkit-box-orient: vertical;word-wrap:break-word; }
+
+/*htmlCode 작동하도록 pre 넣으면서 줄바꿈 잡아줌 2017.02.28 오종석*/
+pre {word-wrap: break-word;white-space: pre-wrap;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-break:break-all;}

@@ -1,0 +1,125 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; box-sizing: border-box; }
+.container a span {width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .video > .view > button { cursor: pointer; }
+.container > .section > .video > .text > h2 { font-weight: bold; }
+.container > .section > .video > .text > a { border-radius: 3px; background-image: url(/_img/sub/community/download.png); border: 1px solid #546; float: right; display: block; }
+.container > .section > .list > .chapter { font-weight: bold; }
+.container > .section > .list > .listBox > ul > li > a { display: block; font-weight: bold; color: #474747; }
+.container > .section > .list > .listBox > ul > li > a > div > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .list > .listBox > ul > li .contentsText:hover { font-weight: bold; color: #006CBA; }
+.container > .section > .list > .listBox > ul > li > p { color: #777; }
+.container > .section > .coment > h3 { color: #565656; }
+.container > .section > .coment > p { color: #777; }
+
+
+
+@media all and (min-width: 1080px) { .container { width: 100%; height: auto; padding-top:10px; padding-bottom: 150px; }
+  .container > .section { width: 1080px; height: 700px; background-color: #fff; border: 1px solid #dadada; margin: 0 auto; }
+  .container > .section > * { float: left; }
+  .container > .section > .video { width: 70%; height: 100%; }
+  .container > .section > .video > .view { width: 100% !important; height: 80% !important; background-color: #fff; position: relative; }
+  .container > .section > .video > .view > .showBox { width: 100%; height: 100%; background-color: #fff; }
+  .container > .section > .video > .text { width: 100% !important; height: 20% !important; background-color: #fff; }
+  .container > .section > .video > .text > div { width: 85%; height: auto; float: left; padding: 3%; }
+  .container > .section > .video > .text > div > h2 { font-size: 18px; height: 20px; line-height: 20px; width: auto; }
+  .container > .section > .video > .text > div > span { display: block; width: 15px; height: 3px; background-color: #565656; margin: 15px 0 20px 2px; }
+  .container > .section > .video > .text > div > h3 { width: auto; height: 26px; line-height: 26px; font-size: 24px; }
+  .container > .section > .video > .text > a { width: 60px; height: 60px; margin: 2%; background-size: 40%; }
+  .container > .section > .list { width: 30%; height: 100%; background-color: #fff; border-left: 1px solid #dadada; box-sizing: border-box; }
+  .container > .section > .list > .chapter { width: 100%; height: 45px; line-height: 45px; text-indent: 40px; background-color: #fff; font-size: 22px; }
+  .container > .section > .list > form { width: 100%; height: 4%; }
+  .container > .section > .list > form > fieldset { width: 100%; height: 100%; }
+  .container > .section > .list > form > fieldset > select { width: 100%; height: 100%; border-bottom: 1px solid #dfdfdf; box-sizing: border-box; text-indent: 40px; }
+  .container > .section > .list > form > fieldset > select > option { text-indent: 40px; }
+  .container > .section > .list > .listBox { width: 100%; height: 90%; overflow-y: scroll; }
+  .container > .section > .list > .listBox > ul { width: 100%; height: 100%; }
+  .container > .section > .list > .listBox > ul > li { width: 100%; height: 13%; padding: 3%; }
+  .container > .section > .list > .listBox > ul > li > * { float: left; text-decoration: none; }
+  .container > .section > .list > .listBox > ul > li > p { width: 5%; margin-top: 34px; float: left; font-size: 14px; margin-left: 2%; margin-right: 2%; }
+  .container > .section > .list > .listBox > ul > li > .sumery { width: 40%; height: 100%; text-decoration: none; text-align: center; font-size: 16px; background-color: #548; background-size: 100%; }
+  .container > .section > .list > .listBox > ul > li > .sumery > img { width: 100%; height: 100%; }
+  .container > .section > .list > .listBox > ul > li > .contentsText { width: 48%; font-size: 16px; margin-left: 3%; margin-top: 34px; font-weight: normal; }
+  .container > .section > .coment { width: 100%; margin-top: 15px; }
+  .container > .section > .coment > p { width: 100%; font-size: 12px; }
+
+	.videoSelectBox{position:relative;float:left;width:100%;height:30px;border:1px solid #a8a8a8;background-color:#FFF;background-image:url('/_img/sub/community/arrow.png');background-repeat:no-repeat;background-position:95% 50%;background-size:auto;}
+	.videoSelectBox label{position:absolute;top:9px;left:12px;font-size:15px;}
+	#idx{width:100%;height:32px;min-height:32px;line-height:32px;opacity:0;}
+
+	}
+@media (min-width: 641px) and (max-width: 1079px) { .container { width: 100%; height: auto; padding: 50px 0; }
+  .container > .section { width: 96%; height: auto; margin: 0 auto; }
+  .container > .section > * { float: left; }
+  .container > .section > .video { width: 100%; height: auto; margin-bottom: 5%; border: 1px solid #dadada; }
+  .container > .section > .video > .view { width: 100%; height: 530px !important; background-color: #fff; }
+  .container > .section > .video > .view > .showBox { width: 100%; height: 100%; background-color: #fff; }
+  .container > .section > .video > .text { width: 100%; height: 130px; background-color: #fff; border-bottom: 1px solid #dadada; box-sizing: border-box; }
+  .container > .section > .video > .text > div { width: 85%; height: 100%; float: left; padding: 30px; }
+  .container > .section > .video > .text > div > h2 { font-size: 14px; height: 16px; line-height: 16px; width: auto; }
+  .container > .section > .video > .text > div > span { display: block; width: 10px; height: 2px; background-color: #565656; margin: 10px 0 10px 2px; }
+  .container > .section > .video > .text > div > h3 { width: auto; height: 26px; line-height: 26px; font-size: 18px; }
+  .container > .section > .video > .text > a { width: 50px; height: 50px; margin: 2%; background-size: 60%; }
+  .container > .section > .list { width: 100%; height: auto; background-color: #fff; border: 1px solid #dadada; }
+  .container > .section > .list > .chapter { width: 100%; height: 50px; line-height: 50px; text-indent: 40px; background-color: #fff; font-size: 22px; }
+  .container > .section > .list > form { width: 100%; height: 35px; }
+  .container > .section > .list > form > fieldset { width: 100%; height: 100%; }
+  .container > .section > .list > form > fieldset > select { width: 100%; height: 100%; border-bottom: 1px solid #dfdfdf; box-sizing: border-box; text-indent: 40px; }
+  .container > .section > .list > form > fieldset > select > option { text-indent: 40px; }
+  .container > .section > .list > .listBox { width: 100%; height: auto; }
+  .container > .section > .list > .listBox > ul { width: 100%; height: auto; padding: 3% 0; }
+  .container > .section > .list > .listBox > ul > li { width: 100%; height: 120px; padding: 3%; }
+  .container > .section > .list > .listBox > ul > li > * { float: left; text-decoration: none;font-size:18px; }
+  .container > .section > .list > .listBox > ul > li > p { margin-top: 45px; float: left; margin-right: 4px; margin-left: 15px; margin-right: 5px; }
+  .container > .section > .list > .listBox > ul > li > .sumery { width: 40%; height: 100%; text-decoration: none; text-align: center; font-size: 16px; background-color: #548; background-size: 100%; }
+  .container > .section > .list > .listBox > ul > li > .sumery > img { width: 100%; height: 100%; }
+  .container > .section > .list > .listBox > ul > li > .contentsText { width: 50%; margin-left: 10px; margin-top: 30px; font-weight: normal; }
+  .container > .section > .coment { width: 100%; margin-top: 10px; }
+  .container > .section > .coment > p { width: 100%; font-size: 12px; line-height: 18px; }
+  .container > div:after { content: ""; display: block; clear: both; }
+
+	.videoSelectBox{position:relative;float:left;width:100%;height:30px;border:1px solid #a8a8a8;background-color:#FFF;background-image:url('/_img/sub/community/arrow.png');background-repeat:no-repeat;background-position:95% 50%;background-size:auto;}
+	.videoSelectBox label{position:absolute;top:9px;left:12px;font-size:15px;}
+	#idx{width:100%;height:32px;min-height:32px;line-height:32px;opacity:0;}
+
+	}
+@media (max-width: 640px) { .container { width: 100%; height: auto; padding: 50px 0; }
+  .container > .section { width: 96%; height: auto; margin: 0 auto; }
+  .container > .section > * { float: left; }
+  .container > .section > .video { width: 100%; height: auto; margin-bottom: 5%; border: 1px solid #dadada; }
+  .container > .section > .video > .view { width: 100%; height: auto; background-color: #fff; }
+  .container > .section > .video > .view > .showBox { width: 100%; height: 100%; background-color: #fff; }
+  .container > .section > .video > .text { width: 100% !important; height: 100px; background-color: #fff; border-bottom: 1px solid #dadada; box-sizing: border-box; }
+  .container > .section > .video > .text > div { width: 85%; height: 100%; float: left; padding: 3%; }
+  .container > .section > .video > .text > div > h2 { font-size: 14px; height: 16px; line-height: 16px; width: auto; }
+  .container > .section > .video > .text > div > span { display: block; width: 10px; height: 2px; background-color: #565656; margin: 10px 0 10px 2px; }
+  .container > .section > .video > .text > div > h3 { width: auto; height: 26px; line-height: 26px; font-size: 18px; }
+  .container > .section > .video > .text > a { width: 30px; height: 30px; margin: 2%; background-size: 60%; }
+  .container > .section > .list { width: 100%; height: auto; background-color: #fff; border: 1px solid #dadada; }
+  .container > .section > .list > .chapter { width: 100%; height: 50px; line-height: 50px; text-indent: 40px; background-color: #fff; font-size: 22px; }
+  .container > .section > .list > form { width: 100%; height: 35px; }
+  .container > .section > .list > form > fieldset { width: 100%; height: 100%; }
+  .container > .section > .list > form > fieldset > select { width: 100%; height: 100%; border-bottom: 1px solid #dfdfdf; box-sizing: border-box; text-indent: 40px; }
+  .container > .section > .list > form > fieldset > select > option { text-indent: 40px; }
+  .container > .section > .list > .listBox { width: 100%; height: auto; }
+  .container > .section > .list > .listBox > ul { width: 100%; height: auto; padding: 3% 0; }
+  .container > .section > .list > .listBox > ul > li { width: 100%; height: 120px; padding: 3%; }
+  .container > .section > .list > .listBox > ul > li > * { float: left; text-decoration: none; }
+  .container > .section > .list > .listBox > ul > li > p { width: 5%; margin-top: 45px; float: left; font-size: 12px; margin-right: 1%; margin-left: 2%; }
+  .container > .section > .list > .listBox > ul > li > .sumery { width: 40%; height: 100%; text-decoration: none; text-align: center; font-size: 16px; background-color: #548; background-size: 100%; }
+  .container > .section > .list > .listBox > ul > li > .sumery > img { width: 100%; height: 100%; }
+  .container > .section > .list > .listBox > ul > li > .contentsText { width: 50%; font-size: 14px; margin-left: 2%; margin-top: 30px; font-weight: normal; }
+  .container > .section > .coment { width: 100%; margin-top: 10px; }
+  .container > .section > .coment > p { width: 100%; font-size: 12px; line-height: 18px; }
+  .container > div:after { content: ""; display: block; clear: both; }
+
+
+	.videoSelectBox{position:relative;float:left;width:100%;height:30px;border:1px solid #a8a8a8;background-color:#FFF;background-image:url('/_img/sub/community/arrow.png');background-repeat:no-repeat;background-position:95% 50%;background-size:auto;}
+	.videoSelectBox label{position:absolute;top:9px;left:12px;font-size:15px;}
+	#idx{width:100%;height:32px;min-height:32px;line-height:32px;opacity:0;}
+
+
+
+	}
+.container:after { background-image: url(/_img/sub/pyramidalWaveBG.png); top: 0; left: 0; position: absolute; background-size: 75px; z-index: -2; content: ""; width: 100%; height: 100%; background-repeat: repeat; background-color: #fafafa; }
+  .container > .section > .list > .listBox > ul > li > a {text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow: hidden; }

@@ -1,0 +1,233 @@
+@charset "utf-8";
+.scroll{position:fixed; top:0; left: 0; z-index: 99999 !important; background-color:#fff; }
+	.tel > a{cursor: default;}
+  .camP{display: block; }
+a{text-decoration: none; }
+	.vacationLink a{background-color:#FC703D !important;color:#fff !important;}
+	.vacationLink a:hover{color:#FC703D !important;background-color:#FFF !important;}
+.whole *{letter-spacing: -1px;}
+.title h3{margin: 0 !important; text-align: left;}
+.slideBG {background-repeat: no-repeat; background-position: center center; }
+/* For larger displays */
+.main_slide{margin-top: 42px; }
+#contents{padding-top: 42px; }
+@media all and (min-width:1080px){
+	/* campus list */
+	.campus{width:100%;height:44px;background-color:#006CBA;}
+	.branch{width:1080px;margin:0 auto;}
+	.branch a#campusListOpen{display: none;}
+
+	.branch li{padding: 0 4px; float:left;height:44px;text-align:center;font-size:12px;font-weight:bold;}
+	.branch li a{color:#fff;height: 100%; line-height:44px;display: block; }
+	.branch li .twoLine{padding-top: 9px;line-height:14px; }
+    .camP{font-size: 11px; }
+	.branch .on a{display:block;width:34px;height:44px;background-color:#FFF;color:#006CBA; }
+	.branch li a:hover{display:block;width:auto;height:44px;color:#FFFF01;}
+	.branch .on a{display:block;width:34px;height:44px;background-color:#FFF;color:#006CBA !important; }
+	li.greenArtLogo{width:142px !important;padding:0px 12px;}
+	.greenArtLogo > a{display:block;padding:0px 19px;width:100% !important;height:100%;text-indent:-9999px;background-image:url('/assets/img/main/greenart.png'); background-repeat:no-repeat;background-position:0 14px;}
+	.greenArtLogo > a:hover{background-color:#006CBA !important;}
+	li.greenAcademyLogo{width:142px !important;padding:0px 12px;}
+	.greenAcademyLogo > a{display:block;padding:0px 19px;width:100% !important;height:100%;text-indent:-9999px;background-image:url('/assets/img/main/greenacademy.png'); background-repeat:no-repeat;background-position:0 14px;}
+	.greenAcademyLogo > a:hover{background-color:#006CBA !important;}
+
+	/*전화번호 + 로고 + 로그인 + 회원가입 + 캠퍼스 위치*/
+	.title{width:100%;height:124px;border-bottom:1px solid #A3A3A3;}
+	.titleBG{ margin:0px auto;width:1080px;height:100%;}
+	.tel{float:left;width:260px;height:49px;padding-top: 37px; }
+	.tel > a{width: 100%; height: 100%; display: block; text-decoration: none; }
+	.tel > a > h2{width: 50px; height: 100%;background-image:url('/assets/img/main/campusTel/campusTel0.png'); background-repeat: no-repeat; background-position: 0 0; background-size: cover; float: left; }
+	.tel > a > h2 > span{width: 0; height: 0; display: block; overflow: hidden;}
+	.tel > a > div{width: 200px; height: 100%; float: left; padding-left: 8px; }
+	.tel > a > div > h3{width: 100%; height: 40%; font-size: 16px; font-weight: bold; color: #355B89; letter-spacing: -2px; }
+	.tel > a > div > div{width: 100%; height: 60%; font-size: 28px; color: #355B89; font-weight: bold; }
+	.campusTel0{width:233px;height:49px;background-image:url('/assets/img/main/campusTel/campusTel0.png');background-repeat:no-repeat;background-size:contain;}
+	.campusTel1{width:233px;height:49px;background-image:url('/assets/img/main/campusTel/campusTel1.png');background-repeat:no-repeat;background-size:contain;}
+	/* .campusTel1{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/img/main/campusTel/campusTel1.png', sizingMethod='scale');} */
+	.logo{float:left;width:560px;height:100%;text-indent:-9999px;margin:0 auto; }
+	.logo>a {width:100%; height:100%; display:block; text-decoration:none;}
+	.logo>a h1{width:100%; height:100%; background-position: center center; }
+	.campusLogo {width:100%; height:100%;}
+	.campusLogo > img{display:block;}
+	.members{float:right;width:auto; height:62px;}
+	.members > ul{height: 100%; padding-top: 31px; }
+	.members li{float:left;width:70px;height:100%; margin: 0 5px;}
+ 	.members li a{display:block;width:100%;height:100%;text-decoration:none;text-indent:-9999px;}
+	.members li  a.student{background-image:url('/assets/img/main/student_interview.jpg?2');}
+
+	.members li  a.job_interview{background-image:url('/assets/img/main/student_interview.jpg?2'); background-position:-82px,0px;}
+
+
+	/*menu*/
+	.gnbBG{position:absolute;width:100%;height:41px;	border-bottom:1px solid #006CBA;box-shadow:  0 5px 3px -3px rgba(0, 0, 0, 0.3);background-color:#F2F2F2;z-index:9999;}
+	.swiper-container{margin:0 auto;width:1080px;}
+	.gnb > ul {margin: 0 auto;padding: 0;width: 1080px;display: block;list-style: none;height:41px;position: relative;}
+	.gnb > ul > li {float:left;width: 154px; height: 100%; }
+	.gnb li a{display:block;text-align: center;letter-spacing:-1px;line-height:41px;text-decoration:none;font-weight:bold;font-size:16px;color:#333333;}
+	.gnb > ul > li > ul{padding-top:1px;width:100%;height: auto;text-align:center;z-index:99999;}
+	.gnb > ul > li > ul > li{background-color:#FFF;height:31px;border-bottom:1px solid #DCDCDC;}
+	.gnb > ul > li > ul > li:hover{background-color:#006CBA;}
+	.gnb > ul > li > ul > li > a{height:100%;padding:0;font-size:14px;line-height:31px;color:#295282;}
+	.gnb > ul > li > ul > li > a:hover{color:#fff;}
+}
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+	/* campus list */
+	.branch {border-bottom: 0;height: auto;}
+	.branch ul {display: none;height: auto;padding-left:50px;}
+	.branch li {display: block;width: 79px;height:49px;float:left;border:1px solid rgba(89,89,89,0.2);margin:10px 13px 0px 0px;}
+	.branch li a {display:block;width:79px;height:49px;text-align:center;font-size:16px;font-weight:bold;line-height:49px;color:#000;text-decoration:none;}
+	.branch li .twoLine{padding-top: 8px;line-height:18px; box-sizing: border-box; }
+    .camP{font-size: 14px; }
+	.branch .on a{background-color: #006CBA;color:#fff;font-weight:bold;}
+	.branch li a:hover, .branch a:active{background-color: #fff;color:#006CBA;font-weight:bold;}
+	.branch a {text-align: left;width: 100%;height:43px;line-height:43px;color:#fff;text-decoration:none;}
+	.branch a#campusListOpen:before{}
+	.branch a#campusListOpen {display: block;padding-left:52px;height:42px;border-bottom:1px solid #686868;background-color: #006CBA;width: 100%;position: relative;}
+	.branch a#campusListOpen:after {content:"";background: url('/assets/img/main/campusLogo/campusListArrow.png') no-repeat;background-size:contain;width: 42px;height: 42px;display: inline-block;position: absolute;left: 0;top: 0px;}
+	/* campus list - logo */
+	li.greenArtLogo{display:block !important;width:100% !important;border:none;}
+	.greenArtLogo > a{display:block;padding:13.5px 0px;width:200px !important;height:22px  !important;text-indent:-9999px;background-image:url('/assets/img/main/greenartBlue.png'); background-repeat:no-repeat;background-position:0 14px;background-size:contain;}
+	li.greenAcademyLogo{display:block !important;width:100% !important;border:none;}
+	.greenAcademyLogo > a{display:block;padding:13.5px 0px;width:200px !important;height:22px !important;text-indent:-9999px;background-image:url('/assets/img/main/greenacademyBlue.png'); background-repeat:no-repeat;background-position:0 14px;background-size:contain;}
+
+	.borderBottom10{padding-bottom:32px ;border-bottom:10px solid #006CBA;}
+
+	/*전화번호 + 로고 + 로그인 + 회원가입 + 캠퍼스 위치*/
+	.title{height:123px;border-bottom:1px solid #A3A3A3;}
+	.titleBG{ margin:0px auto;width: 96%;height:100%;padding: 0 2%;}
+	.tel{float:left;width:20%;height:auto;}
+	.tel > a{width: 100%; height: 100%; display: block; text-decoration: none; padding-top: 37px;}
+	.tel > a > h2{width: 35px; height: 35px;background-image:url('/assets/img/main/campusTel/campusTel0.png'); background-repeat: no-repeat; background-position: 0 0; background-size: cover; float: left; }
+	.tel > a > h2 > span{width: 0; height: 0; display: block; overflow: hidden;}
+	.tel > a > div{width: auto; height: 100%; float: left; padding-left: 8px; }
+	.tel > a > div > h3{width: 100%; height: 40%; font-size: 12px; font-weight: bold; color: #355B89; letter-spacing: -2px; }
+	.tel > a > div > div{width: 100%; height: 60%; font-size: 18px; color: #355B89; font-weight: bold; }
+	.logo{float:left;width:60%;height:100%;text-indent:-9999px;}
+	.logo > a{width: 100%; height: 100%; display: block; }
+	.logo > a > h1{width: 100%; height: 100%; display: block; background-position: center center; }
+	.campusLogo>img {display:block;}
+	.logo4{float:left;margin-top:5.5px;width:616px;height:49px;text-indent:-9999px;}
+
+/* 	.members li{float:left;width:33%;height:50px;}
+	.members li a{display:block;margin:0 auto;width:34px;height:50px;text-decoration:none;text-indent:-9999px;}
+	.members li  a.login{background-image:url('/assets/img/main/Tmembers.jpg');background-position:0 -50px;background-size:cover;}
+	.members li  a.logout{background-image:url('/assets/img/main/Tmembers.jpg');background-position:0 0;background-size:cover;}
+	.members li  a.join{background-image:url('/assets/img/main/Tmembers.jpg');background-position:0 -100px;background-size:cover;}
+	.members li  a.myPage{background-image:url('/assets/img/main/Tmembers.jpg');background-position:0 -150px;background-size:cover;}
+	.members li  a.campusLocation{background-image:url('/assets/img/main/Tmembers.jpg');background-position:0 -200px;background-size:cover;}
+	 */
+	/*menu*/
+	.swiper-container{width:100%;}
+	.gnbBG{position:absolute;width:100%;height:41px;	border-bottom:1px solid #006CBA;box-shadow:  0 5px 3px -3px rgba(0, 0, 0, 0.3);background-color:#F2F2F2;z-index:9999;}
+	.gnb > ul {margin: 0 auto;padding: 0;width: 1080px;display: block;list-style: none;height:41px;position: relative;}
+	.gnb > ul > li {float:left;display:block;}
+	.gnb li a{display:block;padding:0px 30px;letter-spacing:-1px;line-height:41px;text-decoration:none;font-weight:bold;font-size:15px;color:#333333;}
+	.gnb > ul > li > ul{padding-top:1px;width:100%;text-align:center;z-index:9999;display:none;}
+	.gnb > ul > li > ul > li{background-color:#FFF;height:31px;border-bottom:1px solid #DCDCDC;}
+	.gnb > ul > li > ul > li:hover{background-color:#006CBA;}
+	.gnb > ul > li > ul > li > a{height:31px;padding:0;font-size:14px;line-height:31px;color:#295282;}
+	.gnb > ul > li > ul > li > a:hover{color:#fff;}
+	.arrowBox{position:absolute; z-index:-500; width: 100%; height:30px; top:10%; left:0; }
+	.arrowBox > span{position:absolute; z-index:500; display:block; width:26px; height:100%; background-image: url('/assets/img/main/menuArrow.png'); background-size:cover; }
+	.arrowBox > .arrowL{left:0.5%; }
+	.arrowBox > .arrowR{right:0.5%; background-position: -26px 0; }
+
+}
+/*title부분 641~860 / 861~1079*/
+ @media (min-width: 821px) and (max-width: 1079px) {
+	.campusTel0{width:174px;height:37px;margin-top:6px;background-image:url('/assets/img/main/campusTel/campusTel0.png');background-size:contain;background-repeat:no-repeat;}
+	.campusTel1{width:174px;height:37px;margin-top:6px;background-image:url('/assets/img/main/campusTel/campusTel1.png');background-size:contain;background-repeat:no-repeat;}
+
+	.members{float:left;float:left;width:20%; height:auto; background-position:-42px,-20px; }
+	.members > ul{padding-top: 31px; }
+	.members li{float:left;width:69px;height:62px; margin: 0 5px; }
+ 	.members li a{display:block;width:100%;height:100%;text-decoration:none;text-indent:-9999px;}
+	.members li  a.student{background-image:url('/assets/img/main/student_interview.jpg?2');}
+	.members li  a.job_interview{background-image:url('/assets/img/main/student_interview.jpg?2'); background-position:-82px,0px; margin-right:0;}
+
+ }
+ @media (min-width: 641px) and (max-width: 820px) {
+	.tel{width: 25%; }
+	.campusTel0{width:174px;height:37px;margin-top:6px;background-image:url('/assets/img/main/campusTel/campusTel0.png');background-size:contain;background-repeat:no-repeat;}
+	.campusTel1{width:174px;height:37px;margin-top:6px;background-image:url('/assets/img/main/campusTel/campusTel1.png');background-size:contain;background-repeat:no-repeat;}
+	.logo{float:left;width:50%;height:100%;background-size:contain;background-repeat:no-repeat;text-indent:-9999px;}
+	.logo > a{width: 100%; height: 100%; display: block; }
+	.logo > a h1{width: 100%; height: 100%; display: block; background-repeat: no-repeat; background-position: center center; background-size: 80%; }
+	.campusLogo>img {width:200px; height:47px;display:block;}
+	.members{float:left;float:left;width:25%; height:auto; background-position:-42px,-20px; }
+	.members > ul{padding-top: 31px; }
+	.members li{float:left;width:45%;height:62px;}
+ 	.members li a{display:block;width:100%;height:100%;text-decoration:none;text-indent:-9999px; margin: 0 auto; }
+	.members li  a.student{background-image:url('/assets/img/main/student_interview.jpg?2'); background-position: 8px 0;}
+	.members li  a.job_interview{background-image:url('/assets/img/main/student_interview.jpg?2'); background-position: -74px 0; }
+ }
+
+/* For smartphones */
+@media (max-width: 640px) {
+	/* campus list */
+	.branch {border-bottom: 0;height: auto;}
+	.branch ul {display: none;height: auto;padding-left:50px;}
+	.branch li {display: block;width: 79px;height:49px;float:left;border:1px solid rgba(89,89,89,0.2);margin:10px 13px 0px 0px;}
+	.branch li a {display:block;width:79px;height:49px;text-align:center;font-size:16px;font-weight:bold;line-height:49px;color:#000;text-decoration:none;}
+	.branch li .twoLine{padding-top: 8px;line-height:18px; box-sizing: border-box; }
+    .camP{font-size: 14px; }
+	.branch .on a{background-color: #006CBA;color:#fff;font-weight:bold;}
+	.branch li a:hover, .branch a:active{background-color: #fff;color:#006CBA;font-weight:bold;}
+	.branch a {text-align: left;width: 100%;height:43px;line-height:43px;color:#fff;text-decoration:none;}
+	.branch a#campusListOpen {display: block;background-color: #006CBA;padding-left:52px;height:42px;position: relative;border-bottom:1px solid #686868;}
+	.branch a#campusListOpen:after {content:"";background: url('/assets/img/main/campusLogo/campusListArrow.png') no-repeat;background-size:contain;width: 42px;height: 42px;display: inline-block;position: absolute;left: 0;top: 0px;}
+
+	.borderBottom10{padding-bottom:32px ;border-bottom:10px solid #006CBA;}
+
+	/* campus list - logo */
+	li.greenArtLogo{display:block !important;width:100% !important;border:none;}
+	.greenArtLogo > a{display:block;padding:13.5px 0px;width:200px !important;height:22px  !important;text-indent:-9999px;background-image:url('/assets/img/main/greenartBlue.png'); background-repeat:no-repeat;background-position:0 14px;background-size:contain;}
+	li.greenAcademyLogo{display:block !important;width:100% !important;border:none;}
+	.greenAcademyLogo > a{display:block;padding:13.5px 0px;width:200px !important;height:22px !important;text-indent:-9999px;background-image:url('/assets/img/main/greenacademyBlue.png'); background-repeat:no-repeat;background-position:0 14px;background-size:contain;}
+
+	/*전화번호 + 로고 + 로그인 + 회원가입 + 캠퍼스 위치*/
+	.title{border-bottom:1px solid #A3A3A3;}
+	.titleBG{ margin:0px auto;width:100%;height:98px;}
+	.tel{float:left;width:20%;height:auto;}
+	.tel > a{width: 100%; height: 100%; display: block; text-decoration: none; padding-top: 32px; padding-left: 20%;}
+	.tel > a > h2{width: 35px; height: 35px;background-image:url('/assets/img/main/campusTel/campusTel0.png'); background-repeat: no-repeat; background-position: 0 0; background-size: cover; float: left; }
+	.tel > a > h2 > span{width: 0; height: 0; display: block; overflow: hidden;}
+	.tel > a > div{width: 0; height: 0; display: block; overflow: hidden; }
+		.logo{float:left;width:60%;height:100%;background-size:contain;background-repeat:no-repeat;text-indent:-9999px; }
+		.logo > a{width: 100%; height: 100%; display: block; }
+	.campusLogo {width:100%; height: 100%; background-repeat: no-repeat; background-position: center center; margin: 0 auto; background-size: 80%; }
+	.campusLogo>img {width:80%;max-width: 180px; display:block; background-size:contain; margin:0px;margin:0 auto;}
+
+	.campusTel1 {width:100%; height:100%; display:block;}
+	.campusTel0{margin:0 auto;width:37px;height:38px;margin-top:6px;background-image:url('/assets/img/main/campusTel/Mtel.png');background-size:contain;background-repeat:no-repeat;}
+	.campusTel1 {margin-top:0px; margin-top:5px;}
+	.members{float:left;float:left;width:20%;}
+	.members > ul{padding-top: 23px;}
+	.members li{width:100%;height:auto;}
+	.members li a{display:block;margin:0 auto;width:60px;height:22px;line-height:22px;text-decoration:none;text-align:center;color:#fff;}
+		.members li  a.student{background-color:#0094d2;}
+	.members li  a.job_interview{background-color:#02407c; margin-top:10%;}
+/* 	.members{float:left;float:left;width:21.5%;margin-top:5.5px;}
+	.members li{float:left;width:100%;height:19px;}
+	.members li a{display:block;margin:0 auto;width:63px;height:19px;line-height:19px;text-decoration:none;text-align:center;background-color:#777777;color:#fff;} */
+	.marginT9{margin-top:9px;}
+/* 	.members li  a.login{background-image:url('/assets/img/main/Tmembers.jpg');background-position:0 -50px;background-size:cover;}
+	.members li  a.logout{background-image:url('/assets/img/main/Tmembers.jpg');background-position:0 0;background-size:cover;} */
+	.centerAlign{margin:0 auto;}
+
+	/*menu*/
+	.gnbBG{position:absolute;width:100%;height:41px;	border-bottom:1px solid #006CBA;box-shadow:  0 5px 3px -3px rgba(0, 0, 0, 0.3);background-color:#F2F2F2;z-index:9999;}
+	.gnb > ul {margin: 0 auto;padding: 0;width: 1080px;display: block;list-style: none;height:41px;position: relative;}
+	.gnb > ul > li {float:left;display:block;}
+	.gnb li a{display:block;padding:0px 30px;letter-spacing:-1px;line-height:41px;text-decoration:none;font-weight:bold;font-size:14px;color:#333333;}
+	.gnb > ul > li > ul{padding-top:1px;width:100%;text-align:center;z-index:9999;display:none;}
+	.gnb > ul > li > ul > li{background-color:#FFF;height:31px;border-bottom:1px solid #DCDCDC;}
+	.gnb > ul > li > ul > li:hover{background-color:#006CBA;}
+	.gnb > ul > li > ul > li > a{height:31px;padding:0;font-size:14px;line-height:31px;color:#295282;}
+	.gnb > ul > li > ul > li > a:hover{color:#fff;}
+	.arrowBox{position:absolute; z-index:-500; width: 100%; height:30px; top:10%; left:0; }
+	.arrowBox > span{position:absolute; z-index:500; display:block; width:26px; height:100%; background-image: url('/assets/img/main/menuArrow.png'); background-size:cover; }
+	.arrowBox > .arrowL{left:0.5%; }
+	.arrowBox > .arrowR{right:0.5%; background-position: -26px 0; }
+}

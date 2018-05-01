@@ -1,0 +1,152 @@
+input { border: 0; }
+
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; box-sizing: border-box; }
+.container > .section > div > h3 { color: #565656; border-bottom: 2px solid #565656; box-sizing: border-box; }
+.container > .section > div > input { cursor: pointer; font-weight: bold; border: 1px solid #bcbcbc; background-color: #eaeaea; color: #565656; text-align: center; }
+.container > .section > .article01 > ul > li { border-bottom: 2px solid #adadad; }
+.container > .section > .article01 > ul > li > .writeDay { color: #333; }
+.container > .section > .article01 > ul > li > div > .imgBox > img { width: 100%; height: 100%; background-image: url(/_img/sub/community/writer.jpg); }
+.container > .section > .article01 > ul > li > div > h4 { color: #006CBA; font-weight: bold; }
+.container > .section > .article01 > ul > li > div > .writer { color: #333; font-weight: bold; }
+.container > .section > .article01 > ul > li > div > p { color: #1C4684; font-weight: bold; }
+.container > .section > .article01 > ul > li > div > span { background-color: #1C4684; color: #fff; font-weight: bold; text-align: center; display: block; cursor: pointer; }
+.container > .section > .article01 > ul > li > .layerPopup { width: 0; height: 0; overflow: hidden; }
+.container > .section > .article02 > form > fieldset { background-color: #E5E5E5; border: 1px solid #A8A8A8; }
+.container > .section > .article02 > form > fieldset > * { border: 1px solid #a8a8a8; }
+.container > .section > .article02 > form > fieldset > input { font-weight: bold; }
+.container > .section > .article02 > form > fieldset > .textBox { border-right: 0; }
+.container > .section > .article02 > form > fieldset > .serch { background-color: #00AEEF; color: #fff; }
+.container > .section > .article02 > form > fieldset > a {background-color: #006CBA; color: #fff; display:block; text-decoration: none;text-align: center;}
+.container > .section > .article02 > ul > li { border-bottom: 1px solid #adadad; }
+.container > .section > .article02 > ul > li > div > * { float: left; }
+.container > .section > .article02 > ul > li > .showBox { cursor: pointer; }
+.container > .section > .article02 > ul > li > .showBox > * { float: left; }
+.container > .section > .article02 > ul > li > .showBox > a {text-decoration: none; background-color: #006CBA; color: #fff; font-weight: bold; display: block; text-align: center; text-indent: 0; }
+.container > .layerPopup > .interviewBox > #imageViewer img{width:100%;}
+.container > .section > .article02 > ul > li > .showBox > p {font-weight: 600; color: #595959; text-align: left;}
+.container > .section > .article02 > ul > .tableHead { border-top: 1px solid #565656; border-bottom: 1px solid #565656; }
+.container > .section > .article02 > ul .on > .hideBox { border-top: 1px solid #bbb; }
+.container > .layerPopup { width: 0; height: 0; position: absolute; z-index: 100; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.8); overflow: hidden; }
+.container > .layerPopup > .interviewBox { margin: 0 auto; background-color: #fff; overflow-y: scroll; }
+.container > .layerPopup > .interviewBox > .closeBtn { background-image: url(/_img/sub/community/close_b.png); cursor: pointer; padding: 0; float: right; }
+.container > .layerPopup > .interviewBox > .closeBtn > span { width: 0; height: 0; display: block; overflow: hidden; }
+
+@media all and (min-width: 1080px) { .container { position: relative; }
+  .container > .section { width: 1080px; height: auto; margin: 0 auto; padding: 100px 0; }
+  .container > .section > div { width: 100%; }
+  .container > .section > div > h3 { width: 100%; font-size: 40px; height: 64px; }
+  .container > .section > div > input { width: 100%; height: 52px; margin-top: 40px; }
+  .container > .section > .article01 > ul { width: 100%; }
+  .container > .section > .article01 > ul > li { width: 100%; height: 300px; padding: 30px 0; position: relative; }
+  .container > .section > .article01 > ul > li > .writeDay { font-size: 14px; margin-bottom: 10px; }
+  .container > .section > .article01 > ul > li > div { float: left; }
+  .container > .section > .article01 > ul > li > div > .imgBox { width: 475px; height: 216px; }
+  .container > .section > .article01 > ul > li > div > .imgBox > img { width: 100%; height: 100%; }
+  .container > .section > .article01 > ul > li > div > .writer { font-size: 29px; margin: 18px 0; }
+  .container > .section > .article01 > ul > li > div > p { font-size: 22px; line-height: 32px; margin-bottom: 20px; }
+  .container > .section > .article01 > ul > li > div > span { width: 116px; height: 42px; line-height: 42px; }
+  .container > .section > .article01 > ul > li > div > .titleText { height: 20px; width: auto; font-size: 19px; }
+  .container > .section > .article01 > ul > li > .box1 { margin-right: 30px; }
+  .container > .section > .article02 { padding-top: 60px; }
+  .container > .section > .article02 > form { width: 100%; height: 70px; margin: 40px 0; }
+  .container > .section > .article02 > form > fieldset { width: 100%; height: 100%; padding: 15px 100px; }
+  .container > .section > .article02 > form > fieldset > * { float: left; }
+  .container > .section > .article02 > form > fieldset > select { width: 160px; height: 100%; margin-right: 10px; }
+  .container > .section > .article02 > form > fieldset > input { height: 100%; }
+  .container > .section > .article02 > form > fieldset > .textBox { width: 505px; }
+  .container > .section > .article02 > form > fieldset > .serch { width: 100px; }
+  .container > .section > .article02 > form > fieldset > a { width: 100px; height: 100%; float: right; line-height:37.5px;}
+  .container > .section > .article02 > ul { width: 100%; height: auto; }
+  .container > .section > .article02 > ul > li { width: 100%; height: 40px; overflow: hidden; }
+  .container > .section > .article02 > ul > li > div { width: 100%; height: 40px; }
+  .container > .section > .article02 > ul > li > div > * { font-size: 14px; height: 100%; line-height: 40px; text-align: center; }
+  .container > .section > .article02 > ul > li > div > h5 { width: 100px; }
+  .container > .section > .article02 > ul > li > div > h4 { width: 700px; }
+  .container > .section > .article02 > ul > li > div > p { width: 700px; font-size:13px; }
+  .container > .section > .article02 > ul > li > div > .writer { width: 150px; }
+  .container > .section > .article02 > ul > li > div > a {margin-left:1%; width: 50px; height: 30px; margin-top: 5px; line-height: 32.5px; font-size: 12px; }
+  .container > .section > .article02 > ul > li > .showBox { width: 100%; height: 100%; }
+  .container > .section > .article02 > ul > li > .hideBox { width: 100%; height: auto; overflow: hidden; display: block; }
+  .container > .section > .article02 > ul > li > .hideBox > p { width: 100%; height: auto; font-size: 14px; text-align: left; padding: 20px 0 20px 100px; }
+  .container > .section > .article02 > ul > li div:after { content: ""; display: block; clear: both; }
+  .container > .section > .article02 > ul .on { height: auto; display: block; }
+  .container > .layerPopup > .interviewBox { width: 1080px; height: auto; margin: 0 auto; background-color: #fff; margin-top: 50px;}
+  .container > .layerPopup > .interviewBox > div { width: 100%; height: auto; float: left; margin-top: 35px; padding: 0 175px; }
+  .container > .layerPopup > .interviewBox > #imageViewer{ width: 100%; height: 1126px; padding-top:50px; }
+  .container > .layerPopup > .interviewBox > #imageViewer > div{ width: 100%; height: 100%;  }
+  .container > .layerPopup > .interviewBox > .closeBtn { width: 44px; height: 44px; margin: 30px 30px 0 0; } }
+@media (min-width: 641px) and (max-width: 1079px) { .container > .section { width: 96%; margin: 0 auto; padding: 10% 0; }
+  .container > .section > div > h3 { font-size: 20px; height: 34px; width: auto; }
+  .container > .section > div > input { width: 100%; height: 38px; font-size: 16px; }
+  .container > .section > .article01 { margin-bottom: 45px; }
+  .container > .section > .article01 > ul { width: 100%; height: auto; margin-bottom: 10px; }
+  .container > .section > .article01 > ul > li > div { width: 100%; }
+  .container > .section > .article01 > ul > li > div > .imgBox { width: 100%; height: 150px; margin-bottom: 20px; }
+  .container > .section > .article01 > ul > li > div > .writer { font-size: 15px; margin-bottom: 14px; }
+  .container > .section > .article01 > ul > li > div > p { font-size: 18px; line-height: 26px; margin-bottom: 20px; }
+  .container > .section > .article01 > ul > li > div > span { width: 80px; height: 30px; display: block; font-size: 12px; line-height: 30px; margin-bottom: 12px; }
+  .container > .section > .article01 > ul > li > div > .titleText { width: 100%; font-size: 15px; line-height: 24px; }
+  .container > .section > .article02 > h3 { margin-bottom: 10px; }
+  .container > .section > .article02 { padding-top: 10px; }
+  .container > .section > .article02 > form { width: 100%; height: 70px; margin-bottom: 20px; }
+  .container > .section > .article02 > form > fieldset { width: 100%; height: 100%; padding: 15px 3%; }
+  .container > .section > .article02 > form > fieldset > * { height: 100%; float: left; }
+  .container > .section > .article02 > form > fieldset > select { width: 20%; margin-right: 1%; }
+  .container > .section > .article02 > form > fieldset > input { font-size: 10px; }
+  .container > .section > .article02 > form > fieldset > .textBox { width: 48%; }
+  .container > .section > .article02 > form > fieldset > .serch { width: 15%; }
+  .container > .section > .article02 > form > fieldset > a {width: 15%; float: right; line-height:37.5px;}
+  .container > .section > .article02 > ul { border-top: 1px solid #565656; }
+  .container > .section > .article02 > ul > li { width: 100%; height: 40px; display: block; overflow: hidden; }
+  .container > .section > .article02 > ul > li > div { width: 100%; height: 100%; }
+  .container > .section > .article02 > ul > li > div > * { float: left; line-height: 40px; height: 100%; text-align: center; font-size: 14px; }
+  .container > .section > .article02 > ul > li > div > h5 { width: 10%; }
+  .container > .section > .article02 > ul > li > div > h4 { width: 55%; }
+  .container > .section > .article02 > ul > li > div > p { width: 55%; text-align: left; font-size:13px; }
+  .container > .section > .article02 > ul > li > div > .writer { width: 10%; }
+  .container > .section > .article02 > ul > li > div > a {margin-left:2%; width: 10%; height: 30px; margin-top: 5px; line-height: 32.5px; font-size: 14px; float: right; }
+  .container > .section > .article02 > ul > .tableList > .hideBox { width: 0; height: 0; display: block; overflow: hidden; }
+  .container > .section > .article02 > ul .on { height: auto; display: block; }
+  .container > .section > .article02 > ul .on > .hideBox { width: 100%; height: 100%; padding: 2% 0; padding-left: 10%; }
+  .container > .layerPopup > .interviewBox { width: 96%; height: auto; margin: 0 auto; background-color: #fff; margin-top:35px;}
+  .container > .layerPopup > .interviewBox > div { width: 100%; height: auto; float: left; margin: 15px 15px 0 0; }
+  .container > .layerPopup > .interviewBox > .closeBtn { width: 25px; height: 25px; margin: 30px 30px 0 0; padding: 0; } }
+@media (max-width: 640px) { .container > .section { width: 96%; margin: 0 auto; padding: 10% 0; }
+  .container > .section > div > h3 { font-size: 20px; height: 34px; width: auto; }
+  .container > .section > div > input { width: 100%; height: 38px; font-size: 16px; margin-top: 10px; }
+  .container > .section > .article01 { margin-bottom: 45px; }
+  .container > .section > .article01 > ul { width: 100%; height: auto; margin-bottom: 10px; }
+  .container > .section > .article01 > ul > li > div { width: 100%; }
+  .container > .section > .article01 > ul > li > div > .imgBox { width: 100%; height: 150px; margin-bottom: 20px; }
+  .container > .section > .article01 > ul > li > div > .writer { font-size: 15px; margin-bottom: 14px; }
+  .container > .section > .article01 > ul > li > div > p { font-size: 18px; line-height: 26px; margin-bottom: 20px; }
+  .container > .section > .article01 > ul > li > div > span { width: 80px; height: 30px; display: block; font-size: 12px; line-height: 30px; margin-bottom: 12px; }
+  .container > .section > .article01 > ul > li > div > .titleText { width: 100%; font-size: 15px; line-height: 24px; }
+  .container > .section > .article02 { padding-top: 10px; }
+  .container > .section > .article02 > h3 { margin-bottom: 10px; }
+  .container > .section > .article02 > form { width: 100%; height: 65px; margin-bottom: 20px; }
+  .container > .section > .article02 > form > fieldset { width: 100%; height: 100%; padding: 9px 7%; }
+  .container > .section > .article02 > form > fieldset > * { height: 20px; float: left; }
+  .container > .section > .article02 > form > fieldset > select { width: 100%; margin-bottom: 5px; }
+  .container > .section > .article02 > form > fieldset > input { font-size: 10px; }
+  .container > .section > .article02 > form > fieldset > .textBox { width: 50%; }
+  .container > .section > .article02 > form > fieldset > .serch { width: 24%; }
+  .container > .section > .article02 > form > fieldset > a { width: 24%; float: right; line-height:20px;}
+  .container > .section > .article02 > ul { border-top: 1px solid #565656; }
+  .container > .section > .article02 > ul > li { width: 0; height: 0; display: block; overflow: hidden; }
+  .container > .section > .article02 > ul > .tableList { width: 100%; height: 85px; }
+  .container > .section > .article02 > ul > .tableList > div { width: 100%; }
+  .container > .section > .article02 > ul > .tableList > .showBox { height: 100%; padding: 10px 0; }
+  .container > .section > .article02 > ul > .tableList > .showBox > * { float: left; }
+  .container > .section > .article02 > ul > .tableList > .showBox > h5 { width: 10%; height: 100%; text-align: center; line-height: 60px; margin-right: 2%; }
+  .container > .section > .article02 > ul > .tableList > .showBox > p { width: 88%; margin-bottom: 10px; font-size:14px; }
+  .container > .section > .article02 > ul > .tableList > .showBox > .writer { margin-right: 10px; }
+  .container > .section > .article02 > ul > .tableList > .showBox > a { width: 20%; height: 20px; line-height: 20px; font-size: 12px; float: right; margin-right: 2%; }
+  .container > .section > .article02 > ul > .tableList > .hideBox > p{ line-height: 18px; }
+  .container > .section > .article02 > ul > .tableList > .hideBox { width: 0; height: 0; display: block; overflow: hidden; }
+  .container > .section > .article02 > ul .on { height: auto; display: block; }
+  .container > .section > .article02 > ul .on > .hideBox { width: 100%; height: 100%; padding: 5% 0; padding-left: 12%; }
+  .container > .layerPopup > .interviewBox { width: 96%; height: auto; margin: 0 auto; background-color: #fff;  }
+  .container > .layerPopup > .interviewBox > div { width: 100%; height: auto; float: left; margin: 15px 15px 0 0; }
+  .container > .layerPopup > .interviewBox > .closeBtn { width: 25px; height: 25px; margin: 30px 30px 0 0; } }

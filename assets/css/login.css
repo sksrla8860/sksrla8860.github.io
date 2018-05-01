@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+*{font-family:'malgun gothic';}
+
+/*로그인페이지*/
+.backgroundBox{margin:0 auto;margin-top:80px;width:600px;border:1px solid #e0e0e0 ;}
+.loginBox{position:relative; padding:20px 20px 60px 20px; margin:0 auto; margin-top:40px; margin-bottom:30px; width:340px;}
+h1.logo{width:300px;height:150px;background-image:url('../img/logo.png');background-repeat:no-repeat;text-indent:-9999px;}
+
+input:not([type]):focus:not([readonly]),input[type=text]:focus:not([readonly]),input[type=password]:focus:not([readonly]),input[type=email]:focus:not([readonly]),input[type=url]:focus:not([readonly]),input[type=time]:focus:not([readonly]),input[type=date]:focus:not([readonly]),input[type=datetime]:focus:not([readonly]),input[type=datetime-local]:focus:not([readonly]),input[type=tel]:focus:not([readonly]),input[type=number]:focus:not([readonly]),input[type=search]:focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]) {border-bottom: 1px solid #00bcd4 ;box-shadow: 0 1px 0 0 #00bcd4 ;}
+.loginBox > .btn{margin-top:10px;width:100%;}
+
+
+legend{display:none;}
+fieldset{border:0;margin:0;padding:0;}

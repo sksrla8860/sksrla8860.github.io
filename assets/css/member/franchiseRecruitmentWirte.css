@@ -1,0 +1,118 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; font-family: "Nanum Barun Gothic"; letter-spacing: -1px; box-sizing: border-box; }
+.container > .section { background-color: #fff; margin: 0 auto; border: 1px solid #e0e0e0; }
+.container > .section > .title_box { width: 100%; border-bottom: 1px solid #aaa; }
+.container > .section > .title_box > h3 { font-weight: bold; color: #1c4682; }
+.container > .section > .title_box > p { color: #484848; }
+.container > .section > .form_box { width: 100%; border-top: 2px solid #484848; }
+.container > .section > .form_box > form { width: 100%; }
+.container > .section > .form_box > form > fieldset { border-top: 2px sol id #484848; box-sizing: border-box; }
+.container > .section > .form_box > form > fieldset > legend { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .form_box > form > fieldset > div { width: 100%; border-bottom: 1px solid #aaa; }
+.container > .section > .form_box > form > fieldset > div > * { float: left; }
+.container > .section > .form_box > form > fieldset > div > label { background-color: #EFEFEF; display: block; text-align: center; font-weight: bold; color: #333; }
+.container > .section > .form_box > form > fieldset > div > div > div { float: left; border: 0; }
+.container > .section > .form_box > form > fieldset > div > div > * { float: left; border: 1px solid #dadada; box-sizing: border-box; }
+.container > .section > .form_box > form > fieldset > div > div > input[type="text"] { text-indent: 5px; }
+.container > .section > .form_box > form > fieldset > div > div > input[type="text"]:focus { background-color: #f3fbff; }
+.container > .section > .form_box > form > fieldset > div > div > textarea:focus { background-color: #f3fbff; }
+.container > .section > .form_box > form > fieldset > div > div > textarea { line-height: 26px; text-indent: 5px; resize: none; }
+.container > .section > .form_box > form > fieldset > div > div > p { border: 0; }
+.container > .section > .form_box > form > fieldset > .category07 > div > a { background-color: #595959; color: #fff; text-decoration: none; text-align: center; font-weight: bold; }
+.container > .section > .form_box > form > fieldset > .category10 > div > p { border: 0; border-bottom: 1px solid #dadada; box-sizing: border-box; }
+.container > .section > .form_box > form > fieldset > .category10 > div > p > a { color: #006CB8; font-weight: bold; text-decoration: none; }
+.container > .section > .form_box > form > fieldset > .category10 > div > label { border: 0; }
+.container > .section > .form_box > form > fieldset > .btn_box { border: 0; }
+.container > .section > .form_box > form > fieldset > .btn_box > input { font-weight: bold; color: #fff; border: 0; cursor: pointer; }
+.container > .section > .form_box > form > fieldset > .btn_box > #okBtn { background-color: #006CB8; }
+.container > .section > .form_box > form > fieldset > .btn_box > #cancleBtn { background-color: #aaa; }
+.container > .section > .form_box > form > fieldset > div:after { content: ""; display: block; clear: both; }
+
+.container:after { background-image: url(/_img/sub/pyramidalWaveBG.png); top: 0; left: 0; position: absolute; background-size: 75px; z-index: -2; content: ""; width: 100%; height: 100%; background-repeat: repeat; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pyramidalWaveBG.png', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pyramidalWaveBG.png', sizingMethod='scale')"; }
+
+/* For larger displays */
+@media all and (min-width: 1080px) { .container { padding: 90px 0; }
+  .container > .section { width: 980px; height: auto; padding: 50px; }
+  .container > .section > .title_box { height: 100px; margin-bottom: 50px; }
+  .container > .section > .title_box > h3 { width: auto; height: 50px; font-size: 44px; margin-bottom: 6px; }
+  .container > .section > .title_box > p { font-size: 16px; line-height: 22px; }
+  .container > .section > .form_box > form > fieldset > div { height: auto; }
+  .container > .section > .form_box > form > fieldset > div > label { width: 150px; height: auto; padding-top: 22px; padding-bottom: 22px; font-size: 14px; }
+  .container > .section > .form_box > form > fieldset > div > div { width: 713px; padding: 14px; }
+  .container > .section > .form_box > form > fieldset > div > div > * { height: 30px; line-height: 30px; }
+  .container > .section > .form_box > form > fieldset > div > div > select { width: 100px; }
+  .container > .section > .form_box > form > fieldset > div > div > p { margin: 0 1%; }
+  .container > .section > .form_box > form > fieldset > div > div > input[type="file"] { width: 450px; }
+  .container > .section > .form_box > form > fieldset > .category03 > div > select, .container > .section > .form_box > form > fieldset .category04 > div > select { width: 80px; }
+  .container > .section > .form_box > form > fieldset > .category03 > div > input, .container > .section > .form_box > form > fieldset .category04 > div > input { width: 100px; }
+  .container > .section > .form_box > form > fieldset > .category05 > div > select { margin-left: 10px; width: 150px; }
+  .container > .section > .form_box > form > fieldset > .category06 > div > input { width: 66%; }
+  .container > .section > .form_box > form > fieldset > .category07 > div > a { margin-left: 10px; width: 120px; }
+  .container > .section > .form_box > form > fieldset > .category09 > label { height: 250px; padding-top: 120px; }
+  .container > .section > .form_box > form > fieldset > .category09 > div > textarea { width: 100%; height: 220px; resize: none; }
+  .container > .section > .form_box > form > fieldset > .category10 { height: auto; margin-bottom: 25px; }
+  .container > .section > .form_box > form > fieldset > .category10 > label { height: 265px; line-height: 24px; padding-top: 115px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > p { width: 700px; height: 200px; display: block; line-height: 24px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > input { margin-left: 10px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > label { margin-left: 10px; line-height: 28px; border: 0; }
+  .container > .section > .form_box > form > fieldset > .btn_box { width: 210px; height: 35px; margin: 0 auto; }
+  .container > .section > .form_box > form > fieldset > .btn_box > input { width: 100px; height: 100%; }
+  .container > .section > .form_box > form > fieldset > .btn_box > #okBtn { margin-right: 10px; } }
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) { .container { padding: 4% 0; }
+  .container > .section { width: 96%; padding: 3%; }
+  .container > .section > .title_box { height: 80px; margin-bottom: 3%; }
+  .container > .section > .title_box > h3 { font-size: 30px; height: 32px; width: auto; }
+  .container > .section > .title_box > p { font-size: 14px; margin-top: 6px; }
+  .container > .section > .form_box > form > fieldset > div > label { width: 23%; height: 58px; line-height: 58px; }
+  .container > .section > .form_box > form > fieldset > div > div { width: 77%; padding: 15px; }
+  .container > .section > .form_box > form > fieldset > div > div > * { height: 28px; }
+  .container > .section > .form_box > form > fieldset > div > div > p { margin: 0 10px; line-height: 28px; }
+  .container > .section > .form_box > form > fieldset > div > div > input[type="checkbox"] { width: auto; }
+  .container > .section > .form_box > form > fieldset > div > div > input[type="file"] { width: 100%; }
+  .container > .section > .form_box > form > fieldset > .category03 > div > select, .container > .section > .form_box > form > fieldset .category04 > div > select { width: 80px; }
+  .container > .section > .form_box > form > fieldset > .category03 > div > input[type="text"], .container > .section > .form_box > form > fieldset .category04 > div > input[type="text"] { width: 100px; }
+  .container > .section > .form_box > form > fieldset > .category05 > label { height: 100px; padding-top: 25px; }
+  .container > .section > .form_box > form > fieldset > .category05 > div > input[type="text"] { width: 40%; }
+  .container > .section > .form_box > form > fieldset > .category05 > div > select { width: 100%; margin-top: 10px; }
+  .container > .section > .form_box > form > fieldset > .category06 > div > input[type="text"] { width: 100%; }
+  .container > .section > .form_box > form > fieldset > .category07 > label { height: 100px; padding-top: 25px; }
+  .container > .section > .form_box > form > fieldset > .category07 > div > a { width: 100%; margin-top: 10px; line-height: 28px; }
+  .container > .section > .form_box > form > fieldset > .category09 > label { height: 260px; padding-top: 100px; }
+  .container > .section > .form_box > form > fieldset > .category09 > div > textarea { width: 100%; height: 230px; }
+  .container > .section > .form_box > form > fieldset > .category10 > label { height: 240px; line-height: 22px; padding-top: 110px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > p { width: 100%; height: auto; display: block; padding-bottom: 2%; margin-bottom: 2%; font-size: 11px; line-height: 18px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > input { margin-left: 10px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > label { margin-left: 10px; line-height: 16px; font-size: 11px; }
+  .container > .section > .form_box > form > fieldset > .btn_box { width: 40%; height: 45px; margin: 0 auto; margin-top: 4%; }
+  .container > .section > .form_box > form > fieldset > .btn_box > input { width: 48%; height: 100%; font-size: 14px; }
+  .container > .section > .form_box > form > fieldset > .btn_box > #okBtn { margin-right: 4%; } }
+/* For smartphones */
+@media (max-width: 640px) { .container { padding: 4% 0; }
+  .container > .section { width: 96%; padding: 3%; }
+  .container > .section > .title_box { height: auto; margin-bottom: 3%; }
+  .container > .section > .title_box > h3 { font-size: 20px; height: 26px; width: auto; }
+  .container > .section > .title_box > p { font-size: 12px; padding-bottom: 3%; }
+  .container > .section > .form_box > form > fieldset > div > label { width: 23%; height: 50px; font-size: 12px; padding-top: 18px; }
+  .container > .section > .form_box > form > fieldset > div > div { width: 77%; padding: 10px; }
+  .container > .section > .form_box > form > fieldset > div > div > * { height: 30px; line-height: 30px; }
+  .container > .section > .form_box > form > fieldset > div > div > p { margin: 0 4px; }
+  .container > .section > .form_box > form > fieldset > div > div > input[type="checkbox"] { width: auto; }
+  .container > .section > .form_box > form > fieldset > div > div > input[type="text"] { width: 100%; }
+  .container > .section > .form_box > form > fieldset > div > div > input[type="file"] { width: 100%; }
+  .container > .section > .form_box > form > fieldset > .category03 > div > select, .container > .section > .form_box > form > fieldset .category04 > div > select { width: 23%; }
+  .container > .section > .form_box > form > fieldset > .category03 > div > input[type="text"], .container > .section > .form_box > form > fieldset .category04 > div > input[type="text"] { width: 25%; }
+  .container > .section > .form_box > form > fieldset > .category05 > label { height: 90px; padding-top: 40px; }
+  .container > .section > .form_box > form > fieldset > .category05 > div > input[type="text"] { width: 40%; }
+  .container > .section > .form_box > form > fieldset > .category05 > div > select { width: 100%; margin-top: 10px; }
+  .container > .section > .form_box > form > fieldset > .category07 > label { height: 90px; padding-top: 40px; }
+  .container > .section > .form_box > form > fieldset > .category07 > div > a { width: 100%; margin-top: 10px; }
+  .container > .section > .form_box > form > fieldset > .category09 > label { height: 250px; padding-top: 120px; }
+  .container > .section > .form_box > form > fieldset > .category09 > div > textarea { width: 100%; height: 230px; }
+  .container > .section > .form_box > form > fieldset > .category10 > label { height: 320px; line-height: 22px; padding-top: 180px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > p { width: 100%; height: auto; display: block; padding-bottom: 2%; margin-bottom: 2%; font-size: 11px; line-height: 18px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > input { margin-left: 10px; }
+  .container > .section > .form_box > form > fieldset > .category10 > div > label { margin-left: 10px; line-height: 16px; font-size: 11px; }
+  .container > .section > .form_box > form > fieldset > .btn_box { width: 40%; height: 45px; margin: 0 auto; margin-top: 4%; }
+  .container > .section > .form_box > form > fieldset > .btn_box > input { width: 48%; height: 100%; }
+  .container > .section > .form_box > form > fieldset > .btn_box > #okBtn { margin-right: 4%; } }

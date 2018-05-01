@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+
+/* For larger displays */
+@media all and (min-width:1080px){
+.pageTitleBG{width:100%;height:197px;border-bottom:2px solid #CACACA;background-color:#000;}
+.greenBackgroundImg{background-image:url('/assets/img/sub/greenBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.campusBackgroundImg{background-image:url('/assets/img/sub/campusBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumBackgroundImg{background-image:url('/assets/img/sub/curriculumBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.communityBackgroundImg{background-image:url('/assets/img/sub/communityBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.customerBackgroundImg{background-image:url('/assets/img/sub/customerBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.jobcenterBackgroundImg{background-image:url('/assets/img/sub/jobcenterBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.servicecenterBackgroundImg{background-image:url('/assets/img/sub/servicecenterBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.mypageBackgroundImg{background-image:url('/assets/img/sub/mypageBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.ncsBackgroundImg{background-image:url('/assets/img/sub/ncsBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.pageTitle{margin:0 auto;padding:100px 0px 40px 26px;width:1080px;height:56px;}
+.pageTitle h1{width:100%;padding-left:26px;font-size:35px;line-height:36px;color:#fff;font-weight:bold;border-left:4px solid #fff;}
+.pageTitle h2{width:100%;padding-left:26px;font-size:20px;line-height:21px;color:#fff;font-weight:bold;border-left:4px solid #fff;}
+.pageNavigationBG{width:100%;height:54px;border-bottom:2px solid #CACACA;z-index:99;}
+.pageNavigation{margin:0 auto;width:1080px;height:54px;}
+.homeShortCut{float:left;width:55px;height:54px;border-right:1px solid #CACACA;background-image:url('/assets/img/sub/pageNavigation/home.png');text-indent:-9999px;}
+
+div.pageNavigationStepBox1 {position: relative;float:left;width:149px;height:54px;background-image:url('/assets/img/sub/pageNavigation/selectBoxArrow.png');background-position:125px 23px;border-right:1px solid #CACACA;border-radius:0;}
+div.pageNavigationStepBox1 label {position: absolute;top: 20px;left: 12px;letter-spacing: 1px;}
+div.pageNavigationStepBox1 select#pageNavigationStep1::-ms-expand { display: none; }
+div.pageNavigationStepBox1 select#pageNavigationStep1 {width: 100%;height: 54px;min-height: 54px;line-height: 54px;padding: 0 10px; border: 0; -moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+appearance:none; background-color: transparent;/*opacity: 0;filter: alpha(opacity=0);  IE 8 */}
+
+div.pageNavigationStepBox2 {position: relative;float:left;width:179px;height:54px;background-image:url('/assets/img/sub/pageNavigation/selectBoxArrow.png');background-position:155px 23px;border-right:1px solid #CACACA;border-radius:0;}
+div.pageNavigationStepBox2 label {position: absolute;top: 20px;left: 12px;letter-spacing: 1px;}
+div.pageNavigationStepBox2 select#pageNavigationStep2::-ms-expand { display: none; }
+div.pageNavigationStepBox2 select#pageNavigationStep2 {width: 100%;height: 54px;min-height: 54px;line-height: 54px;padding: 0 10px; border: 0; -moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+appearance:none; background-color: transparent;/*opacity: 0;filter: alpha(opacity=0);  IE 8 */}
+
+/*curriculum pageTitle*/
+.curriculumPageTitleBG{position:relative;width:100%;height:411px;background-color:#000;}
+/* .curriculumBackgroundImg{background-image:url('/assets/img/sub/curriculum/curriculumBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;} */
+.curriculumTitleBG0{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG0.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG1{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG1.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG2{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG2.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG3{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG3.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG4{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG4.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG5{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG5.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG6{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG6.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG7{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG7.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumPageTitle{margin:0 auto;padding:61px 0px 38px 0px;width:1080px;}
+.curriculumPageTitle h1{color:#fff;font-size:35px;font-weight:bold;text-align:center;}
+.curriculumPageTitle h2 {padding-top:11px;color:#fff;font-size:20px;font-weight:bold;text-align:center;}
+.studentStyle{margin:0 auto;}
+.studentStyle li{float:left;padding:0 24px;width:78px;height:78px;background-image:url('/assets/img/sub/curriculum/studentStyleBG.png');line-height:78px;text-align:center;color:#fff;font-size:15px;font-weight:bold;}
+
+/*NCS기반 훈련과정? / 다른 훈련 과정 보기*/
+.NCSExplain{margin:0 auto;padding-top:21px;text-align:center;}
+.NCSExplain a.NCSBtn{margin-right:13px;display:inline;text-align:center;line-height:19px;padding-right:22px;text-decoration:none;font-size:16px;color:#fff;font-weight:bold;text-align:center;background-image:url('/assets/img/sub/curriculum/questionMark.png');background-position:right 0;background-repeat:no-repeat;}
+.NCSExplain span{margin-right:13px;}
+.NCSExplain span:after{content:'|';color:#fff;}
+.NCSExplain a.otherCurriculumsBtn{padding:3px 20px;line-height:22px;font-size:14px;text-decoration:none;color:#fff;border:1px solid #ab4500;background-color:#ff4500;font-weight:bold;}
+
+.criterionBox{position:relative;z-index:999;}
+.NCScloseBtn{position:absolute;right:10px;top:10px;display:block;width:18px;height:13px;background-image:url('/assets/img/sub/curriculum/close.png');background-size:cover;background-repeat:no-repeat;text-indent:-9999px;}
+.NCSExplainBox{display:none;position:absolute;top:11px;width:513px;background-color:#f3faff;border:1px solid #d3d8dd ;z-index:10;}
+.NCSExplainTriangle{position:relative;top:-12px;left:30%;width:12px;height:12px;background-image:url('/assets/img/sub/curriculum/triangle.png');z-index:20;}
+.NCSExplainTitle{padding:12px;font-size:18px;font-weight:bold;color:#006cb8;}
+.NCSExplainText{padding:0 12px 12px 12px;font-weight:12px;color:#595959;}
+
+
+.otherCurriculumcloseBtn{position:absolute;right:10px;top:10px;display:block;width:18px;height:13px;background-image:url('/assets/img/sub/curriculum/close.png');background-size:cover;background-repeat:no-repeat;text-indent:-9999px;}
+.otherCurriculumBox{display:none;position:absolute;top:23px;width:963px;background-color:#f3faff;border:1px solid #d3d8dd ;}
+.otherTriangle{position:relative;top:-12px;left:55%;width:12px;height:12px;background-image:url('/assets/img/sub/curriculum/triangle.png');z-index:20;}
+.otherCurriculumBox h3{padding:35px 0px 15px 20px;font-size:20px;font-weight:bold;color:#006CBA;}
+
+.searchFieldBox{position:relative;float:left;margin:15px 0px 0px 7px;width:189px;height:30px;border:1px solid #a8a8a8;background-color:#FFF;background-image:url('/assets/img/sub/community/arrow.png');background-repeat:no-repeat;background-position:95% 50%;}
+.searchFieldBox label{position:absolute;top:9px;left:12px;font-size:15px;}
+#searchField{width:100%;height:32px;min-height:32px;line-height:32px;opacity:0;}
+
+.otherCurriculumText{display:inline-block;margin:26px 0px 16px 26px;font-size:16px;color:#595959;}
+
+.otherCurriculumList{margin:0 22px;margin-bottom:59px;}
+.otherCurriculumList li{float:left;width:295px;height:37px;}
+.otherCurriculumList li a{display:block;width:100%;height:100%;text-align:center;text-decoration:none;font-size:16px;line-height:37px;color:#000;}
+.otherCurriculumList li a:hover{color:#0f2f7f;text-decoration:underline;line-height:37px;}
+
+/*온라인상담, 온라인결제, 수강료 조회 버튼들*/
+.curriculumBtn{margin:0 auto;padding-top:48px;width:471px;}
+.curriculumBtn li{float:left;padding-right:10px;width:147px;height:42px;background-image:url('/assets/img/sub/curriculum/curriculumBtn.png');background-repeat:no-repeat;}
+.curriculumBtn li a{text-decoration:none;line-height:36px;padding-bottom:6px;padding-left:28px;color:#fff;font-size:15px;font-weight:bold;}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+.pageTitleBG{width:100%;height:197px;border-bottom:2px solid #CACACA;background-color:#000;}
+.greenBackgroundImg{background-image:url('/assets/img/sub/greenBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.campusBackgroundImg{background-image:url('/assets/img/sub/campusBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumBackgroundImg{background-image:url('/assets/img/sub/curriculumBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.communityBackgroundImg{background-image:url('/assets/img/sub/communityBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.customerBackgroundImg{background-image:url('/assets/img/sub/customerBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.jobcenterBackgroundImg{background-image:url('/assets/img/sub/jobcenterBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.servicecenterBackgroundImg{background-image:url('/assets/img/sub/servicecenterBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.mypageBackgroundImg{background-image:url('/assets/img/sub/mypageBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.ncsBackgroundImg{background-image:url('/assets/img/sub/ncsBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.pageTitle{margin:0 auto;padding:100px 0px 40px 26px;width:1080px;height:56px;z-index:99;}
+.pageTitle h1{width:100%;padding-left:26px;font-size:35px;line-height:36px;color:#fff;font-weight:bold;border-left:4px solid #fff;}
+.pageTitle h2{width:100%;padding-left:26px;font-size:20px;line-height:21px;color:#fff;font-weight:bold;border-left:4px solid #fff;}
+.pageNavigationBG{width:100%;height:54px;border-bottom:2px solid #CACACA;}
+.pageNavigation{margin:0 auto;width:1080px;height:54px;}
+.homeShortCut{float:left;width:55px;height:54px;border-right:1px solid #CACACA;background-image:url('/assets/img/sub/pageNavigation/home.png');text-indent:-9999px;}
+
+div.pageNavigationStepBox1 {position: relative;float:left;width:149px;height:54px;background-image:url('/assets/img/sub/pageNavigation/selectBoxArrow.png');background-position:125px 23px;border-right:1px solid #CACACA;border-radius:0;z-index:50;}
+div.pageNavigationStepBox1 label {position: absolute;top: 20px;left: 12px;letter-spacing: 1px;}
+div.pageNavigationStepBox1 select#pageNavigationStep1::-ms-expand { display: none; }
+div.pageNavigationStepBox1 select#pageNavigationStep1 {width: 100%;height: 54px;min-height: 54px;line-height: 54px;padding: 0 10px; border: 0; -moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+appearance:none; background-color: transparent;/*opacity: 0;filter: alpha(opacity=0);  IE 8 */}
+
+div.pageNavigationStepBox2 {position: relative;float:left;width:179px;height:54px;background-image:url('/assets/img/sub/pageNavigation/selectBoxArrow.png');background-position:155px 23px;border-right:1px solid #CACACA;border-radius:0;}
+div.pageNavigationStepBox2 label {position: absolute;top: 20px;left: 12px;letter-spacing: 1px;}
+div.pageNavigationStepBox2 select#pageNavigationStep2::-ms-expand { display: none; }
+div.pageNavigationStepBox2 select#pageNavigationStep2 {width: 100%;height: 54px;min-height: 54px;line-height: 54px;padding: 0 10px; border: 0; -moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+appearance:none;background-color: transparent;/*opacity: 0;filter: alpha(opacity=0);  IE 8 */}
+
+
+/*curriculum pageTitle*/
+.curriculumPageTitleBG{margin-top:41px;width:100%;height:411px;background-color:#000;}
+/* .curriculumBackgroundImg{background-image:url('/assets/img/sub/curriculum/curriculumBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;} */
+.curriculumTitleBG0{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG0.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG1{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG1.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG2{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG2.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG3{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG3.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG4{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG4.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG5{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG5.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG6{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG6.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG7{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG7.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumPageTitle{margin:0 auto;padding:61px 0px 38px 0px;width:100%;}
+.curriculumPageTitle h1{color:#fff;font-size:35px;font-weight:bold;text-align:center;}
+.curriculumPageTitle h2 {padding-top:11px;color:#fff;font-size:20px;font-weight:bold;text-align:center;}
+.studentStyle{margin:0 auto;}
+.studentStyle li{float:left;padding:0 24px;width:78px;height:78px;background-image:url('/assets/img/sub/curriculum/studentStyleBG.png');line-height:78px;text-align:center;color:#fff;font-size:15px;font-weight:bold;}
+
+
+/*NCS기반 훈련과정? / 다른 훈련 과정 보기*/
+.NCSExplain{margin:0 auto;padding-top:21px;text-align:center;}
+.NCSExplain a.NCSBtn{margin-right:13px;display:inline;text-align:center;line-height:19px;padding-right:22px;text-decoration:none;font-size:16px;color:#fff;font-weight:bold;text-align:center;background-image:url('/assets/img/sub/curriculum/questionMark.png');background-position:right 0;background-repeat:no-repeat;}
+.NCSExplain span{margin-right:13px;}
+.NCSExplain span:after{content:'|';color:#fff;}
+.NCSExplain a.otherCurriculumsBtn{padding:3px 20px;line-height:22px;font-size:14px;text-decoration:none;color:#fff;border:1px solid #ab4500;background-color:#ff4500;font-weight:bold;}
+
+.criterionBox{position:relative;z-index:999;}
+.NCScloseBtn{position:absolute;right:10px;top:10px;display:block;width:18px;height:13px;background-image:url('/assets/img/sub/curriculum/close.png');background-size:cover;background-repeat:no-repeat;text-indent:-9999px;}
+.NCSExplainBox{display:none;position:absolute;top:23px;width:513px;background-color:#f3faff;border:1px solid #d3d8dd ;}
+.NCSExplainTriangle{position:relative;top:-12px;left:30%;width:12px;height:12px;background-image:url('/assets/img/sub/curriculum/triangle.png');z-index:20;}
+.NCSExplainTitle{padding:12px;font-size:18px;font-weight:bold;color:#006cb8;}
+.NCSExplainText{padding:0 12px 12px 12px;font-weight:12px;color:#595959;}
+
+
+.otherCurriculumcloseBtn{position:absolute;right:10px;top:10px;display:block;width:18px;height:13px;background-image:url('/assets/img/sub/curriculum/close.png');background-size:cover;background-repeat:no-repeat;text-indent:-9999px;}
+.otherCurriculumBox{display:none;position:absolute;top:23px;margin:0 auto;width:90%;max-width:963px;background-color:#f3faff;border:1px solid #d3d8dd ;}
+.otherTriangle{position:relative;top:-12px;left:55%;width:12px;height:12px;background-image:url('/assets/img/sub/curriculum/triangle.png');z-index:20;}
+.otherCurriculumBox h3{padding:35px 0px 15px 20px;font-size:20px;font-weight:bold;color:#006CBA;}
+
+.searchFieldBox{position:relative;float:left;margin:15px 0px 0px 7px;width:189px;height:30px;border:1px solid #a8a8a8;background-color:#FFF;background-image:url('/assets/img/sub/community/arrow.png');background-repeat:no-repeat;background-position:95% 50%;}
+.searchFieldBox label{position:absolute;top:9px;left:12px;font-size:15px;}
+#searchField{width:100%;height:32px;min-height:32px;line-height:32px;opacity:0;}
+
+.otherCurriculumText{display:inline-block;margin:26px 0px 16px 26px;font-size:16px;color:#595959;}
+
+.otherCurriculumList{margin:0 22px;margin-bottom:59px;}
+.otherCurriculumList li{float:left;margin:0% 7% 0% 3%;width:40%;height:37px;}
+.otherCurriculumList li a{display:block;width:100%;height:100%;text-align:center;text-decoration:none;font-size:16px;line-height:37px;color:#000;}
+.otherCurriculumList li a:hover{color:#0f2f7f;text-decoration:underline;line-height:37px;}
+
+/*온라인상담, 온라인결제, 수강료 조회 버튼들*/
+.curriculumBtn{margin:0 auto;padding-top:48px;width:471px;}
+.curriculumBtn li{float:left;padding-right:10px;width:147px;height:42px;background-image:url('/assets/img/sub/curriculum/curriculumBtn.png');background-repeat:no-repeat;}
+.curriculumBtn li a{text-decoration:none;line-height:36px;padding-bottom:6px;padding-left:28px;color:#fff;font-size:15px;font-weight:bold;}
+
+
+
+
+
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+.pageTitleBG{width:100%;height:110px;border-bottom:2px solid #CACACA;background-color:#000;}
+.greenBackgroundImg{background-image:url('/assets/img/sub/greenBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.campusBackgroundImg{background-image:url('/assets/img/sub/campusBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumBackgroundImg{background-image:url('/assets/img/sub/curriculumBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.communityBackgroundImg{background-image:url('/assets/img/sub/communityBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.customerBackgroundImg{background-image:url('/assets/img/sub/customerBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.jobcenterBackgroundImg{background-image:url('/assets/img/sub/jobcenterBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.servicecenterBackgroundImg{background-image:url('/assets/img/sub/servicecenterBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.mypageBackgroundImg{background-image:url('/assets/img/sub/mypageBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.ncsBackgroundImg{background-image:url('/assets/img/sub/ncsBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;}
+.pageTitle{margin:0 auto;padding: 52px 0px 40px 26px;width:1080px;height:56px;}
+.pageTitle h1{width:100%;padding-left:26px;font-size:25px;line-height:26px;color:#fff;font-weight:bold;border-left:4px solid #fff;}
+.pageTitle h2{width:100%;padding-left:26px;font-size:10px;line-height:12px;color:#fff;font-weight:bold;border-left:4px solid #fff;}
+.pageNavigationBG{width:100%;height:54px;border-bottom:2px solid #CACACA;z-index:99;}
+.pageNavigation{margin:0 auto;width:1080px;height:54px;}
+.homeShortCut{float:left;width:40px;height:54px;border-right:1px solid #CACACA;background-image:url('/assets/img/sub/pageNavigation/home.png');background-size:contain;background-repeat:no-repeat;background-position:0 50%;text-indent:-9999px;}
+
+div.pageNavigationStepBox1 {position: relative;float:left;width:119px;height:54px;background-image:url('/assets/img/sub/pageNavigation/selectBoxArrow.png');background-position:95px 23px;border-right:1px solid #CACACA;border-radius:0;}
+div.pageNavigationStepBox1 label {position: absolute;top: 20px;left: 12px;letter-spacing: 1px;}
+div.pageNavigationStepBox1 select#pageNavigationStep1::-ms-expand { display: none; }
+div.pageNavigationStepBox1 select#pageNavigationStep1 {width: 100%;height: 54px;min-height: 54px;line-height: 54px;padding: 0 10px; border: 0; -moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+appearance:none; background-color: transparent;/*opacity: 0;filter: alpha(opacity=0);  IE 8 */}
+
+div.pageNavigationStepBox2 {position: relative;float:left;width:149px;height:54px;background-image:url('/assets/img/sub/pageNavigation/selectBoxArrow.png');background-position:125px 23px;border-right:1px solid #CACACA;border-radius:0;}
+div.pageNavigationStepBox2 label {position: absolute;top: 20px;left: 12px;letter-spacing: 1px;}
+div.pageNavigationStepBox2 select#pageNavigationStep2::-ms-expand { display: none; }
+div.pageNavigationStepBox2 select#pageNavigationStep2 {width: 100%;height: 54px;min-height: 54px;line-height: 54px;padding: 0 10px; border: 0; -moz-appearance:none; /* Firefox */
+-webkit-appearance:none; /* Safari and Chrome */
+appearance:none; background-color: transparent;/*opacity: 0;filter: alpha(opacity=0);  IE 8 */}
+
+
+/*curriculum pageTitle*/
+.curriculumPageTitleBG{margin-top:41px;width:100%;background-color:#000;height:411px;}
+/* .curriculumBackgroundImg{background-image:url('/assets/img/sub/curriculum/curriculumBackgroundImg.jpg');background-repeat:no-repeat;background-position:center center;} */
+.curriculumTitleBG0{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG0.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG1{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG1.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG2{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG2.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG3{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG3.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG4{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG4.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG5{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG5.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG6{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG6.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumTitleBG7{background-image:url('/assets/img/sub/curriculum/curriculumTitleBG/curriculumTitleBG7.jpg');background-repeat:no-repeat;background-position:center center;}
+.curriculumPageTitle{margin:0 auto;padding:67px 0px 21px 0px;width:100%;}
+.curriculumPageTitle h1{color:#fff;font-size:26px;font-weight:bold;text-align:center;}
+.curriculumPageTitle h2 {padding-top:18px;color:#fff;font-size:14px;line-height:18px;font-weight:bold;text-align:center;}
+.studentStyle{margin:0 auto;}
+.studentStyle li{float:left;padding:0 11px;width:65px;height:65px;background-image:url('/assets/img/sub/curriculum/MstudentStyleBG.png');line-height:65px;text-align:center;color:#fff;font-size:15px;font-weight:bold;}
+
+/*NCS기반 훈련과정? / 다른 훈련 과정 보기*/
+.NCSExplain{margin:0 auto;padding-top:21px;text-align:center;}
+.NCSExplain a.NCSBtn{margin-right:6px;display:inline;text-align:center;line-height:19px;padding-right:22px;text-decoration:none;font-size:16px;color:#fff;font-weight:bold;text-align:center;background-image:url('/assets/img/sub/curriculum/questionMark.png');background-position:right 0;background-repeat:no-repeat;}
+.NCSExplain span{margin-right:6px;}
+.NCSExplain span:after{content:'|';color:#fff;}
+.NCSExplain a.otherCurriculumsBtn{padding:3px 15px;line-height:22px;font-size:14px;text-decoration:none;color:#fff;border:1px solid #ab4500;background-color:#ff4500;font-weight:bold;}
+
+.criterionBox{position:relative;z-index:999;}
+.NCScloseBtn{position:absolute;right:10px;top:10px;display:block;width:18px;height:13px;background-image:url('/assets/img/sub/curriculum/close.png');background-size:cover;background-repeat:no-repeat;text-indent:-9999px;}
+.NCSExplainBox{display:none;position:absolute;top:23px;width:90%;background-color:#f3faff;border:1px solid #d3d8dd ;}
+.NCSExplainTriangle{position:relative;top:-12px;left:30%;width:12px;height:12px;background-image:url('/assets/img/sub/curriculum/triangle.png');z-index:20;}
+.NCSExplainTitle{padding:12px;font-size:13px;font-weight:bold;color:#006cb8;}
+.NCSExplainText{padding:0 12px 12px 12px;font-weight:12px;color:#595959;}
+
+
+.otherCurriculumcloseBtn{position:absolute;right:10px;top:10px;display:block;width:18px;height:13px;background-image:url('/assets/img/sub/curriculum/close.png');background-size:cover;background-repeat:no-repeat;text-indent:-9999px;}
+.otherCurriculumBox{display:none;position:absolute;top:23px;margin:0 auto;width:90%;max-width:963px;background-color:#f3faff;border:1px solid #d3d8dd ;}
+.otherTriangle{position:relative;top:-12px;left:55%;width:12px;height:12px;background-image:url('/assets/img/sub/curriculum/triangle.png');z-index:20;}
+.otherCurriculumBox h3{padding:20px 0px 10px 20px;font-size:15px;font-weight:bold;color:#006CBA;}
+
+.searchFieldBox{position:relative;margin:20px;width:120px;height:20px;border:1px solid #a8a8a8;background-color:#FFF;background-image:url('/assets/img/sub/community/arrow.png');background-repeat:no-repeat;background-position:95% 50%;}
+.searchFieldBox label{position:absolute;top:5px;left:12px;font-size:12px;}
+#searchField{width:100%;height:22px;min-height:22px;line-height:22px;opacity:0;}
+
+.otherCurriculumText{display:block;margin-left:20px;font-size:12px;color:#595959;}
+
+.otherCurriculumList{margin:0 22px;margin-bottom:29px;}
+.otherCurriculumList li{float:left;margin:0% 7% 0% 3%;width:40%;height:37px;}
+.otherCurriculumList li a{display:block;width:100%;height:100%;text-align:center;text-decoration:none;font-size:11px;line-height:37px;color:#000;}
+.otherCurriculumList li a:hover{color:#0f2f7f;text-decoration:underline;line-height:37px;}
+
+/*온라인상담, 온라인결제, 수강료 조회 버튼들*/
+.curriculumBtn{margin:0 auto;padding-top:48px;width:250px;}
+.curriculumBtn li{float:left;padding:0px 4.5px;width:74px;height:74px;background-image:url('/assets/img/sub/curriculum/McurriculumBtn.png');background-repeat:no-repeat;}
+.curriculumBtn li a{text-decoration:none;line-height:68px;padding-bottom:6px;padding-left:5px;color:#fff;font-size:12px;font-weight:bold;}
+}

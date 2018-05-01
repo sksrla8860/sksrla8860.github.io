@@ -1,0 +1,137 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; text-align: center; }
+.container > .section > .headerBox { border-bottom: 1px solid #ccc; box-sizing: border-box; }
+.container > .section > .headerBox > h2 { background-image: url(/_img/main/signup/login_ment.png); }
+.container > .section > .headerBox > h2 > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .headerBox > h4 { color: #295282; font-weight: bold; }
+.container > .section > .headerBox > h4 > span { font-size: inherit; font-weight: inherit; color: inherit; }
+.container > .section > .bodyBox { height: 100%; }
+.container > .section > .bodyBox > div { float: right; }
+.container > .section > .bodyBox > div > form { background-color: #F7F7F7; border: 1px solid #ccc; box-sizing: border-box; }
+.container > .section > .bodyBox > div > form > fieldset > legend { font-weight: 900; color: #295282; border-bottom: 1px solid #ccc; box-sizing: border-box; }
+.container > .section > .bodyBox > div > form > fieldset > div > input { border: 1px solid #ccc; box-sizing: border-box; text-align: center; }
+.container > .section > .bodyBox > div > form > fieldset > div > * { float: left; }
+.container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox { border: 0; }
+.container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > input { border: 1px solid #ccc; box-sizing: border-box; }
+.container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > span { display: block; color: #aaa; }
+.container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > * { float: left; }
+.container > .section > .bodyBox > div > form > fieldset > div > .submitBox { float: right; border: 0; border-radius: 4px; overflow: hidden; }
+.container > .section > .bodyBox > div > form > fieldset > div > .submitBox > .loginBox { font-weight: bold; color: #fff; }
+.container > .section > .bodyBox > div > form > fieldset > input { float: left; }
+.container > .section > .bodyBox > div > form > fieldset > label { float: left; }
+.container > .section > .bodyBox > .individualBox { float: left; }
+.container > .section > .bodyBox > .individualBox > form > fieldset > div > .submitBox > .loginBox { background-color: #1C4684; }
+.container > .section > .bodyBox > .individualBox > .memberBox > li > a { width: 100%; height: 100%; font-weight: bold; display: block; color: #fff; text-decoration: none; }
+.container > .section > .bodyBox > .individualBox > .memberBox > .leftBtn { float: left; background-color: #22A4FF; }
+.container > .section > .bodyBox > .individualBox > .memberBox > .rightBtn { float: right; background-color: #006CBA; }
+.container > .section > .bodyBox > .enterprise > form > fieldset > div > .submitBox > .loginBox { background-color: #006CBA; }
+.container > .section > .bodyBox > ul { float: left; margin: 0 auto; }
+.container > .section > .bodyBox > ul > li { background-image: url(/_img/main/signup/snsLogin.jpg); float: left; }
+.container > .section > .bodyBox > ul > li > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .bodyBox > ul > .snsG { float: right; }
+.container > .section > .bodyBox > ul > .snsN { float: right; }
+.container > .section > .bodyBox > ul li:after { content: ""; display: block; clear: both; }
+.container > .section > .bodyBox ul:after { content: ""; display: block; clear: both; }
+.container > .section div:after { content: ""; display: block; clear: both; }
+
+@media all and (min-width: 1080px) { .container > .section { width: 1080px; margin: 0 auto; padding-bottom: 150px;}
+  .container > .section > .headerBox { width: 100%; height: 230px; margin-bottom: 50px; padding-top: 90px; }
+  .container > .section > .headerBox > h2 { width: 546px; height: 58px; font-size: 28px; line-height: 58px; margin: 0 auto; margin-bottom: 20px; }
+  .container > .section > .headerBox > h4 { font-size: 19px; width: 100%; height: 22px; }
+  .container > .section > .bodyBox > div { width: 50%; }
+  .container > .section > .bodyBox > div > form { width: 536px; height: 260px; }
+  .container > .section > .bodyBox > div > form > fieldset > legend { width: 100%; height: 76px; font-size: 24px; line-height: 76px; }
+  .container > .section > .bodyBox > div > form > fieldset > div { width: 435px; height: 110px; margin: 0 auto; padding-top: 24px; margin-bottom: 12px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > input { width: 322px; height: 50px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .idBox { margin-bottom: 10px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox { width: 322px; margin-bottom: 10px; height: 50px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > input { height: 100%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > #c_no1 { width: 100px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > #c_no2 { width: 50px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > #c_no3 { width: 110px; float: right; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > span { margin: 0 8px; height: 100%; font-size: 25px; font-weight: 900; line-height: 50px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .submitBox { width: 104px; height: 110px; margin-top: -60px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .submitBox > .loginBox { width: 100%; height: 100%; font-size: 16px; }
+  .container > .section > .bodyBox > div > form > fieldset > input { margin-left: 270px; margin-right: 10px; }
+  .container > .section > .bodyBox > .individualBox > .memberBox { width: 345px; height: 44px; margin-left: 97.5px; margin-top: 64px; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > li { width: 169px; height: 100%; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > li > a { line-height: 44px; font-size: 14px; }
+  .container > .section > .bodyBox > .enterprise { margin-bottom: 42px; }
+  .container > .section > .bodyBox > ul { width: 480px; height: 86px; margin: 0 auto; margin-left: 28px; }
+  .container > .section > .bodyBox > ul > li { width: 234px; height: 40px; margin: 0; }
+  .container > .section > .bodyBox > ul > .snsF { background-position: 0 0; margin-bottom: 6px; }
+  .container > .section > .bodyBox > ul > .snsG { background-position: 0 -44px; margin-bottom: 6px; }
+  .container > .section > .bodyBox > ul > .snsK { background-position: 0 -88px; }
+  .container > .section > .bodyBox > ul > .snsN { background-position: 0 -132px; } }
+@media (min-width: 641px) and (max-width: 1079px) { .container > .section { width: 96%; margin: 0 auto; padding-top: 10%; }
+  .container > .section > .headerBox { width: 100%; padding-bottom: 5%; margin-bottom: 8%; }
+  .container > .section > .headerBox > h2 { width: 100%; font-size: 15px; height: 50px; margin-bottom: 5%; background-size: contain; }
+  .container > .section > .headerBox > h4 { width: 100%; height: 42px; line-height: 22px; }
+  .container > .section > .headerBox > h4 > span { margin-left: 2px; }
+  .container > .section > .bodyBox { width: 95%; margin: 0 auto; }
+  .container > .section > .bodyBox > div { margin: 0 auto; width: 100%; }
+  .container > .section > .bodyBox > div > form > fieldset { padding-bottom: 3%; }
+  .container > .section > .bodyBox > div > form > fieldset > legend { width: 100%; height: 70px; line-height: 70px; font-size: 26px; }
+  .container > .section > .bodyBox > div > form > fieldset > div { padding: 5% 5% 1% 5%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > input { width: 70%; height: 50px; margin-bottom: 10px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox { width: 70%; height: 50px; margin-bottom: 10px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > * { float: left; height: 100%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > input { width: 30%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .submitBox { width: 28%; height: 110px; margin-top: -60px; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .submitBox > .loginBox { width: 100%; height: 100%; }
+  .container > .section > .bodyBox > div > form > fieldset > input { margin-left: 55%; }
+  .container > .section > .bodyBox > .individualBox { margin-bottom: 8%; }
+  .container > .section > .bodyBox > .individualBox > form { margin-bottom: 3%; }
+  .container > .section > .bodyBox > .individualBox > .memberBox { width: 100%; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > li { padding: 3% 0; font-size: 20px; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > .leftBtn { width: 49%; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > .rightBtn { width: 49%; }
+  .container > .section > .bodyBox > .enterprise { margin-bottom: 10%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > #c_no1 { width: 25%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > #c_no2 { width: 20%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > #c_no3 { float: right; width: 27%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > span { margin: 0 5%; height: 100%; line-height: 42px; font-size: 18px; }
+  .container > .section > .bodyBox > ul { width: 600px; height: auto; margin: 0 auto; margin-bottom: 20%; display: block; margin-left: calc(50% - 300px); }
+  .container > .section > .bodyBox > ul > li { width: 49%; height: 50px; margin-bottom: 3%; }
+  .container > .section > .bodyBox > ul > .snsF { background-position: 0 0; }
+  .container > .section > .bodyBox > ul > .snsG { background-position: 0 -55px; float: right; }
+  .container > .section > .bodyBox > ul > .snsK { background-position: 0 -110px; }
+  .container > .section > .bodyBox > ul > .snsN { background-position: 0 -165px; float: right; } }
+@media (max-width: 640px) { .container > .section { width: 96%; margin: 0 auto; padding-top: 10%; }
+  .container > .section > .headerBox { width: 100%; padding-bottom: 5%; margin-bottom: 8%; }
+  .container > .section > .headerBox > h2 { width: 100%; font-size: 15px; height: 36px; margin-bottom: 5%; background-size: contain; }
+  .container > .section > .headerBox > h4 { width: 100%; height: 42px; line-height: 22px; }
+  .container > .section > .headerBox > h4 > span { display: block; }
+  .container > .section > .bodyBox { width: 95%; margin: 0 auto; }
+  .container > .section > .bodyBox > div { margin: 0 auto; width: 100%; }
+  .container > .section > .bodyBox > div > form > fieldset > legend { width: 100%; height: 50px; line-height: 50px; font-size: 22px; }
+  .container > .section > .bodyBox > div > form > fieldset > div { padding: 2% 2% 0 2%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > input { width: 100%; height: 46px; margin-bottom: 2%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox { height: 46px; margin-bottom: 2%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > * { float: left; height: 100%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .enterpriseBox > input { width: 30%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .submitBox { width: 100%; height: 46px; margin-bottom: 2%; }
+  .container > .section > .bodyBox > div > form > fieldset > div > .submitBox > .loginBox { width: 100%; height: 100%; }
+  .container > .section > .bodyBox > div > form > fieldset > input { margin-left: 60%; }
+  .container > .section > .bodyBox > .individualBox { margin-bottom: 8%; }
+  .container > .section > .bodyBox > .individualBox > form { margin-bottom: 3%; }
+  .container > .section > .bodyBox > .individualBox > .memberBox { width: 100%; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > li { padding: 3% 0; font-size: 12px; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > .leftBtn { width: 49%; }
+  .container > .section > .bodyBox > .individualBox > .memberBox > .rightBtn { width: 49%; }
+  .container > .section > .bodyBox > .enterprise { margin-bottom: 10%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > #c_no1 { width: 25%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > #c_no2 { width: 20%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > #c_no3 { float: right; width: 30%; }
+  .container > .section > .bodyBox > .enterprise > form > fieldset > div > .enterpriseBox > span { margin: 0 4%; height: 100%; line-height: 42px; font-size: 18px; }
+  .container > .section > .bodyBox > ul { width: 250px; height: auto; margin: 0 auto; margin-bottom: 20%; margin-left: calc(50% - 125px); }
+  .container > .section > .bodyBox > ul > li { width: 100%; height: 42px; margin-bottom: 3%; }
+  .container > .section > .bodyBox > ul > .snsF { background-position: 0 0; }
+  .container > .section > .bodyBox > ul > .snsG { background-position: 0 -47px; }
+  .container > .section > .bodyBox > ul > .snsK { background-position: 0 -93px; }
+  .container > .section > .bodyBox > ul > .snsN { background-position: 0 -140px; } }
+
+	input { border: 0; text-align: left !important; text-indent: 4px; }
+	.submitBox > input{text-indent: 0; text-align: center !important; }
+	.snsLogin a{display:block; width:100%; height: 100%; text-decoration: none !important; }
+	.snsLogin a > span{width:0; height:0; display:block; overflow: hidden; cursor: pointer; }

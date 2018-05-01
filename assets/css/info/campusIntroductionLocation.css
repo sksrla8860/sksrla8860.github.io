@@ -1,0 +1,180 @@
+@charset "utf-8";
+.locationInfos li a{cursor: default; }
+
+
+.customoverlay {width: auto; height: auto; position:relative !important;bottom:70px !important;border-radius:6px !important;border: 1px solid #ccc !important;border-bottom:2px solid #ddd !important;float:left !important;}
+.customoverlay:nth-of-type(n) {border:0 !important; box-shadow:0px 1px 2px #888 !important;}
+.customoverlay a {width: 100%; height: 100%; display:block !important;text-decoration:none !important;color:#000 !important;text-align:center !important;border-radius:6px !important;font-size:12px !important;font-weight:bold !important;overflow:hidden !important;background: #0097e0 url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center !important;box-sizing: border-box; }
+.customoverlay .titleSpan {display:block !important;text-align:center !important;background:#fff !important;margin-right:35px !important;padding:5px 20px !important;font-size:12px !important;font-weight:bold !important;}
+.customoverlay:after {content:'' !important;position:absolute !important;margin-left:-12px !important;left:50% !important;bottom:-12px !important;width:22px !important;height:12px !important;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png') !important;}
+.daumText{font-size: 12px; margin-bottom: 5px; color: #333; text-align: right; margin-right: 2px; }
+/* For larger displays */
+@media all and (min-width:1080px){
+	.campusIntroductionBG{margin:0 auto;width:1080px;}
+	.comm_tab1 {margin-top:94px;}
+	.comm_tab1>.tab_menu{margin:0 auto;width:720px;}
+	.comm_tab1>.tab_menu>li{position:relative;float:left;margin:0 4px;width:350px;height:53px;border:1px solid #CACACA;}
+	.comm_tab1>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:53px;font-size:18px;font-weight:bold;color:#565656;}
+	.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:53px;left:168px;}
+	.comm_tab1>.tab_menu .on{background-color:#565656;}
+	.comm_tab1>.tab_menu .on>a{color:#fff;}
+
+	.comm_tab2>.tab_menu{margin-top:33px;width:1080px;border-top:1px solid #CACACA;border-left:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li{position:relative;float:left;width:179px;height:42px;border-bottom:1px solid #CACACA;border-right:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:42px;font-size:18px;color:#565656;}
+	.comm_tab2>.tab_menu .on{background-color:#006CBA;}
+	.comm_tab2>.tab_menu .on>a{color:#fff;}
+
+	.campusIntroductionSlogan{padding:44px 0px 18px 0px;text-align:center;font-size:20px;color:#565656;line-height:35px;background-image:url('/_img/sub/campus/campusIntroduction/campusIntroductionSloganBG.png');background-position:bottom center;}
+	.campusLocationImage{margin-top:34px;width:1078px;}
+	.campusLocationImage .mapBox{border:1px solid #CACACA;width:100%; margin-top: 16px; }
+	#map{width: 100%; height: 464px; margin: 0 auto; }
+	.campusLocationBtn{float:right;display:block;margin:10px 2px 30px 2px;width:110px;height:32px;border:1px solid #D8D8D8;font-size:12px;color:#565656;text-align:center;line-height:32px;text-decoration:none;}
+
+	.locationInfos{margin:0 auto;width:562px;}
+	.locationInfos li{margin: 4.5px 0px;}
+	.locationInfo{float:left;display:block;margin-right:20px ;width:110px;height:32px;border:1px solid #D8D8D8;color:#565656;font-weight:bold;line-height:32px;text-align:center;}
+	.locationInfos li p{text-decoration: none; float:left;width:430px;padding:6px 0px;line-height:20px;font-size:14px;color:#565656;}
+	.locationInfos li a{text-decoration: none; float:left;width:430px;padding:6px 0px;line-height:20px;font-size:14px;color:#565656;}
+
+	.campusLocationList{margin-top:39px;margin-bottom:60px;border-top:2px solid #D8D8D8;border-bottom:1px solid #D8D8D8;}
+	.campusLocationList li{height:42px;border-bottom:1px solid #D8D8D8;}
+	.campusName{float:left;width:199px;height:100%;border-right:1px solid #D8D8D8;background-color:#F9F9F9;text-align:center;line-height:42px;font-weight:17px;}
+	.campusAddress{float:left;width:880px;height:100%;text-align:center;line-height:42px;font-weight:17px;}
+
+
+	#campusViewBG{position:relative;margin:0 auto;margin-bottom:95px;width:1080px;border-top:1px solid #D8D8D8;}
+	.campusViewList{float:left;margin-right:12px;margin-top:60px;width:654px;height:380px;}
+	.campusViewList div{width:654px;height:380px;}
+	.pagination{float:left;margin-top:50px;width:412px;}
+	.pagination{*zoom:1;}
+	.pagination:after{clear:both;display:block;content:'';}
+	.pagination li{float:left;margin:10px 5px;width:196px;height:113px;overflow:hidden;}
+	.pagination li img{width:100%; filter: url(filters.svg#grayscale); /* Firefox */filter: gray; /* IE */-webkit-filter: grayscale(1); /* Webkit */}
+	.pagination li img:hover{ filter: none;-webkit-filter: grayscale(0);}
+	.pagination li.last{float:left;margin-right:0;}
+
+
+/* campus Locaion 페이지*/
+	h3{padding:60px 0px 35px;font-size:35px;font-weight:bold;color:#565656;text-align:center;background-image:url('/_img/sub/campus/campusIntroduction/campusIntroductionSloganBG.png');background-position:bottom center;}
+	.campusNameBlue{color:#006CBA;}
+
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+
+	.campusIntroductionBG{ width:100%;}
+	.comm_tab1 {margin-top:94px;}
+	.comm_tab1>.tab_menu{margin:0 auto;width:70%;}
+	.comm_tab1>.tab_menu>li{position:relative;float:left;margin:0 1%;width:46%;height:53px;border:1px solid #CACACA;}
+	.comm_tab1>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:53px;font-size:18px;font-weight:bold;color:#565656;}
+	.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:53px;left:45%;}
+	.comm_tab1>.tab_menu .on{background-color:#565656;}
+	.comm_tab1>.tab_menu .on>a{color:#fff;}
+
+	.comm_tab2>.tab_menu{margin:0 5%;margin-top:33px;width:90%;border-left:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li{position:relative;float:left;width:16.4%;height:42px;border-bottom:1px solid #CACACA;border-right:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:42px;font-size:18px;font-weight:bold;color:#565656;}
+	.comm_tab2>.tab_menu .on{background-color:#006CBA;}
+	.comm_tab2>.tab_menu .on>a{color:#fff;}
+	.bdbCACACA{border-top:1px solid #CACACA;}
+
+	.campusIntroductionSlogan{padding:30px 0px 18px 0px;text-align:center;font-size:18px;color:#565656;line-height:30px;background-image:url('/_img/sub/campus/campusIntroduction/campusIntroductionSloganBG.png');background-position:bottom center;}
+	.TdisplayBlock{display:block;}
+	.campusLocationImage{margin:0 5%;margin-top:34px;width:90%;}
+	.campusLocationImage .mapBox{border:1px solid #CACACA;width:100%; margin-top: 16px; }
+	#map{width: 100%; height: 466px; margin: 0 auto; }
+	.campusLocationBtn{float:right;display:block;margin:10px 2px 30px 2px;width:110px;height:32px;border:1px solid #D8D8D8;font-size:12px;color:#565656;text-align:center;line-height:32px;text-decoration:none;}
+
+	.locationInfos{margin:0 auto;width:562px;}
+	.locationInfos li{margin: 4.5px 0px;}
+	.locationInfo{float:left;display:block;margin-right:20px ;width:110px;height:32px;border:1px solid #D8D8D8;color:#565656;font-weight:bold;line-height:32px;text-align:center;}
+	.locationInfos li p{text-decoration: none; float:left;width:430px;padding:6px 0px;line-height:20px;font-size:14px;color:#565656;}
+	.locationInfos li a{text-decoration: none; float:left;width:430px;padding:6px 0px;line-height:20px;font-size:14px;color:#565656;}
+
+	.campusLocationList{margin:0 5%;margin-top:27px;margin-bottom:60px;width:90%;border-top:2px solid #D8D8D8;border-bottom:1px solid #D8D8D8;}
+	.campusLocationList li{height:42px;border-bottom:1px solid #D8D8D8;}
+	.campusName{float:left;width:24%;height:100%;border-right:1px solid #D8D8D8;background-color:#F9F9F9;text-align:center;line-height:42px;font-weight:17px;}
+	.campusAddress{float:left;width:75%;height:100%;text-align:center;line-height:42px;font-weight:17px;}
+
+	#campusViewBG{position:relative;margin:0 5%;margin-bottom:95px;width:90%;border-top:1px solid #D8D8D8;}
+	.campusViewList{margin:0 auto;margin-top:60px;width:100%;max-width:654px;}
+	.campusViewList div{width:100%;/* max-width:654px; */}
+	.slides_control{width:100%;height:100%;}
+	.slides_control > div > img{width:100%;}
+	.pagination{margin:0 auto;margin-top:50px;width:100%;max-width:654px;}
+	.pagination{*zoom:1;}
+	.pagination:after{clear:both;display:block;content:'';}
+	.pagination li{float:left;margin:5px 6px;width:31%;overflow:hidden;}
+	.pagination li img{width:100%; filter: url(filters.svg#grayscale); /* Firefox */filter: gray; /* IE */-webkit-filter: grayscale(1); /* Webkit */}
+	.pagination li img:hover{ filter: none;-webkit-filter: grayscale(0);}
+	.pagination li.last{float:left;margin-right:0;}
+
+/* campus Locaion 페이지*/
+	h3{padding:60px 0px 35px;font-size:35px;font-weight:bold;color:#565656;text-align:center;background-image:url('/_img/sub/campus/campusIntroduction/campusIntroductionSloganBG.png');background-position:bottom center;}
+	.campusNameBlue{color:#006CBA;}
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+
+	.comm_tab1 {margin-top:40px;}
+	.comm_tab1>.tab_menu{margin:0 auto;width:90%;}
+	.comm_tab1>.tab_menu>li{position:relative;float:left;margin:0 1%;width:46%;height:30px;border:1px solid #CACACA;}
+	.comm_tab1>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:30px;font-size:12px;font-weight:bold;color:#565656;}
+	.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:30px;left:45%;}
+	.comm_tab1>.tab_menu .on{background-color:#565656;}
+	.comm_tab1>.tab_menu .on>a{color:#fff;}
+
+	.comm_tab2>.tab_menu{margin:0 5%;margin-top:33px;width:90%;border-left:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li{position:relative;float:left;width:24%;height:26px;border-bottom:1px solid #CACACA;border-right:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:26px;font-size:12px;font-weight:bold;color:#565656;}
+	.comm_tab2>.tab_menu .on{background-color:#006CBA;}
+	.comm_tab2>.tab_menu .on>a{color:#fff;}
+	.MbdbCACACA{border-top:1px solid #CACACA;}
+
+	.campusIntroductionSlogan{padding:30px 0px 18px 0px;text-align:center;font-size:14px;color:#565656;line-height:25px;background-image:url('/_img/sub/campus/campusIntroduction/campusIntroductionSloganBG.png');background-position:bottom center;}
+	.TdisplayBlock{display:block;}
+	.MdisplayBlock{display:block;}
+	.campusLocationImage{margin:0 5%;margin-top:34px;width:90%;}
+	.campusLocationImage .mapBox{border:1px solid #CACACA;width:100%; margin-top: 15px; }
+
+		#map{width: 100%; height: 200px; margin: 0 auto; }
+.customoverlay {width: auto; height: auto; position:relative !important;bottom:70px !important;border-radius:6px !important;border: 1px solid #ccc !important;border-bottom:2px solid #ddd !important;float:left !important;}
+.customoverlay:nth-of-type(n) {border:0 !important; box-shadow:0px 1px 2px #888 !important;}
+.customoverlay a {width: 100%; height: 100%; display:block !important;text-decoration:none !important;color:#000 !important;text-align:center !important;border-radius:6px !important;font-size:10px !important;font-weight:bold !important;overflow:hidden !important;background: #0097e0 url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center !important;box-sizing: border-box; }
+.customoverlay .titleSpan {display:block !important;text-align:center !important;background:#fff !important;margin-right:35px !important;padding:3px 5px !important;font-size:10px !important;font-weight:bold !important;}
+.customoverlay:after {content:'' !important;position:absolute !important;margin-left:-6px !important;left:50% !important;bottom:-6px !important;width:11px !important;height:6px !important;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png') 100% !important;}
+
+	.campusLocationBtn{display:block;margin:0 auto;margin-top:10px;margin-bottom:20px; width:100px;height:26px;border:1px solid #D8D8D8;font-size:12px;color:#565656;text-align:center;line-height:26px;text-decoration:none;}
+
+	.locationInfos{margin:0 5%;width:90%;}
+	.locationInfos li{margin: 4.5px 0px;width:100%;}
+	.locationInfo{display:inline-block;margin-right:20px ;width:100px;height:26px;border:1px solid #D8D8D8;color:#565656;font-weight:bold;line-height:26px;text-align:center;}
+	.locationInfos li p{text-decoration: none; width:100%;padding:6px 0px;line-height:26px;font-size:14px;color:#565656;margin-bottom: 10px;}
+	.locationInfos li a{text-decoration: none; width:auto;padding:6px 0px;line-height:20px;font-size:14px;color:#006CBA;margin-bottom: 10px;display: inline-block; font-weight: bold; }
+	.locationInfos .locationInfo{margin-bottom: 5px; }
+	.campusLocationList{margin:0 5%;margin-top:27px;margin-bottom:50px;width:90%;border-top:2px solid #D8D8D8;border-bottom:1px solid #D8D8D8;}
+	.campusLocationList li{}
+	.campusName{width:100%;height:42px;background-color:#F9F9F9;text-align:center;line-height:42px;font-weight:17px;border-bottom:1px solid #D8D8D8;}
+	.campusAddress{width:100% ;height:42px;text-align:center;line-height:42px;font-weight:17px;border-bottom:1px solid #D8D8D8;}
+
+	#campusViewBG{position:relative;margin:0;margin-bottom:95px;width:100%;border-top:1px solid #D8D8D8;}
+	.campusViewList{margin:0 auto;margin-top:60px;width:100%;max-width:654px;}
+	.campusViewList div{width:100%;}
+	.slides_control > div > img{width:100%;height:100%;}
+	.pagination{margin:0 auto;margin-top:20px;width:100%;}
+	.pagination{*zoom:1;}
+	.pagination:after{clear:both;display:block;content:'';}
+	.pagination li{float:left;margin:2% 2%;width:46%;overflow:hidden;}
+	.pagination li img{width:100%; filter: url(filters.svg#grayscale); /* Firefox */filter: gray; /* IE */-webkit-filter: grayscale(1); /* Webkit */}
+	.pagination li img:hover{ filter: none;-webkit-filter: grayscale(0);}
+	.pagination li.last{float:left;margin-right:0;}
+
+
+	/* campus Locaion 페이지*/
+	h3{padding:30px 0px 30px;font-size:20px;font-weight:bold;color:#565656;text-align:center;background-image:url('/_img/sub/campus/campusIntroduction/campusIntroductionSloganBG.png');background-position:bottom center;}
+	.campusNameBlue{color:#006CBA;}
+
+}

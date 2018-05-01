@@ -1,0 +1,76 @@
+
+	.marginB10{margin-bottom:10px;}
+	@media all and (min-width: 1080px) {
+	.backgroundImg{position:relative;margin:0 auto;max-width:900px;}
+
+   form > fieldset { padding: 27px 65px;width: 770px; height: 313px; margin: 0 auto;}
+   form > fieldset > ul { width: 100%; height: auto; }
+   form > fieldset > ul > li { margin-bottom: 15px; }
+   form > fieldset > ul > li > * { float: left; height: 45px; line-height: 50px; font-size: 20px; }
+   form > fieldset > ul > li > select#ev_subject { width: 400px; margin-right:10px;}
+   form > fieldset > ul > li > select#notice_cam { width: 120px; }
+   form > fieldset > ul > li > select > option { font-size: 22px; }
+   form > fieldset > ul > li > label { text-align: center; margin-right: 25px;}
+   form > fieldset > ul > li > input { width: 117px; text-indent: 10px; }
+   form > fieldset > ul > li > .nameText { width: 163px; margin-right: 35px; }
+   form > fieldset > ul > li > span { margin: 0 10px; }
+   form > fieldset > ul > li:after { content: ""; display: block; clear: both; }
+   form > fieldset > ul > .category01 > select { width: 117px; height:49px;}
+   form > fieldset > ul > .category03 > label { line-height: 22px;margin-top:4px; }
+   form > fieldset > ul > .category03 > textarea { width: 700px; height: 154px; resize: none; }
+   form > fieldset > div > div {float:left; margin-left: 61px; width:320px;}
+   form > fieldset > div > div > label { text-align: right; font-size: 18px; vertical-align:top;}
+   form > fieldset > div > div > a {float:right;margin-right:9px;font-size: 18px;padding-top: 5px; text-decoration:none; vertical-align:top;color:#515151;}
+   form > fieldset > div > div > input {width: 20px; height: 20px; }
+   form > fieldset > div > .submitBtn { margin-right:8px;width: 135px; height: 56px; font-size: 20px; text-align: center; float: right; line-height: 56px; background-color:#5950a1;color:#fff;border:0;}
+	}
+	@media (min-width: 641px) and (max-width: 1079px) {
+	.backgroundImg{position:relative;width:100%;max-width:900px;}
+	.section4{margin: 0 auto;width: 100%; height:230px;}
+   form > fieldset { margin: 0 auto;padding:10px ;width: 480px; height:230px;}
+	 form > fieldset > ul { width: 100%; height: auto; }
+   form > fieldset > ul > li { margin-bottom: 15px; }
+   form > fieldset > ul > li > * { float: left; height: 25px; line-height: 25px; font-size: 17px; }
+   form > fieldset > ul > li > select#ev_subject { width: 300px; margin-right:10px;}
+   form > fieldset > ul > li > select#notice_cam { width: 60px; }
+   form > fieldset > ul > li > select > option { font-size: 12px; }
+   form > fieldset > ul > li > label { text-align: center; margin-right: 10px;}
+   form > fieldset > ul > li > input { width: 66px; text-indent: 10px; }
+   form > fieldset > ul > li > .nameText { width: 100px; margin-right: 10px; }
+   form > fieldset > ul > li > span { margin: 0 10px; }
+   form > fieldset > ul > li:after { content: ""; display: block; clear: both; }
+   form > fieldset > ul > .category01 > select { width: 65px; height:29px;}
+   form > fieldset > ul > .category03 > label { line-height: 22px;margin-top:4px; }
+   form > fieldset > ul > .category03 > textarea { width: 434px; height: 95px; resize: none; }
+   form > fieldset > div > div {float:left; margin-left: 40px; width:277px;}
+   form > fieldset > div > div > label { text-align: right; font-size: 16px; vertical-align:top; }
+   form > fieldset > div > div > a { float:right; margin-right:3px;font-size: 16px; margin-top: 5px; text-decoration:none; vertical-align:top;color:#515151;}
+   form > fieldset > div > div > input {width: 16px; height: 16px; }
+   form > fieldset > div > .submitBtn { margin-right:5px;width: 114px; height: 44px; font-size: 20px; text-align: center; float: right; line-height: 44px; background-color:#5950a1;color:#fff;border:0;}
+	}
+	@media (max-width: 640px) {
+	.backgroundImg{position:relative;width:100%;}
+	.section4{margin: 0 auto;margin-top:20px;width: 100%; height:130px;}
+
+   form > fieldset { margin: 0 auto;width: 274px;}
+	 form > fieldset > ul { width: 100%;}
+   form > fieldset > ul > li { margin-bottom: 3px; }
+   form > fieldset > ul > li > * { float: left; height: 25px; line-height: 25px; font-size: 10px; }
+   form > fieldset > ul > li > select#ev_subject { width: 125px; margin-right:10px;}
+   form > fieldset > ul > li > select#notice_cam { width: 50px; }
+   form > fieldset > ul > li > select > option { font-size: 10px; }
+   form > fieldset > ul > li > label { text-align: center; margin-right: 4px;}
+   form > fieldset > ul > li > input { width: 39px; text-indent: 2px; }
+   form > fieldset > ul > li > .nameText { width: 58px; margin-right: 5px; }
+   form > fieldset > ul > li > span { margin: 0 2px; }
+   form > fieldset > ul > li:after { content: ""; display: block; clear: both; }
+   form > fieldset > ul > .category01 > select { width: 48px; height:29px;}
+   form > fieldset > ul > .category03 > label { line-height: 13px;margin-top:4px; }
+   form > fieldset > ul > .category03 > textarea { width: 250px; height: 30px; resize: none; }
+   form > fieldset > div > div {float:left;margin-top:10px; margin-left: 18px; width:184px;height:16px;}
+   form > fieldset > div > div > label { text-align: right; font-size: 10px; vertical-align:top;}
+   form > fieldset > div > div > a {float:right;margin-right:8px;font-size: 10px; text-decoration:none;color:#515151;}
+   form > fieldset > div > input {width: 10px; height: 10px; vertical-align:bottom}
+   form > fieldset > div > .submitBtn {margin-top:10px;width: 65px; height: 25px; font-size: 10px; text-align: center; float: right; line-height: 25px; background-color:#5950a1;color:#fff;border:0;}
+
+	}

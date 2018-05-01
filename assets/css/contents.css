@@ -1,0 +1,129 @@
+	h2{padding:30px 0;font-size:20px;font-weight:bold;color:#333333;text-align:center;}
+	h2:before{content:'· ';color:#b3c63f;}
+	.boxSize875{margin:0 auto;width:875px;}
+	h3{margin:28px 0px;width:875px;font-weight:bold;}
+	h3:before{content:'· ';color:#b3c63f;}
+	.colorB3c63f{color:#b3c63f;font-weight:bold;}
+	.fontSize15{font-size:15px;}
+	.curriGoal{padding:20px 0;line-height:28px;border-top:1px solid #333;}
+	table{margin:0 auto;width:700px;border-top:1px solid #999999;}
+	table  th{padding:15px;font-weight:bold;color:#333;border-bottom:1px solid #999999;}
+	table  td:first-child{border-left:0;}
+	table  td{padding:10px;border-bottom:1px solid #999999;border-left:1px solid #999999;line-height:28px;}
+	table  td > ul > li{line-height:28px;}
+	.section{padding:70px 0;}
+	.hideText{width: 0; height: 0; overflow: hidden; }
+	#section1{position:relative;width:100%;max-height:700px;padding: 0; background-image: url('/assets/img/banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;}
+
+
+
+	#section2{}
+	#section2 > ul{margin:10px auto;width:700px;}
+	#section2 > ul > li{line-height:28px;}
+	#section2 > table  th{border-left:1px solid #999999;}
+	#section2 > table  th:first-child{border-left:0;}
+
+	#section3{}
+	#section3 > ul{margin:10px auto;width:700px;}
+	#section3 > ul > li{line-height:28px;}
+
+	#section4{padding:15px 0;background-color:#333;}
+	#section4 > .section4Line > h2{color:#fff;}
+	#section4 > .section4Line > p{margin-bottom:30px;text-align:center;color:#fff;}
+	#section4 .section4Line{padding:40px 0 70px 0;border-top:2px solid #b3c63f;border-bottom:2px solid #b3c63f;}
+	#section4 .section4Box{position:relative;margin:0 auto;width:880px;}
+	#section4 .contactUsBox{float:left;width:440px;}
+	.textStyle1{padding:15px 0px;color:#fff;font-size:15px;display: inline-block;}
+	input[type="text"] {padding:3px 5%;width:90%;height:28px;border:0;}
+	.powerT{font-weight: bold; color: #ff0; display: inline-block; }
+	textarea{padding:5%;width:90%;height:123px;border:0; resize: none; }
+	.contactUsNameBG{float:left;width:200px;}
+	.contactUsTelBG{float:right;width:200px;}
+	.personalInfoBox{margin-top: 5px;}
+	.personalInfoBox > a{color:#fff;}
+	.personalInfoLabel{color:#fff;}
+	.sendBtn{float:right;width:100px;height:33px;background-color:#b3c63f;color:#333;border:0;border-radius:20px}
+	.telNum{float:right;margin:0 auto;margin-top:111px;width:330px;height:197px;background-image:url('/assets/img/contactUsBG.png');background-size:contain;}
+	.telNum p{position:relative;top:50%;margin-top:-24px;font-size:21px;font-weight:bold;text-align:center;color:#333;}
+
+
+	#section5{}
+	#section5 > #map{ width: 100%; height:550px; margin: 20px auto;}
+	#section5 > p {text-align:center;}
+
+	.locationInfos li a{cursor: default; }
+
+.customoverlay {width: auto; height: auto; position:relative !important;bottom:70px !important;border-radius:6px !important;border: 1px solid #ccc !important;border-bottom:2px solid #ddd !important;float:left !important;}
+.customoverlay:nth-of-type(n) {border:0 !important; box-shadow:0px 1px 2px #888 !important;}
+.customoverlay a {width: 100%; height: 100%; display:block !important;text-decoration:none !important;color:#000 !important;text-align:center !important;border-radius:6px !important;font-size:12px !important;font-weight:bold !important;overflow:hidden !important;background: #0097e0 url(http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/arrow_white.png) no-repeat right 14px center !important;box-sizing: border-box; }
+.customoverlay .titleSpan {display:block !important;text-align:center !important;background:#fff !important;margin-right:35px !important;padding:5px 20px !important;font-size:12px !important;font-weight:bold !important; line-height: 18px; }
+.customoverlay:after {content:'' !important;position:absolute !important;margin-left:-12px !important;left:50% !important;bottom:-12px !important;width:22px !important;height:12px !important;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png') !important;}
+.daumText{font-size: 12px; margin-bottom: 5px; color: #333; text-align: right; margin-right: 2px; }
+/* 다음 지도 관련 */
+
+@media all and (max-width: 1279px) {
+	h2{padding:30px 0;font-size:20px;font-weight:bold;color:#333333;text-align:center;}
+	.boxSize875{margin:0 auto;width:90%;max-width:875px;}
+	h3{margin:28px 0px;width:100%;max-width:875px;font-weight:bold;}
+	.colorB3c63f{color:#b3c63f;font-weight:bold;}
+	.fontSize15{font-size:15px;}
+	.curriGoal{padding:20px 0;line-height:28px;}
+	table{margin:0 auto;width:90%;max-width:700px;}
+	table  th{padding:15px;font-weight:bold;}
+	table  td{padding:10px;line-height:20px;}
+	table  td > ul > li{line-height:28px;}
+	.section{padding:70px 0px;}
+	#section1{width:100%;height:515px;background-color:#ccc;}
+
+
+	#section2{}
+	#section2 > ul{margin:10px auto;width:90%;max-width:700px;}
+	#section2 > table  th{border-left:1px solid #999999;}
+
+	#section3{}
+	#section3 > ul{margin:10px auto;width:90%;max-width:700px;}
+	#section3 > ul > li{line-height:28px;}
+
+	#section4{padding:15px 0;background-color:#333;}
+	#section4 > .section4Line > h2{color:#fff;}
+	#section4 > .section4Line > p{margin-bottom:30px;text-align:center;color:#fff;}
+	#section4 .section4Line{padding:40px 0 70px 0;border-top:2px solid #b3c63f;border-bottom:2px solid #b3c63f;}
+	#section4 .section4Box{margin:0 auto;width:90%;max-width:880px;}
+	#section4 .contactUsBox{float:none;margin:0 auto;width:440px;}
+	.textStyle1{padding:15px 0px;color:#fff;font-size:15px;}
+	input[type="text"] {padding:3px 5%;width:90%;height:28px;border:0;}
+	textarea{padding:5%;width:90%;height:123px;border:0;}
+	.contactUsNameBG{float:left;width:200px;}
+	.contactUsTelBG{float:right;width:200px;}
+	.personalInfoBox{margin-top:15px;}
+	.personalInfoBox > a{color:#fff;}
+	.personalInfoLabel{color:#fff;}
+	.sendBtn{float:right;width:100px;height:33px;background-color:#b3c63f;color:#333;border:0;border-radius:20px}
+	.telNum{position:relative;float:none;width:330px;height:197px;background-image:url('/assets/img/contactUsBG.png');background-size:contain;}
+	.telNum p{position:relative;top:40%;margin-top:0;font-size:21px;font-weight:bold;text-align:center;color:#333;}
+
+
+	#section5{}
+	#section5 > #map{height:480px;}
+	#section5 > p {text-align:center;}
+}
+
+@media all and (max-width: 640px){
+body{font-size:12px;}
+.section{padding:30px 0;}
+table {font-size:12px;}
+table td{line-height:18px;}
+
+	.curriGoal{line-height:22px;}
+	#section2 > ul > li{line-height:18px;}
+	#section3 > ul > li{line-height:18px;}
+	#section4 .contactUsBox{float:none;margin:0 auto;width:300px;}
+	.contactUsNameBG{float:none;width:100%;}
+	.contactUsTelBG{float:none;width:100%;}
+	.sendBtn{margin-top:10px;}
+	.telNum{width:300px;}
+	.telNum p{top:35%;}
+	#section5 > #map{height:300px;}
+	.customoverlay {bottom:55px !important;}
+	.customoverlay .titleSpan {font-size:10px !important; line-height: 14px; }
+}

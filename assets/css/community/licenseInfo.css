@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+
+/* For larger displays */
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; letter-spacing: -1px; word-break: keep-all; box-sizing: border-box; }
+.container > .section { margin: 0 auto; }
+.container > .section .lineChanger { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.container > .section .lineChanger > span { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.container > .section .lineChanger2 { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.container > .section > .tab_silde > li { border: 1px solid #CACACA; float: left; }
+.container > .section > .tab_silde > li > p { text-align: center; cursor: pointer; font-weight: bold; box-sizing: border-box; }
+.container > .section > .tab_silde > li > p > span { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.container > .section > .tab_silde > .on { background-color: #565656; }
+.container > .section > .tab_silde > .on > p { color: #fff; }
+.container > .section > .tab_silde > .on > .triangle-down { margin: 0 auto; width: 30px; overflow: hidden; display: block; }
+.container > .section > .tab_silde > .on .triangle-down:after { margin: 0 auto; content: ""; display: block; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-top: 15px solid #565656; margin-top: -4px; }
+.container > .section > .tab_silde:after { content: ""; display: block; clear: both; }
+.container > .section > .contents_box > .tab_content > ul { background-color: #f5f5f5; }
+.container > .section > .contents_box > .tab_content > ul > .individual_member { float: left; }
+.container > .section > .contents_box > .tab_content > ul > .individual_member > a { width: 100%; height: 100%; display: block; text-decoration: none; }
+.container > .section > .contents_box > .tab_content > ul > .individual_member > a > p { color: #565656; }
+.container > .section > .contents_box > .tab_content > ul > .individual_member > a:hover > p { color: #006cba; }
+.container > .section > .contents_box > .tab_content > ul > .on > a > p { color: #006cba; font-weight: 600; }
+.container > .section > .contents_box > .tab_content > ul > span { display: block; float: left; background-color: #ccc; }
+.container > .section > .contents_box > .tab_content > ul:after { content: ""; display: block; clear: both; }
+.container > .section > .article > ul > li > .title_box > h3 { color: #1c4684; font-weight: bold; }
+.container > .section > .article > ul > li > .title_box > div > a { height: 22px; text-decoration: none; font-weight: normal; border: 1px solid #cacaca; display: block; text-align: center; line-height: 22px; float: left; color: #565656; }
+.container > .section > .article > ul > li > .sub_box > h4 { float: left; }
+.container > .section > .article > ul > li > .sub_box > ul { float: left; }
+.container > .section > .article > ul > li > .sub_box > ul > li > h5 { color: #006cba; font-weight: bold; float: left; }
+.container > .section > .article > ul > li > .sub_box > ul > li > p { color: #565656; float: left; }
+.container > .section > .article > ul > li > .sub_box > ul > li:after { content: ""; display: block; clear: both; }
+.container > .section > .article > ul > li > .sub_box > p { color: #565656; }
+.container > .section > .article > ul > li > .sub_box:after { content: ""; display: block; clear: both; }
+.container > .section > .article > ul > li > table > tbody > tr > th { font-weight: bold; color: #565656; background-color: #f5f5f5; text-align: center; border: 1px solid #dadada; vertical-align: middle; }
+.container > .section > .article > ul > li > table > tbody > tr > td { color: #565656; font-weight: normal; text-align: center; border: 1px solid #dadada; vertical-align: middle; }
+.container > .section > .article > ul > li > table > .t4 > tr > td { border-right: 2px solid #dadada; }
+.container > .section > .article > ul > li > table > .t4 > tr > .br1 { border-right: 1px solid #dadada; }
+.container > .section > .article > ul > li > .tableDiv > h4 { border: 1px solid #dadada; color: #565656; border-bottom: 0; text-align: center; }
+.container > .section > .article > ul > li > .tableDiv > ul * { text-align: center; }
+.container > .section > .article > ul > li > .tableDiv > ul > li > ul > li { border: 1px solid #dadada; }
+.container > .section > .article > ul > li > .tableDiv > ul > li > ul > .liM { border-bottom: 0; }
+.container > .section > .article > ul > li > .tableDiv > ul > li > ul > .br0 { border-right: 0; }
+.container > .section > .article > ul > li > .tableDiv > ul > span { width: calc(100% / 7); height: 30px; float: left; display: block; }
+.container > .section > .article > ul > li > .tableDiv > ul > .liH > ul > li { width: 100%; float: none; }
+.container > .section > .article > ul > li > .tableDiv > ul:after { content: ""; display: block; clear: both; }
+.container > .section > .article > ul .br2 { border-right: 2px solid #dadada; }
+
+@media all and (min-width: 1080px) { .container > .section { width: 1080px; padding-top: 80px; }
+  .container > .section .lineChanger { display: inline-block; }
+  .container > .section > .tab_silde { width: 1080px; height: 60px; margin-bottom: 5px; }
+  .container > .section > .tab_silde > li { width: 175px; height: 44px; margin: 0 2.5px; }
+  .container > .section > .tab_silde > li > p { width: 100%; height: 100%; line-height: 44px; font-size: 14px; }
+  .container > .section > .tab_silde > .on > .triangle-down { margin: 0px 72px; margin-top: -4px; border-top: 15px solid #545454; border-right: 15px solid transparent; border-left: 15px solid transparent; width: 0; height: 0; }
+  .container > .section > .contents_box { width: 100%; margin-bottom: 80px; }
+  .container > .section > .contents_box > .tab_content { width: 100%; }
+  .container > .section > .contents_box > .tab_content > ul { width: 100%; height: 38px; padding-left: 20px; }
+  .container > .section > .contents_box > .tab_content > ul > .individual_member { width: auto; height: 100%; }
+  .container > .section > .contents_box > .tab_content > ul > .individual_member > a { width: auto; }
+  .container > .section > .contents_box > .tab_content > ul > .individual_member > a > p { line-height: 38px; }
+  .container > .section > .contents_box > .tab_content > ul > span { width: 1px; height: 16px; margin: 0 15px; margin-top: 11px; }
+  .container > .section > .article > ul > li { margin-bottom: 95px; }
+  .container > .section > .article > ul > li > .title_box { margin-bottom: 15px; }
+  .container > .section > .article > ul > li > .title_box > h3 { font-size: 24px; float: left; }
+  .container > .section > .article > ul > li > .title_box > div { float: right; }
+  .container > .section > .article > ul > li > .title_box > div > a { width: 140px; font-size: 14px; }
+  .container > .section > .article > ul > li > .title_box > div > .online { margin-right: 10px; }
+  .container > .section > .article > ul > li > .title_box:after { content: ""; display: block; clear: both; }
+  .container > .section > .article > ul > li > .sub_box { margin-bottom: 35px; }
+  .container > .section > .article > ul > li > .sub_box > h4 { font-size: 14px; width: 125px; }
+  .container > .section > .article > ul > li > .sub_box > ul > li { margin-bottom: 8px; }
+  .container > .section > .article > ul > li > .sub_box > ul > li > h5 { width: 40px; font-size: 14px; }
+  .container > .section > .article > ul > li > .sub_box > ul > li > p { font-size: 14px; }
+  .container > .section > .article > ul > li > .sub_box > p { font-size: 14px; line-height: 28px; }
+  .container > .section > .article > ul > li > .sub2 { margin-top: 30px; }
+  .container > .section > .article > ul > li > .sub2 > ul > li > h5 { width: 70px; margin-right: 20px; text-align: right; }
+  .container > .section > .article > ul > li > table { width: 100%; }
+  .container > .section > .article > ul > li > table > tbody > tr > th { font-size: 14px; height: 32px; line-height: 24px; }
+  .container > .section > .article > ul > li > table > tbody > tr > td { height: 32px; line-height: 32px; }
+  .container > .section > .article > ul > li > .tableDiv > h4 { width: 100%; font-size: 14px; height: 32px; line-height: 32px; }
+  .container > .section > .article > ul > li > .tableDiv > ul { width: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li { width: 85px; float: left; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul > li { height: 32px; line-height: 32px; width: 50%; float: left; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul > .liM { width: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .article > ul > li > .tableDiv > ul > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .container > .section > .article > ul > li > .tableDiv > ul > .liH { width: 60px; }
+  .container > .section > .article > ul > li > .tableDiv > ul > .liH > ul > li { width: 100%; float: none; }
+  .container > .section > .article > ul > li > .tableDiv > ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .article > ul > li > .table2 { margin-top: 30px; } }
+@media (min-width: 641px) and (max-width: 1079px) { .container > .section { width: 96%; padding-top: 65px; }
+  .container > .section .lineChanger { display: block; }
+  .container > .section .lineChanger2 { display: inline-block; }
+  .container > .section > .tab_silde { width: 100%; margin-bottom: 3%; }
+  .container > .section > .tab_silde > li { width: 15.6%; height: 46px; margin: 0 0.5%; }
+  .container > .section > .tab_silde > li > p { width: 100%; height: 100%; line-height: 46px; font-size: 14px; }
+  .container > .section > .tab_silde > li > .pLine3 { line-height: 18px; padding-top: 5px; }
+  .container > .section > .tab_silde > li > .pLine2 { line-height: 18px; padding-top: 5px; }
+  .container > .section > .tab_silde > .on > .triangle-down { margin-left: 40%; border-top: 10px solid #545454; border-right: 10px solid transparent; border-left: 10px solid transparent; width: 0; height: 0; }
+  .container > .section > .contents_box { margin-bottom: 10%; }
+  .container > .section > .contents_box > .tab_content > ul { padding: 0.2%; }
+  .container > .section > .contents_box > .tab_content > ul > .individual_member { margin: 0.5%;  padding-top: 10px !important; }
+  .container > .section > .contents_box > .tab_content > ul > .individual_member > a > p { font-size: 12px; line-height: 18px; text-align: center; height: auto; }
+  .container > .section > .contents_box > .tab_content > ul > .pMargin0 {padding-top: 0 !important; }
+  .container > .section > .contents_box > .tab_content > ul > span {width: 1px; height: 16px; margin: 1%; margin-top: 15px !important; }
+  .container > .section > .article > ul > li { margin-bottom: 10%; }
+  .container > .section > .article > ul > li > .title_box { margin-bottom: 2%; }
+  .container > .section > .article > ul > li > .title_box > h3 { font-size: 24px; float: left; }
+  .container > .section > .article > ul > li > .title_box > div { float: right; }
+  .container > .section > .article > ul > li > .title_box > div > a { width: 130px; font-size: 14px; }
+  .container > .section > .article > ul > li > .title_box > div > .online { margin-right: 10px; }
+  .container > .section > .article > ul > li > .title_box:after { content: ""; display: block; clear: both; }
+  .container > .section > .article > ul > li > .sub_box { margin: 2% 0; }
+  .container > .section > .article > ul > li > .sub_box > h4 { font-size: 14px; width: 120px; }
+  .container > .section > .article > ul > li > .sub_box > ul { width: 75%; }
+  .container > .section > .article > ul > li > .sub_box > ul > li { width: 100%; }
+  .container > .section > .article > ul > li > .sub_box > ul > li > h5 { font-size: 14px; line-height: 22px; margin-right: 5%; }
+  .container > .section > .article > ul > li > .sub_box > ul > li > p { font-size: 14px; line-height: 22px; }
+  .container > .section > .article > ul > li > .sub_box > p { font-size: 11px; line-height: 20px; }
+  .container > .section > .article > ul > li > table { width: 100%; }
+  .container > .section > .article > ul > li > table > tbody { width: 100%; }
+  .container > .section > .article > ul > li > table > tbody > tr > th { font-size: 14px; padding: 1.5% 0; line-height: 24px; }
+  .container > .section > .article > ul > li > table > tbody > tr > td { font-size: 14px; padding: 1.5% 0; line-height: 24px; }
+  .container > .section > .article > ul > li > .table2 { margin-top: 5%; }
+  .container > .section > .article > ul > li > .tableDiv > h4 { width: 100%; font-size: 12px; padding: 1.5% 0; }
+  .container > .section > .article > ul > li > .tableDiv > ul { width: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li { width: calc(100% / 7); float: left; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul { width: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul > li { width: 50%; height: 32px; float: left; line-height: 32px; padding: 1.5% 0; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul > .liM { width: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .article > ul > li > .tableDiv > ul > span { width: calc(100% / 7); height: 64px; padding: 1.5% 0; float: left; display: block; border: 1px solid #dadada; }
+  .container > .section > .article > ul > li > .tableDiv > ul:after { content: ""; display: block; clear: both; } }
+@media (max-width: 640px) { .container > .section { width: 96%; padding-top: 40px; }
+  .container > .section .lineChanger { display: block; }
+  .container > .section .lineChanger2 { display: block; }
+  .container > .section > .tab_silde { width: 100%; margin-bottom: 5%; }
+  .container > .section > .tab_silde > li { width: 15%; height: 54px; margin: 0 0.8%; }
+  .container > .section > .tab_silde > li > p { width: 100%; height: 100%; line-height: 54px; font-size: 12px; }
+  .container > .section > .tab_silde > li > .pLine3 { line-height: 16px; padding-top: 2px; }
+  .container > .section > .tab_silde > li > .pLine2 { line-height: 16px; padding-top: 10px; }
+  .container > .section > .tab_silde > .on > .triangle-down { margin-left: calc(50% - 10px); border-top: 10px solid #545454; border-right: 10px solid transparent; border-left: 10px solid transparent; width: 0; height: 0; }
+  .container > .section > .contents_box { margin-bottom: 10%; }
+  .container > .section > .contents_box > .tab_content > ul { padding: 2%; }
+  .container > .section > .contents_box > .tab_content > ul > .individual_member { margin: 1%; padding-top: 13px; height: 36px; }
+  .container > .section > .contents_box > .tab_content > ul > .individual_member > a > p { font-size: 11px; line-height: 18px; text-align: center; height: auto; }
+  .container > .section > .contents_box > .tab_content > ul > .pMargin0 { padding-top: 0; }
+  .container > .section > .contents_box > .tab_content > ul > span { width: 1px; height: 16px; margin: 15px 1%; }
+  .container > .section > .article > ul > li { margin-bottom: 10%; }
+  .container > .section > .article > ul > li > .title_box { margin-bottom: 3%; }
+  .container > .section > .article > ul > li > .title_box > h3 { font-size: 14px; margin-bottom: 3%; }
+  .container > .section > .article > ul > li > .title_box > div > a { width: 100px; font-size: 12px; }
+  .container > .section > .article > ul > li > .title_box > div > .online { margin-right: 2%; }
+  .container > .section > .article > ul > li > .title_box > div:after { content: ""; display: block; clear: both; }
+  .container > .section > .article > ul > li > .sub_box { margin: 5% 0; }
+  .container > .section > .article > ul > li > .sub_box > h4 { font-size: 12px; width: 90px; }
+  .container > .section > .article > ul > li > .sub_box > ul { width: calc(100% - 90px); }
+  .container > .section > .article > ul > li > .sub_box > ul > li { width: 100%; }
+  .container > .section > .article > ul > li > .sub_box > ul > li > h5 { width: 20%; font-size: 12px; line-height: 22px; }
+  .container > .section > .article > ul > li > .sub_box > ul > li > p { width: 80%; font-size: 12px; line-height: 22px; }
+  .container > .section > .article > ul > li > .sub_box > p { font-size: 11px; line-height: 20px; }
+  .container > .section > .article > ul > li > .sub2 > h4 { width: 60px; }
+  .container > .section > .article > ul > li > .sub2 > ul { width: calc(100% - 60px); }
+  .container > .section > .article > ul > li > .sub2 > ul > li { width: 100%; }
+  .container > .section > .article > ul > li > .sub2 > ul > li > h5 { width: 25%; }
+  .container > .section > .article > ul > li > .sub2 > ul > li > p { width: 75%; }
+  .container > .section > .article > ul > li > table { width: 100%; }
+  .container > .section > .article > ul > li > table > tbody { width: 100%; }
+  .container > .section > .article > ul > li > table > tbody > tr > th { font-size: 11px; padding: 3% 0; line-height: 20px; }
+  .container > .section > .article > ul > li > table > tbody > tr > th > span{display: block; font-size: inherit; font-weight: inherit;line-height: inherit; color: inherit; }
+  .container > .section > .article > ul > li > table > tbody > tr > td { font-size: 11px; padding: 2% 0; line-height: 20px; }
+  .container > .section > .article > ul > li > .table2 { margin-top: 3%; }
+  .container > .section > .article > ul > li > .tableDiv > h4 { width: 100%; font-size: 11px; line-height: 30px; }
+  .container > .section > .article > ul > li > .tableDiv > ul { width: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li { width: calc(100% / 7); float: left; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul > li { height: 30px; width: 50%; float: left; line-height: 30px; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul > .liM { width: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul > li > ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .article > ul > li > .tableDiv > ul > span { width: calc(100% / 7); height: 60px; float: left; display: block; border: 1px solid #dadada; }
+  .container > .section > .article > ul > li > .tableDiv > ul > .liH { height: 100%; }
+  .container > .section > .article > ul > li > .tableDiv > ul:after { content: ""; display: block; clear: both; } }
+
+/*# sourceMappingURL=licence.css.map */

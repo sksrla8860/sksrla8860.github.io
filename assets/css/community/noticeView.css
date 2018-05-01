@@ -1,0 +1,417 @@
+@charset "utf-8";
+
+.vacationBtnBG{margin-bottom:20px;width:100%;height:44px;background-color:#1b5477;text-align:center;}
+.vacationBtn{display:inline-block;padding-right:23px;height:44px;color:#fff;font-size:20px;line-height:44px;text-align:center;text-decoration:none;background-image:url('/upimage/vacation/vacationBtnArrow.png');background-position:right 0 ;}
+.vacationBtn > img{display:inline;}
+.color4df7f7{color:#4df7f7;}
+.noticeViewText img{margin: 0 auto;}
+.m870{max-width: 870px; margin: 0 auto; }
+/* For larger displays */
+@media all and (min-width:1080px){
+.noticeViewBG{margin:0 auto;margin-top:94px;margin-bottom:80px;width:1080px;}
+.noticeViewTitleBox{margin:0 auto;width:980px;border-top:2px solid #484848;border-bottom:1px solid #aaaaaa;}
+.noticeViewTitle{padding:14px 20px;font-size:30px;color:#333333;line-height:35px;}
+.noticeInfo{margin-bottom:14px;padding:0 20px;font-size:14px;color:#595959;}
+.noticeCam{float:left;padding-right:10px;border-right:1px solid #595959;}
+.noticeWrite{float:left;padding:0 10px;}
+.noticeDate{float:left;padding:0 10px;}
+.noticeRead{float:left;padding:0 10px;}
+
+.noticeViewText{margin:0 auto;width:980px;border-bottom:1px solid #aaaaaa;}
+.noticeViewText > div > img{display:block;text-align:center;width:100%;}
+.noticeViewText  > img{display:block;text-align:center;width:100%;}/*2017-03-02 이미지 비율로 줄이기 위해서 추가 오종석*/
+.noticeViewText > div > img{max-width:730px;}
+.noticeViewListBtn{display:block;margin:0 auto;margin-top:35px;width:100px;height:35px;text-decoration:none;color:#fff;font-size:14px;background-color:#006cb8;line-height:35px;text-align:center;}
+
+
+/* 실업자 재직자 일반 공지사항*/
+	/*common*/
+	*{padding:0;margin:0;font-family:"Malgun Gothic";font-size:12px;}
+	.clearfix{zoom:1;}
+	.clearfix:after{display:block;clear:both;content:'';}
+	.whole1{width:678px;background-color:#f3f3f3;margin:0 auto;border:1px solid #d5d5d5; }
+	.wdith261{width:261px;}
+	.backgroundColor777{background-color:#777777;}
+	.backgroundColor597fc3{ background-color:#597fc3;}
+	.borderBottomBBB{border-bottom:1px solid #bbbbbb;}
+	.fontWeightBold{font-weight:bold;}
+	.redd62727{color:#d62727;}
+	.gray343434{color:#343434;letter-spacing:-1px}
+	.marRight29{margin-right:29px;}
+	.verticalAlingMiddle{vertical-align:middle;}
+	.floatLeft{float:left;}
+
+	.whole1 > h2{padding-top:38px;background-color:#fff;font-family:"Malgun Gothic";font-size:30px;font-weight:bold;color:#003365;text-align:center;border-top:1px solid #d3d3d3;}
+	.whole1  h4{width:623px;height:44px;margin:12px auto;color:#2a2525;border-top:2px solid #003365; border-bottom:1px solid #003365;font-size:23px;font-weight:bold;text-align:center;line-height:40px;}
+
+	.titleImage{max-width:678px;height:521px;}
+	.tabMove{max-width:678px;height:76px;}
+	.startDate{max-width:678px;height:148px;background-color:#FFF;}
+
+	/*지원내용 / 지원대상*/
+	.applyExplain{width:623px;height:166px;margin:0 auto;color:#3b3b3b;background-color:#fff;border-right:4px solid #dadada;border-bottom:3px solid #dadada;}
+	.applyExplain > ul{padding-top:3px;}
+	.applyExplain > ul > li{line-height:23px;}
+	.applyExplain02{width:623px;height:205px;margin:0 auto;color:#3b3b3b;background-color:#fff;border-right:4px solid #dadada;border-bottom:3px solid #dadada;}
+	.applyExplain02 > ul{padding-top:14px;}
+	.applyExplain02 > ul > li{line-height:20px;}
+
+		/*table_style*/
+	.educationTable{width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:12px;border-spacing:0px;border-collapse:separate;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable th{height:36px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:14px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable td{height:30px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.eduGroup{width:97px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.educationTable02{width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:12px;border-collapse:separate;border-spacing:0px;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable02 th{height:45px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:14px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable02 td{height:45px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.eduGroup02{width:114px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.educationTable03{width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:12px;border-spacing:0px;border-collapse:separate;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable03 th{height:36px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:14px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable03 td{height:30px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;vertical-align:middle;}
+	.eduGroup03{width:114px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.detailedSeeing{display:inline-block;float:right;vertical-align:middle;}
+	.detailedSeeing > img{vertical-align:top;margin-right:6px;}
+
+
+	/* normalPersonEdu*/
+	.normalPersonEdu h2{padding:10px 0px;margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:30px;text-align:center;color:#565656;letter-spacing:-1px;font-weight:bold;}
+	.normalPersonEdu h3 img{width:100%;max-width:623px;}
+	.normalPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.normalPersonEdu h3 img{width:100%;max-width:623px;}
+	.normalPersonEdu h4{padding:10px 0px;margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:20px;text-align:center;color:#565656;letter-spacing:-1px;font-weight:bold;}
+
+
+
+	.redEmphasis{font-family:"Malgun Gothic";font-size:12px;color:#da0f13;}
+	.discountNotice{width:623px;margin:12px auto;font-family:"Malgun Gothic";font-size:12px;color:#3b3b3b;line-height:23px;}
+	.enrollmentNotice{padding-bottom:33px;line-height:25px;font-family:"Malgun Gothic";font-size:12px;color:#464545;line-height:22px;}
+	.enrollmentNotice li {vertical-align:top;height:30px;}
+	.enrollmentNotice > img{vertical-align:top;}
+
+	/*unemployedPersonEdu*/
+	.unemployedPersonEdu h2{padding:10px 0px;margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:30px;text-align:center;color:#565656;letter-spacing:-1px;font-weight:bold;}
+	.unemployedPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;color:#424242;text-align:center;}
+	.unemployedPersonEdu h3 img{width:100%;max-width:623px;}
+	.applyExplain{width:623px;margin:12px auto;}
+	.applicationMethod{width:623px;margin:0 auto;padding-bottom:34px;color:#696969 !important;line-height:20px;}
+	.applicationMethod > ul > li{height:23px;}
+	.applicationMethod img{vertical-align:middle;}
+	.enrollmentNotice{width:623px;margin:0 auto;}
+
+	/*employedPersonEdu*/
+	.employedPersonEdu h2{padding:10px 0px;margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:30px;text-align:center;color:#565656;letter-spacing:-1px;font-weight:bold;}
+	.employedPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.employedPersonEdu h3 img{width:100%;max-width:623px;}
+
+	/*noticeTel*/
+	.noticeTel{padding-bottom:30px;width:678px;background-color:#FFF;border-top:1px solid #d3d3d3;}
+	.width623{width:623px; margin:0 auto;}
+	.noticeTel > p{padding-top:23px;padding-bottom:18px;font-size:21px;color:#2d51b9;font-weight:bold;vertical-align:top;text-align:center;line-height:23px;}
+	.blue1e3b91{font-size:23px;color:#001666;letter-spacing:-1px;}
+
+	 .bd_r0{border-right:0 !important;}
+
+/* 국가기간전략산업직종 */
+*{padding:0;margin:0;font-family:"Malgun Gothic";font-size:12px;}
+	.whole2{margin:0 auto;width:700px;border-bottom:1px solid #cacaca;}
+	.topStyle{width:698px;border-top:1px solid #cacaca;border-left:1px solid #cacaca;border-right:1px solid #cacaca;background-color:#FFF;}
+	.ncsLists{padding-bottom:50px;width:698px;border-left:1px solid #cacaca;border-right:1px solid #cacaca;background-color:#eefaff;}
+	.educationListTable{margin:0 auto;width:616px;font-size:12px;line-height:29px;border:2px solid #3b3b3b;border-spacing:0px;border-collapse:separate;}
+	.educationListTable th{background-color:#216cc1;color:#fff;}
+	.thColorGreen th{background-color:#91c011;}
+	.educationListTable td{padding-left:10px;background-color:#FFF;border-top:1px solid #dcdcdc;text-align:left;}
+	.bdR{border-right:1px solid #dcdcdc;}
+	.taC{text-align:center !important;padding:0 !important;}
+	.viewBtn{display:inline-block;vertical-align:middle;margin-top:0px;}
+	.bd{border:1px solid #000;}
+
+	.tel > img{width:100%;}
+
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+.noticeViewBG{margin:0 5%;margin-top:58px;margin-bottom:40px;width:90%;}
+.noticeViewTitleBox{width:100%;border-top:2px solid #484848;border-bottom:1px solid #aaaaaa;}
+.noticeViewTitle{padding:14px 20px;font-size:21px;color:#333333;line-height:24px;}
+.noticeInfo{margin-bottom:14px;padding:0 20px;font-size:14px;color:#595959;}
+.noticeCam{float:left;padding-right:10px;border-right:1px solid #595959;}
+.noticeWrite{float:left;padding:0 10px;}
+.noticeDate{float:left;padding:0 10px;}
+.noticeRead{float:left;padding:0 10px;}
+
+
+.noticeViewText{margin:0 auto;width:100%;border-bottom:1px solid #aaaaaa;}
+.noticeViewText > div > img{width:100%;}
+.noticeViewText img{width:100%;}
+.noticeViewListBtn{display:block;margin:0 auto;margin-top:35px;width:100px;height:35px;text-decoration:none;color:#fff;font-size:14px;background-color:#006cb8;line-height:35px;text-align:center;}
+
+
+
+
+
+/* 실업자 재직자 일반 공지사항*/
+	/*common*/
+	*{padding:0;margin:0;font-family:"Malgun Gothic";font-size:12px;}
+	.clearfix{zoom:1;}
+	.clearfix:after{display:block;clear:both;content:'';}
+	.whole1{width:100%;max-width:678px;background-color:#f3f3f3;margin:0 auto;border:1px solid #d5d5d5; }
+	.wdith261{width:261px;}
+	.backgroundColor777{background-color:#777777;}
+	.backgroundColor597fc3{ background-color:#597fc3;}
+	.borderBottomBBB{border-bottom:1px solid #bbbbbb;}
+	.fontWeightBold{font-weight:bold;}
+	.redd62727{color:#d62727;}
+	.gray343434{color:#343434;letter-spacing:-1px}
+	.marRight29{margin-right:29px;}
+	.verticalAlingMiddle{vertical-align:middle;}
+	.floatLeft{float:left;}
+
+	.whole1 > h2{padding-top:38px;background-color:#fff;font-family:"Malgun Gothic";font-size:30px;font-weight:bold;color:#003365;text-align:center;border-top:1px solid #d3d3d3;}
+	.whole1 > h4{width:100%;max-width:623px;height:44px;margin:12px auto;color:#2a2525;border-top:2px solid #003365; border-bottom:1px solid #003365;font-size:23px;font-weight:bold;text-align:center;line-height:40px;}
+
+	.titleImage > img{width:100%;max-width:678px;}
+	.tabMove > div{width:33.3%;max-width:678px;}
+	.tabMove > div img{width:100%;}
+	.startDate > img{width:100%;max-width:678px;background-color:#FFF;}
+
+
+	/*지원내용 / 지원대상*/
+	.applyExplain{width:100%;max-width:623px;margin:0 auto;color:#3b3b3b;background-color:#fff;border-right:4px solid #dadada;border-bottom:3px solid #dadada;}
+	.applyExplain > ul{padding-top:3px;}
+	.applyExplain > ul > li{line-height:23px;}
+	.applyExplain02{width:100%;max-width:623px;margin:0 auto;color:#3b3b3b;background-color:#fff;border-right:4px solid #dadada;border-bottom:3px solid #dadada;}
+	.applyExplain02 > ul{padding-top:14px;}
+	.applyExplain02 > ul > li{line-height:20px;}
+
+		/*table_style*/
+	.educationTable{width:100%;max-width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:12px;border-spacing:0px;border-collapse:separate;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable th{height:36px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:12px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable td{height:30px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.eduGroup{width:97px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.educationTable02{width:100%;max-width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:12px;border-collapse:separate;border-spacing:0px;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable02 th{height:45px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:12px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable02 td{height:45px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.eduGroup02{width:114px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.educationTable03{width:100%;max-width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:12px;border-spacing:0px;border-collapse:separate;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable03 th{height:36px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:12px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable03 td{height:30px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;vertical-align:middle;}
+	.eduGroup03{width:114px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.detailedSeeing{display:block;float:right;}
+	.detailedSeeing > img{vertical-align:top;margin-right:6px;}
+
+
+	/* normalPersonEdu*/
+	.normalPersonEdu h2{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:15px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.normalPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.normalPersonEdu h3 img{width:100%;max-width:623px;}
+
+	.redEmphasis{font-family:"Malgun Gothic";font-size:12px;color:#da0f13;}
+	.discountNotice{width:100%;max-width:623px;margin:12px auto;font-family:"Malgun Gothic";font-size:12px;color:#3b3b3b;line-height:23px;}
+	.enrollmentNotice{padding-bottom:33px;font-family:"Malgun Gothic";font-size:12px;color:#464545;line-height:22px;}
+	.enrollmentNotice li {vertical-align:top;height:30px;}
+	.enrollmentNotice > img{vertical-align:top;}
+
+	/*unemployedPersonEdu*/
+	.unemployedPersonEdu h2{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:15px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.unemployedPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;color:#424242;text-align:center;}
+	.unemployedPersonEdu h3 img{width:100%;max-width:623px;}
+	.applyExplain{width:100%;max-width:623px;margin:12px auto;}
+	.applicationMethod{width:100%;max-width:623px;margin:0 auto;padding-bottom:34px;color:#696969 !important;line-height:20px;}
+	.applicationMethod > ul > li{}
+	.applicationMethod img{vertical-align:middle;}
+	.enrollmentNotice{width:100%;max-width:623px;margin:0 auto;}
+
+	/*employedPersonEdu*/
+	.employedPersonEdu h2{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:15px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.employedPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.employedPersonEdu h3 img{width:100%;max-width:623px;}
+
+	/*noticeTel*/
+	.noticeTel{padding-bottom:20px;width:100%;max-width:678px;background-color:#FFF;border-top:1px solid #d3d3d3;}
+	.width623{width:100%;max-width:623px; margin:0 auto;}
+	.noticeTel > p{padding-top:23px;padding-bottom:18px;font-size:21px;color:#2d51b9;font-weight:bold;vertical-align:top;text-align:center;line-height:23px;}
+	.blue1e3b91{font-size:23px;color:#001666;letter-spacing:-1px;}
+
+	 .bd_r0{border-right:0 !important;}
+
+
+
+/* 국가기간전략산업직종 */
+*{padding:0;margin:0;font-family:"Malgun Gothic";font-size:12px;}
+	.whole2{margin:0 5%;width:90%;max-width:700px;}
+	.topStyle{width:100%;max-width:698px;border-top:1px solid #cacaca;border-left:1px solid #cacaca;border-right:1px solid #cacaca;background-color:#FFF;}
+	.topStyle img{width:100%;}
+	.ncsLists{padding-bottom:50px;width:100%;max-width:698px;border-left:1px solid #cacaca;border-right:1px solid #cacaca;background-color:#eefaff;}
+	.ncsLists img{width:100%;}
+	.educationListTable{margin:0 auto;width:95%;max-width:616px;font-size:12px;line-height:29px;border:2px solid #3b3b3b;border-spacing:0px;border-collapse:separate;}
+	.educationListTable th{background-color:#216cc1;color:#fff;}
+	.thColorGreen th{background-color:#91c011;}
+	.educationListTable td{padding-left:10px;background-color:#FFF;border-top:1px solid #dcdcdc;text-align:left;}
+	.bdR{border-right:1px solid #dcdcdc;}
+	.taC{text-align:center !important;padding:0 !important;}
+	.viewBtn{display:inline-block;vertical-align:middle;margin-top:0px;}
+	.bd{border:1px solid #000;}
+
+	.tel > img{width:100%;}
+
+
+
+
+
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+.noticeViewBG{margin:40px 5%;width:90%;}
+.noticeViewTitleBox{width:100%;min-width:320px;border-top:2px solid #484848;border-bottom:1px solid #aaaaaa;}
+.noticeViewTitle{padding:14px 20px;font-size:14px;font-weight:bold;color:#333333;line-height:16px;}
+.noticeInfo{margin-bottom:14px;padding:0 20px;font-size:12px;color:#595959;}
+.noticeCam{float:left;padding-right:10px;border-right:1px solid #595959;}
+.noticeWrite{float:left;padding:0 10px;}
+.noticeDate{float:left;padding-right:10px;}
+.noticeRead{float:left;padding:0 10px;}
+
+.Mclearfix{zoom*:1;}
+.Mclearfix{display:block;clear:both;content:' ';}
+.paddingT14{padding-top:14px;}
+
+
+.noticeViewText{margin:0 auto;width:100%;border-bottom:1px solid #aaaaaa;}
+.noticeViewText > div > img{width:100%;}
+.noticeViewText img{width:100%;}
+.noticeViewListBtn{display:block;margin:0 auto;margin-top:35px;width:80px;height:30px;text-decoration:none;color:#fff;font-size:12px;background-color:#006cb8;line-height:35px;text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 실업자 재직자 일반 공지사항*/
+	/*common*/
+	*{padding:0;margin:0;font-family:"Malgun Gothic";font-size:12px;}
+	.clearfix{zoom:1;}
+	.clearfix:after{display:block;clear:both;content:'';}
+	.whole1{width:100%;max-width:678px;background-color:#f3f3f3;margin:0 auto;border:1px solid #d5d5d5; }
+	.wdith261{width:261px;}
+	.backgroundColor777{background-color:#777777;}
+	.backgroundColor597fc3{ background-color:#597fc3;}
+	.borderBottomBBB{border-bottom:1px solid #bbbbbb;}
+	.fontWeightBold{font-weight:bold;}
+	.redd62727{color:#d62727;}
+	.gray343434{color:#343434;letter-spacing:-1px}
+	.marRight29{margin-right:29px;}
+	.verticalAlingMiddle{vertical-align:middle;}
+	.floatLeft{float:left;}
+
+	.whole1 > h2{padding-top:38px;background-color:#fff;font-family:"Malgun Gothic";font-size:30px;font-weight:bold;color:#003365;text-align:center;border-top:1px solid #d3d3d3;}
+	.whole1 > h4{width:623px;height:44px;margin:12px auto;color:#2a2525;border-top:2px solid #003365; border-bottom:1px solid #003365;font-size:23px;font-weight:bold;text-align:center;line-height:40px;}
+
+	.titleImage > img{width:100%;max-width:678px;}
+	.tabMove > div{width:33.3%;max-width:678px;}
+	.tabMove > div img{width:100%;}
+	.startDate > img{width:100%;max-width:678px;background-color:#FFF;}
+
+	div > img{width:100%;}
+
+	/*지원내용 / 지원대상*/
+	.applyExplain{width:100%;max-width:623px;margin:0 auto;color:#3b3b3b;background-color:#fff;border-right:4px solid #dadada;border-bottom:3px solid #dadada;}
+	.applyExplain > ul{padding-top:3px;}
+	.applyExplain > ul > li{line-height:23px;}
+	.applyExplain02{width:100%;max-width:623px;margin:0 auto;color:#3b3b3b;background-color:#fff;border-right:4px solid #dadada;border-bottom:3px solid #dadada;}
+	.applyExplain02 > ul{padding-top:14px;}
+	.applyExplain02 > ul > li{line-height:20px;}
+
+		/*table_style*/
+	.educationTable{width:100%;max-width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:10px;border-spacing:0px;border-collapse:separate;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable th{height:36px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:10px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable td{height:30px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.eduGroup{width:97px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.educationTable02{width:100%;max-width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:10px;border-collapse:separate;border-spacing:0px;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable02 th{height:45px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:10px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable02 td{height:45px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.eduGroup02{width:114px;font-size:13px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.educationTable03{width:100%;max-width:623px;margin:12px auto;margin-bottom:49px;background-color:#f2fafc;font-size:10px;border-spacing:0px;border-collapse:separate;border-top:1px solid #a8a9ac;border-left:1px solid #a8a9ac;}
+	.educationTable03 th{height:36px;background-color:#2a4b85;font-family:"Malgun Gothic";font-size:10px;line-height:36px;color:#fff;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;}
+	.educationTable03 td{height:30px;font-family:"Malgun Gothic";color:#4e4e4e;border-bottom:1px solid #a8a9ac;border-right:1px solid #a8a9ac;vertical-align:middle;}
+	.eduGroup03{width:114px;font-size:10px;font-weight:bold;text-align:center;background-color:#FFF;}
+
+	.detailedSeeing{display:block;float:right;}
+	.detailedSeeing > img{vertical-align:top;margin-right:6px;}
+
+
+	/* normalPersonEdu*/
+	.normalPersonEdu h2{margin:5px auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:15px;color:#424242;text-align:center;}
+	.normalPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.normalPersonEdu h3 img{width:100%;}
+
+	.redEmphasis{font-family:"Malgun Gothic";font-size:12px;color:#da0f13;}
+	.discountNotice{width:100%;max-width:623px;margin:12px auto;font-family:"Malgun Gothic";font-size:12px;color:#3b3b3b;line-height:23px;}
+	.enrollmentNotice{padding-bottom:33px;line-height:25px;font-family:"Malgun Gothic";font-size:12px;color:#464545;line-height:22px;}
+	.enrollmentNotice li {vertical-align:top;}
+	.enrollmentNotice > img{vertical-align:top;}
+
+	/*unemployedPersonEdu*/
+	.unemployedPersonEdu h2{margin:5px auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:15px;color:#424242;text-align:center;}
+	.unemployedPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;color:#424242;text-align:center;}
+	.unemployedPersonEdu h3 img{width:100%;}
+	.applyExplain{width:100%;max-width:623px;margin:12px auto;}
+	.applicationMethod{width:100%;max-width:623px;margin:0 auto;padding-bottom:34px;color:#696969 !important;line-height:20px;}
+	.applicationMethod > ul > li{}
+	.applicationMethod img{vertical-align:middle;}
+	.enrollmentNotice{width:100%;max-width:623px;margin:0 auto;}
+
+	/*employedPersonEdu*/
+	.employedPersonEdu h2{margin:5px auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:15px;color:#424242;text-align:center;}
+	.employedPersonEdu h3{margin:0 auto;background-color:#FFF;font-family:"Malgun Gothic";font-size:13px;text-align:center;color:#8f8f8f;letter-spacing:-1px;}
+	.employedPersonEdu h3 img{width:100%;}
+
+	/*noticeTel*/
+	.noticeTel{padding-bottom:10px;width:100%;max-width:678px;background-color:#FFF;border-top:1px solid #d3d3d3;}
+	.width623{width:100%;max-width:623px; margin:0 auto;}
+	.noticeTel > p{padding-top:23px;padding-bottom:18px;font-size:21px;color:#2d51b9;font-weight:bold;vertical-align:top;text-align:center;line-height:23px;}
+	.blue1e3b91{font-size:23px;color:#001666;letter-spacing:-1px;text-decoration:none;}
+	.noticeTel div{width:100%;}
+	.noticeTel a{display:inline-block;width:50%;}
+	.noticeTel img{width:100%;margin:0 auto;}
+	 .bd_r0{border-right:0 !important;}
+
+
+
+/* 국가기간전략산업직종 */
+*{padding:0;margin:0;font-family:"Malgun Gothic";font-size:12px;}
+	.whole2{margin:0 5%;width:90%;max-width:700px;}
+	.topStyle{width:100%;max-width:698px;border-top:1px solid #cacaca;border-left:1px solid #cacaca;border-right:1px solid #cacaca;background-color:#FFF;}
+	.topStyle img{width:100%;}
+	.ncsLists{padding-bottom:50px;width:100%;max-width:698px;border-left:1px solid #cacaca;border-right:1px solid #cacaca;background-color:#eefaff;}
+	.ncsLists img{width:100%;}
+	.educationListTable{margin:0 auto;width:95%;max-width:616px;font-size:12px;line-height:29px;border:2px solid #3b3b3b;border-spacing:0px;border-collapse:separate;}
+	.educationListTable th{background-color:#216cc1;color:#fff;}
+	.thColorGreen th{background-color:#91c011;}
+	.educationListTable td{padding-left:10px;background-color:#FFF;border-top:1px solid #dcdcdc;text-align:left;}
+	.bdR{border-right:1px solid #dcdcdc;}
+	.taC{text-align:center !important;padding:0 !important;}
+	.viewBtn{display:inline-block;vertical-align:middle;margin-top:0px;}
+	.bd{border:1px solid #000;}
+
+	.tel > img{width:100%;}
+
+
+
+
+
+}

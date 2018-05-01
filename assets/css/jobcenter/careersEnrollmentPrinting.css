@@ -1,0 +1,95 @@
+.container { padding: 100px 0; width: 100%; height: 100%; position: relative; }
+.container * { letter-spacing: -1px; box-sizing: border-box; }
+.container > .section { width: 1080px; padding: 40px; margin: 0 auto; border: 1px solid #e0e0e0; background-color: #fff; }
+.container > .section > .title_box { border-bottom: 4px solid #1c4682; width: 30%;height: 70px; margin:0 auto; margin-bottom: 30px;  }
+.container > .section > .title_box > h3 { font-weight: bold; color: #1c4682; text-align: center;width: auto; height: 50px; font-size: 44px; margin-bottom: 6px; }
+.container > .section > p { font-weight: bold; color: #333; height: 20px;font-size: 15px; margin-bottom: 6px; text-align:right;margin-right:20px;}
+.container > .section > p > span{ font-weight: normal; }
+.container > .section > .articleBox { width: 100%; }
+.container > .section > .articleBox > .box1 {border-left: 2px solid #aaa; border-top: 2px solid #aaa;border-right: 2px solid #aaa;border-bottom: 1px solid #aaa;margin-bottom: 65px; }
+.container > .section > .articleBox > .box1 > div {border-bottom: 1px solid #aaa; width: 50%; float: left; }
+.container > .section > .articleBox > .box1 > div > * { height: 56px; line-height: 56px; }
+.container > .section > .articleBox > .box1 > div > h5 { width: 25%; font-size: 14px; float: left; float: left; background-color: #EFEFEF; display: block; text-align: center; font-weight: bold; color: #333;  }
+.container > .section > .articleBox > .box1 > div > div { width: 75%; float: left; padding-left: 25px;float: left; }
+.container > .section > .articleBox > .box1 > div > div > * { color: #595959; float: left; text-decoration: none; }
+.container > .section > .articleBox > .box1 > div > div > a { line-height: 56px; }
+.container > .section > .articleBox > .box1 > div > div > p { line-height: 56px; margin: 0 5px; }
+.container > .section > .articleBox > .box1 > div > div > a:hover { color: #006cba; }
+.container > .section > .articleBox > .box1:after { content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .btn_box { border: 0; margin: 0 auto; }
+.container > .section > .articleBox > .btn_box > a { font-weight: bold; color: #fff; border: 0; cursor: pointer; float: left; display: block; text-align: center; text-decoration: none; }
+.container > .section > .articleBox > .btn_box > #okBtn { background-color: #006CB8; }
+.container > .section > .articleBox > .btn_box > #cancleBtn { background-color: #aaa; }
+
+  .container > .section > .articleBox > .box1 > .categoryTwo { width: 25%; }
+  .container > .section > .articleBox > .box1 > .categoryTwo > h5 { width: 50%; }
+  .container > .section > .articleBox > .box1 > .categoryTwo > div { width: 50%; }
+  .container > .section > .articleBox > .box1 > .categoryOne { width: 100%; }
+  .container > .section > .articleBox > .box1 > .categoryOne > h5 { width: 12.5%; }
+  .container > .section > .articleBox > .box1 > .categoryOne > div { width: 87.5%; }
+  .container > .section > .articleBox > .box1 > .categoryHauto { height: 100px;}
+  .container > .section > .articleBox > .box1 > .categoryHauto > h5 { height:100%; line-height: 22px; padding-top:35px;}
+  .container > .section > .articleBox > .box1 > .categoryHauto > div { height:100%; padding: 2%; margin:0;}
+  .container > .section > .articleBox > .box1 > .categoryHauto > div > pre { height:100%; line-height: 22px; padding: 0; margin:0;}
+  .container > .section > .articleBox > .box1 > .category017 > h5 { line-height: 22px; padding-top:25px;}
+  .container > .section > .articleBox > .box1 > .category019 > h5 { line-height: 22px; padding-top:25px;}
+  .container > .section > .articleBox > .btn_box { width: 100%; height: 140px; padding: 20px; }
+  .container > .section > .articleBox > .btn_box > ul { height: 100%; }
+  .container > .section > .articleBox > .btn_box > ul > li { width: 100%; height: 33%; }
+  .container > .section > .articleBox > .btn_box > ul > li > h5 { float: left; width: auto; font-size: 18px; height: 20px; line-height: 20px; margin-right: 10px; }
+  .container > .section > .articleBox > .btn_box > ul > li > p { float: left; font-size: 16px; line-height: 20px; }
+  .container > .section > .articleBox > .btn_box > ul > li > h6 { float: right; width: auto; font-size: 18px; height: 20px; line-height: 20px; margin-right: 50px; font-weight: normal; }
+
+@media print { @page { margin: 0; padding: 0;box-sizing: border-box; }
+	head{display:none; }
+	.header{display:none; }
+	.footerBG{display:none; }
+	.pageTitleBG {display:none; }
+	.pageNavigationBG{display:none; }
+  .noPrinting{display:none !important; }
+
+.container { padding: 20px;padding-bottom:0; margin: 0 auto !important; width: 100%; height: 100%; box-sizing: border-box; }
+.container * { letter-spacing: -1px; box-sizing: border-box; }
+.container > .section { width: 100%; padding: 10px; margin: 0 auto; border: 1px solid #e0e0e0; background-color: #fff; }
+.container > .section > .title_box { border-bottom: 4px solid #1c4682; width: 30%;height: 50px; margin:0 auto; margin-bottom: 20px;  }
+.container > .section > .title_box > h3 { font-weight: bold; color: #1c4682; text-align: center;width: auto; height: 30px; font-size: 28px; margin-top: 20px;margin-bottom: 6px; }
+.container > .section > p { font-weight: bold; color: #333; height: 20px;font-size: 12px; margin-bottom: 6px; text-align:right;margin-right:20px;}
+.container > .section > p > span{ font-weight: normal; }
+.container > .section > .articleBox { width: 100%; }
+.container > .section > .articleBox > .box1 {border: 0; margin-bottom: 35px;border-top:1px solid #aaa;border-left: 1px solid #aaa !important; }
+.container > .section > .articleBox > .box1 > div { width: 50%; float: left; border:0; }
+.container > .section > .articleBox > .box1 > div > * { height: 40px; line-height: 40px; font-size: 11px !important; }
+.container > .section > .articleBox > .box1 > div > h5 { border-bottom: 1px solid #aaa !important; border-right: 1px solid #aaa !important; width: 25%; font-size: 14px; float: left; float: left; background-color: #EFEFEF; display: block; text-align: center; font-weight: bold; color: #333;  }
+.container > .section > .articleBox > .box1 > div > div { border-bottom: 1px solid #aaa;width: 75%; float: left; padding-left: 15px;float: left; border-right: 1px solid #aaa !important;}
+.container > .section > .articleBox > .box1 > div > div > * { color: #595959; float: left; text-decoration: none; }
+.container > .section > .articleBox > .box1 > div > div > a { line-height: 40px; }
+.container > .section > .articleBox > .box1 > div > div > p { line-height: 40px; margin: 0 5px; }
+.container > .section > .articleBox > .box1 > div > div > a:hover { color: #006cba; }
+.container > .section > .articleBox > .box1:after { content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .btn_box { border: 0; margin: 0 auto; }
+.container > .section > .articleBox > .btn_box > a { font-weight: bold; color: #fff; border: 0; cursor: pointer; float: left; display: block; text-align: center; text-decoration: none; }
+.container > .section > .articleBox > .btn_box > #okBtn { background-color: #006CB8; }
+.container > .section > .articleBox > .btn_box > #cancleBtn { background-color: #aaa; }
+
+  .container > .section > .articleBox > .box1 > .categoryTwo { width: 25%; }
+  .container > .section > .articleBox > .box1 > .categoryTwo > h5 { width: 50%; }
+  .container > .section > .articleBox > .box1 > .categoryTwo > div { width: 50%; }
+  .container > .section > .articleBox > .box1 > .categoryOne { width: 100%; }
+  .container > .section > .articleBox > .box1 > .categoryOne > h5 { width: 12.5%; }
+  .container > .section > .articleBox > .box1 > .categoryOne > div { width: 87.5%; }
+  .container > .section > .articleBox > .box1 > .categoryHauto { height: 100px;}
+  .container > .section > .articleBox > .box1 > .categoryHauto > h5 { height:100%; line-height: 22px; padding-top:35px;}
+  .container > .section > .articleBox > .box1 > .categoryHauto > div { height:100%; padding: 2%; margin:0; padding-left: 15px;}
+  .container > .section > .articleBox > .box1 > .categoryHauto > div > pre { height:100%; line-height: 22px; padding: 0; margin:0;}
+  .container > .section > .articleBox > .box1 > .category017 > h5 { line-height: 22px; padding-top:25px;}
+  .container > .section > .articleBox > .box1 > .category019 > h5 { line-height: 22px; padding-top:25px;}
+  .container > .section > .articleBox > .btn_box { width: 100%; height: 140px; padding: 20px; }
+  .container > .section > .articleBox > .btn_box > ul { height: 100%; }
+  .container > .section > .articleBox > .btn_box > ul > li { width: 100%; height: 33%; }
+  .container > .section > .articleBox > .btn_box > ul > li > h5 { float: left; width: auto; font-size: 18px; height: 20px; line-height: 20px; margin-right: 10px; }
+  .container > .section > .articleBox > .btn_box > ul > li > p { float: left; font-size: 16px; line-height: 20px; }
+  .container > .section > .articleBox > .btn_box > ul > li > h6 { float: right; width: auto; font-size: 18px; height: 20px; line-height: 20px; margin-right: 50px; font-weight: normal; }
+
+
+	.container:after{display:none; }
+	}

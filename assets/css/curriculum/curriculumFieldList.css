@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+.curriculumFieldListBG{background-image:url('/_img/sub/waveBG.png');background-repeat:repeat;}
+/* For larger displays */
+@media all and (min-width:1080px){
+.curriculumFieldListBox{margin:0 auto;padding-top:79px;padding-bottom:94px;width:1080px;}
+.curriculumFieldList li{float:left;margin:3px;width:352px;height:349px;border:1px solid #D9D9D9;background-color:#FFF;}
+.curriculumFieldList li a{text-decoration:none;color:#000;}
+.curriculumFieldList h4{padding:37px 0 18px 0;margin:0 28.5px;width:295px;color:#006CB8;font-size:16px;font-weight:bold;}
+.curriculumFieldList span{font-size:14px;font-weight:bold;color:#3088B5;}
+.curriculumFieldList p{padding-bottom:18px;margin:0 28.5px;width:295px;height:48px;font-size:12px;line-height:16px;border-bottom:1px solid #000;}
+.curriculumFieldListImg{padding-top:14px ;margin:0 28.5px; width:295px;height:175px;}
+.curriculumFieldListImg img{width:100%;}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+
+.curriculumFieldListBox{margin:0 auto;padding-top:59px;padding-bottom:68px;width:90%;}
+.curriculumFieldList li{float:left;margin:3px;width:48.5%;height:;border:1px solid #D9D9D9;background-color:#FFF;}
+.curriculumFieldList li a{text-decoration:none;color:#000;}
+.curriculumFieldList h4{padding:37px 0 18px 0;margin:0 auto;width:83%;color:#006CB8;font-size:16px;font-weight:bold;}
+.curriculumFieldList span{font-size:14px;font-weight:bold;color:#3088B5;}
+.curriculumFieldList p{padding-bottom:18px;margin:0 auto;width:83%;height:64px;font-size:12px;line-height:16px;border-bottom:1px solid #000;}
+.curriculumFieldListImg{padding:14px 0 ;margin:0 auto;width:83%; }
+.curriculumFieldListImg img{width:100%;}
+.systemIntroductionBG{width:98% !important;}
+.systemIntroductionTitle{float:left;margin:0 2.5%;width:45%;}
+.systemIntroductionTitle h4{padding:27px 0 18px 0;width:90%;}
+.systemIntroductionTitle span{display:block;margin-top:9px;}
+.systemIntroductionTitle p{padding-bottom:10px;width:90%;height:45px;}
+.systemIntroductionBG .curriculumFieldListImg{float:left;margin:0 2.5%;width:45%;}
+
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+
+
+.curriculumFieldListBox{margin:0 auto;padding-top:59px;padding-bottom:68px;width:90%;}
+.curriculumFieldList li{position:relative;float:left;margin:3px;width:47%;border:1px solid #D9D9D9;background-color:#FFF;overflow:hidden;}
+.curriculumFieldList li a{text-decoration:none;color:#fff;}
+.curriculumFieldList h4{position:absolute;/* top:40%; */width:100%;color:#fff;font-size:18px; font-weight:bold;z-index:999;text-align:center;}
+.curriculumFieldList span{display:block;font-size:14px;line-height:20px;font-weight:bold;color:#3088B5;text-align:center;color:#fff;}
+.curriculumFieldList p{display:none;}
+.curriculumFieldListImg{position:absolute;width:100%;height:100%; z-index:998;background-color:#000;}
+.curriculumFieldListImg img{-webkit-transform: translate(-20%,0%); -ms-transform: translate(-20%,0%); transform: translate(-20%,0%);opacity:0.5;}
+
+.systemIntroductionBG{width:95.5% !important;}
+.systemIntroductionTitle{float:left;width:100%;}
+.systemIntroductionTitle h4{width:100%;}
+.systemIntroductionTitle span{display:block;margin-top:9px;}
+.systemIntroductionTitle p{width:90%;}
+.systemIntroductionBG .curriculumFieldListImg{float:left;width:100%;}
+.systemIntroductionBG .curriculumFieldListImg img{-webkit-transform: translate(0%,0%); -ms-transform: translate(0%,0%); transform: translate(0%,0%);opacity:0.5;}
+
+
+}

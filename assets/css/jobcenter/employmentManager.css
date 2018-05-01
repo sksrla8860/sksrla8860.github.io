@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+iframe{width: 100%;margin: 0 auto; display:block; }
+/* For larger displays */
+@media all and (min-width:1080px){
+	iframe{ height: 2700px; }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+	iframe{ height: 4000px; }
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+	iframe{ height: 4150px; }
+}

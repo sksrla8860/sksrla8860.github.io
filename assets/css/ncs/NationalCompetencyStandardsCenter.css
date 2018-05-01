@@ -1,0 +1,141 @@
+@charset "utf-8";
+.contain {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .contain > .section {
+    height: auto;
+    margin: 0 auto; }
+    .contain > .section * {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: "Nanum Barun Gothic";
+      letter-spacing: -1px; }
+    .contain > .section > .article {
+      width: 100%;
+      height: 100%; }
+      .contain > .section > .article > .img_box_01 > .img_box {
+        background-image: url(/_img/sub/ncs/ncsPic1.jpg);
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ncsPic1.jpg', sizingMethod='scale');
+        -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ncsPic1.jpg', sizingMethod='scale')"; }
+      .contain > .section > .article > .img_box_02 > .img_box {
+        background-image: url(/_img/sub/ncs/ncsPic2.jpg);
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ncsPic2.jpg', sizingMethod='scale');
+        -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ncsPic2.jpg', sizingMethod='scale')"; }
+      .contain > .section > .article > .img_box_03 > .img_box {
+        background-image: url(/_img/sub/ncs/ncsPic3.jpg);
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ncsPic3.jpg', sizingMethod='scale');
+        -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='ncsPic3.jpg', sizingMethod='scale')"; }
+    .contain > .section .img_box > span {
+      width: 0;
+      height: 0;
+      display: block;
+      overflow: hidden; }
+    .contain > .section .text_box {
+      background-color: #fff;
+      border: 1px solid #e0e0e0;
+      box-sizing: border-box;
+      padding: 3% 3%; }
+      .contain > .section .text_box > h3 {
+        color: #1c4682;
+        font-weight: bold;
+        width: 100%;
+        height: auto;
+        display: block; }
+      .contain > .section .text_box > span {
+        width: 15px;
+        height: 1px;
+        background-color: #222;
+        display: block; }
+      .contain > .section .text_box > p {
+        color: #484848;
+        line-height: 27px;
+        font-size: 16px; }
+
+.contain:after {
+  background-image: url(/_img/sub/pyramidalWaveBG.png);
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 75px;
+  z-index: -2;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pyramidalWaveBG.png', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='pyramidalWaveBG.png', sizingMethod='scale')"; }
+
+/* For larger displays */
+@media all and (min-width:1080px){
+  .section {
+    width: 1080px;
+    height: 100%;
+    padding: 96px 0; }
+    .section > .article {
+      height: auto; }
+      .section > .article > ul {
+        margin-bottom: 20px; }
+        .section > .article > ul > li {
+          width: 401px;
+          height: 267px;
+          float: left;
+          background-size: cover; }
+        .section > .article > ul > .text_box {
+          width: 679px;
+          height: 267px;
+          padding: 38px 40px; }
+          .section > .article > ul > .text_box > h3 {
+            font-size: 30px;
+            margin-bottom: 18px; }
+          .section > .article > ul > .text_box > span {
+            margin-bottom: 18px; }
+      .section > .article > .right_img > li {
+        float: right; }
+      .section > .article > ul:after {
+        content: "";
+        display: block;
+        clear: both; }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+  .section {
+    width: 96%;
+    padding: 7% 0; }
+    .section > .article > ul {
+      width: 100%;
+      margin-bottom: 4%;
+      height: auto; }
+      .section > .article > ul > li {
+        width: 100%;
+        height: auto; }
+      .section > .article > ul > .text_box > h3 {
+        font-size: 20px;
+        margin-bottom: 1%; }
+      .section > .article > ul > .text_box > span {
+        margin-bottom: 1%; }
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+  .section {
+    width: 96%;
+    padding-top: 12%; }
+    .section > .article > ul {
+      width: 100%;
+      margin-bottom: 4%;
+      height: auto; }
+      .section > .article > ul > li {
+        width: 100%;
+        height: auto; }
+      .section > .article > ul > .text_box > h3 {
+        font-size: 12px;
+        margin-bottom: 4%; }
+      .section > .article > ul > .text_box > span {
+        margin-bottom: 4%; }
+      .section > .article > ul > .text_box > p {
+        font-size: 12px;
+        line-height: 18px; }
+}

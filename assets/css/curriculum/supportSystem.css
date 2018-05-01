@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+
+iframe{width: 100%; margin: 0 auto; }
+.btnBox > li {background-size: contain; background-image: url(/assets/img/sub/community/noticeNP.png); }
+.btnBox > li > a { text-align: center; font-weight: bold; color: #565656; text-decoration: none; display: block; }
+
+/* For larger displays */
+@media all and (min-width:1080px){
+	iframe{height: 1700px;}
+  .btnBox { width: 628px; margin: 0 auto; margin-bottom:100px; }
+  .btnBox > li { width: 147px; height: 43px; float: left; margin: 0 5px; background-position: center center; }
+  .btnBox > li > a { width: 137px; height: 38px; line-height: 38px; padding-bottom: 5px; padding-right: 10px; font-size: 15px; text-indent: -10px;}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+	iframe{height: 1850px;}
+  .btnBox { width: 588px; margin: 0 auto; }
+  .btnBox > li { width: 137px; height: 43px; float: left;  margin: 0 2px; }
+  .btnBox > li > a { width: 127px; height: 37px; line-height: 37px; padding-bottom: 6px; padding-right: 10px; font-size: 15px; }
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+	iframe{height: 1800px;}
+  .btnBox { width: 280px; height: 60px; margin: 0 auto; margin-bottom:5%; }
+  .btnBox > li { width: 60px; height: 100%; float: left; margin: 0 5px; }
+  .btnBox > li > a { width: 100%; height: 100%; line-height: 50px; padding-bottom: 6px; font-size: 12px; }
+}

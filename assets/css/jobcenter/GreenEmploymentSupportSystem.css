@@ -1,0 +1,99 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; box-sizing: border-box; }
+.container .fwb { font-weight: bold; font-size: inherit; color: inherit; }
+.container .fwcb { font-weight: bold; font-size: inherit; color: #006cba; }
+.container > .section { margin: 0 auto; }
+.container > .section > .article01 > .topBox > h2 { color: #595959; background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/parentheses.png); text-align: center; background-size: contain; }
+.container > .section > .article01 > .topBox > h3 { margin: 0 auto; text-align: center; }
+.container > .section > .article01 > .numberBox { border-top: 1px solid #ccc; }
+.container > .section > .article01 > .numberBox > ul > li > div > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .article01 > .numberBox > ul > li > p { color: #333; }
+.container > .section > .article01 > .numberBox > ul > .img01 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img01.png); }
+.container > .section > .article01 > .numberBox > ul > .img02 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img02.png); }
+.container > .section > .article01 > .numberBox > ul > .img03 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img03.png); }
+.container > .section > .article01 > .numberBox > ul > .img04 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img04.png); }
+.container > .section > .article01 > .numberBox ul:after { content: ""; display: block; clear: both; }
+.container > .section > .article02 > h3 { font-size: 22; font-weight: bold; color: #565656; }
+.container > .section > .article02 > ul { position: relative; }
+.container > .section > .article02 > ul > li { color: #fff; position: absolute; font-weight: bold; text-align: center; background-size: contain; }
+.container > .section > .article02 ul:after { position: absolute; background-size: contain; z-index: -2; content: ""; background-repeat: no-repeat; }
+.container > .section > .article03 > h3 { font-size: 22; font-weight: bold; color: #565656; }
+.container > .section > .article03 > ul { border-top: 1px solid #dadada; border-left: 1px solid #dadada; }
+.container > .section > .article03 > ul > li { border-right: 1px solid #dadada; border-bottom: 1px solid #dadada; }
+.container > .section > .article03 > ul > li > a { text-decoration: none; width: 100%; height: 100%; display: block; }
+.container > .section > .article03 > ul > li > a > * { float: left; text-align: center; }
+.container > .section > .article03 > ul > li > a > h4 { color: #565656; font-weight: bold; width: 50%; height: 100%; background-color: #f4f4f4; }
+.container > .section > .article03 > ul > li > a > h5 { color: #565656; font-weight: bold; width: 50%; height: 100%; }
+
+@media all and (min-width: 1080px) { .container > .section { width: 1080px; padding: 70px 0; }
+  .container > .section > .article01 { width: 100%; margin-bottom: 70px; }
+  .container > .section > .article01 > .topBox { width: 100%; height: 110px; margin-bottom: 30px; }
+  .container > .section > .article01 > .topBox > h2 { width: 100%; height: 45px; font-size: 30px; line-height: 45px; margin: 0 auto; margin-bottom: 24px; }
+  .container > .section > .article01 > .topBox > h3 { font-size: 16px; width: 100%; height: 44px; line-height: 24px; }
+  .container > .section > .article01 > .numberBox { width: 900px; margin: 0 auto; padding-top: 20px; }
+  .container > .section > .article01 > .numberBox > ul { width: 100%; }
+  .container > .section > .article01 > .numberBox > ul > li { width: 205px; float: left; }
+  .container > .section > .article01 > .numberBox > ul > li > div { width: 100% !important; height: 177px !important; margin-bottom: 20px; }
+  .container > .section > .article01 > .numberBox > ul > li > p { font-size: 13px; line-height: 28px; }
+  .container > .section > .article01 > .numberBox > ul > .img01 { margin-right: 27px; }
+  .container > .section > .article01 > .numberBox > ul > .img01 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img01.png); }
+  .container > .section > .article01 > .numberBox > ul > .img02 { margin-right: 27px; }
+  .container > .section > .article01 > .numberBox > ul > .img02 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img02.png); }
+  .container > .section > .article01 > .numberBox > ul > .img03 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img03.png); }
+  .container > .section > .article01 > .numberBox > ul > .img04 { float: right; }
+  .container > .section > .article01 > .numberBox > ul > .img04 > div { background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img04.png); }
+  .container > .section > .article02 { width: 100%; margin-bottom: 50px; }
+  .container > .section > .article02 > h3 { width: auto; height: 24px; font-size: 22px; border-left: 4.5px solid #565656; padding-left: 10px; line-height: 24px; }
+  .container > .section > .article02 > div { width: 900px; height: 280px; background-size: contain; background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img10_p.png); margin:0 auto; }
+  .container > .section > .article02 > div > span { width: 0; height: 0; display:block; overflow:hidden; }
+  .container > .section > .article03 { width: 100%; }
+  .container > .section > .article03 > h3 { width: auto; height: 24px; font-size: 22px; border-left: 4.5px solid #565656; padding-left: 10px; line-height: 24px; margin-bottom: 20px; }
+  .container > .section > .article03 > ul { width: 100%; }
+  .container > .section > .article03 > ul > li { width: 25%; height: 43px; float: left; }
+  .container > .section > .article03 > ul > li > a > * { line-height: 43px; font-size: 15px; }
+  .container > .section > .article03 ul:after { content: ""; display: block; clear: both; } }
+@media (min-width: 641px) and (max-width: 1079px) { .container > .section { width: 96%; padding: 5% 0; }
+  .container > .section > .article01 { width: 100%; }
+  .container > .section > .article01 > .topBox { margin-bottom: 4%; }
+  .container > .section > .article01 > .topBox > h2 { width: 100%; height: 42px; line-height: 42px; font-size: 29px; margin-bottom: 3%; }
+  .container > .section > .article01 > .topBox > h3 { width: 100%; height: 46px; font-size: 16px; line-height: 24px; }
+  .container > .section > .article01 > .numberBox { padding-top: 4%; margin-bottom: 4%; }
+  .container > .section > .article01 > .numberBox > ul { width: 100%; height: auto; }
+  .container > .section > .article01 > .numberBox > ul > li { width: 25%; float: left; height: auto; padding: 0 1%; }
+  .container > .section > .article01 > .numberBox > ul > li > div { width: 100%; height: 200px; background-size: contain; margin-bottom: 4%; }
+  .container > .section > .article01 > .numberBox > ul > li > p { font-size: 14px; line-height: 28px; }
+  .container > .section > .article01 > .numberBox > ul > .img02 { float: right; }
+  .container > .section > .article01 > .numberBox > ul > .img04 { float: right; }
+  .container > .section > .article02 { width: 100%; margin-bottom: 7%; }
+  .container > .section > .article02 > h3 { width: auto; height: 24px; font-size: 22px; line-height: 24px; padding-left: 3%; border-left: 4px solid #006cba; margin-bottom: 3%; }
+  .container > .section > .article02 > div { width: 95%; height: auto; background-size: contain; background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img10_p.png); margin:0 auto; }
+  .container > .section > .article02 > div > span { width: 0; height: 0; display:block; overflow:hidden; }
+  .container > .section > .article03 { width: 100%; }
+  .container > .section > .article03 > h3 { width: auto; height: 24px; font-size: 22px; line-height: 24px; padding-left: 3%; border-left: 4px solid #006cba; margin-bottom: 3%; }
+  .container > .section > .article03 > ul { width: 100%; margin: 0 auto; }
+  .container > .section > .article03 > ul > li { width: 50%; height: 48px; float: left; }
+  .container > .section > .article03 > ul > li > a > * { font-size: 17px; line-height: 48px; }
+  .container > .section > .article03 ul:after { content: ""; display: block; clear: both; } }
+@media (max-width: 640px) { .container > .section { width: 96%; padding: 7% 0; }
+  .container > .section > .article01 { width: 100%; }
+  .container > .section > .article01 > .topBox { margin-bottom: 5%; }
+  .container > .section > .article01 > .topBox > h2 { width: 100%; height: 26px; font-size: 18px; line-height: 26px; margin-bottom: 4%; }
+  .container > .section > .article01 > .topBox > h3 { width: 100%; height: 38px; font-size: 13px; line-height: 20px; }
+  .container > .section > .article01 > .numberBox { padding-top: 4%; }
+  .container > .section > .article01 > .numberBox > ul { width: 100%; }
+  .container > .section > .article01 > .numberBox > ul > li { width: 49%; float: left; height: auto; }
+  .container > .section > .article01 > .numberBox > ul > li > div { width: 100%; height: 150px; background-size: contain; margin-bottom: 4%; }
+  .container > .section > .article01 > .numberBox > ul > li > p { font-size: 11px; line-height: 24px; }
+  .container > .section > .article01 > .numberBox > ul > .img01 { margin-bottom:68px; }
+  .container > .section > .article01 > .numberBox > ul > .img02 { margin-bottom:20px; float: right; }
+  .container > .section > .article01 > .numberBox > ul > .img03 { margin-bottom:40px;}
+  .container > .section > .article01 > .numberBox > ul > .img04 { margin-bottom:40px; float: right; }
+  .container > .section > .article02 { margin-bottom: 5%; }
+  .container > .section > .article02 > h3 { width: auto; height: 14px; font-size: 13px; line-height: 14px; padding-left: 3%; border-left: 4px solid #006cba; margin-bottom: 5%; }
+  .container > .section > .article02 > div { width: 100%; height: 350px; background-size: contain; background-image: url(/assets/img/sub/jobcenter/GreenEmploymentSupportSystem/img10_m.png); margin:0 auto; }
+  .container > .section > .article02 > div > span { width: 0; height: 0; display:block; overflow:hidden; }
+  .container > .section > .article03 { width: 100%; }
+  .container > .section > .article03 > h3 { width: auto; height: 14px; font-size: 13px; line-height: 14px; padding-left: 3%; border-left: 4px solid #006cba; margin-bottom: 5%; }
+  .container > .section > .article03 > ul { width: 75%; margin: 0 auto; }
+  .container > .section > .article03 > ul > li { width: 100%; height: 35px; }
+  .container > .section > .article03 > ul > li > a > * { font-size: 12px; line-height: 35px; } }

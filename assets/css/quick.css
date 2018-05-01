@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+
+
+/* For larger displays */
+@media all and (min-width:1080px){
+	/*quick*/
+	.quickBG{position:fixed;bottom:0;width:100%;height:52px;border-top:1px solid #000630;background-color:#000759;z-index:9999;}
+	.quick{position:relative;margin:0 auto;width:1080px;height:100%;}
+	.qClose{position:absolute;left:0px;bottom:0;float:left;width:60px;}
+	.quickClose{display:block;width:52px;height:52px;background-color:#3c4a9e;background-image:url('/assets/img/quick/quickArrow.png');text-indent:-9999px;background-position:-52px 0;}
+	.quickCloseOff{background-position:0 0;}
+
+	.quickShortCut{float:left;margin-left:96px;padding-right:44px;width:400px;border-right:1px solid #555555;}
+	.quickShortCut > ul > li{position:relative;float:left;width:100px;height:52px;}
+	.quickShortCutList > li > a{display:block;padding-top:34px;font-size:12px;line-height:18px;color:#fff;text-decoration:none;text-align:center;}
+	.quickShortCutList > li a.quickConsultBtn{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-85px 0;color:#ffff00;}
+	.quickShortCutList > li a.quickShortCutList1{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-172px 0;}
+	.quickShortCutList > li a.quickShortCutList2{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-260px 0;}
+	.quickShortCutList > li a.quickShortCutList3{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-352px 0;}
+
+	.quickConsultBox{position:absolute;bottom:52px;width:353px;height:102px;background-color:#fff;border:5px solid #00aeef;}
+	.quickConsult li{float:left;margin:4px;color:#3F3F3F;}
+	.quickConsult .liL{width: 155px;}
+	.quickConsult .liR{float:right;}
+	.nameStyle{padding:0;width: 100%;height: 25px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none; text-indent: 4px;  }
+	.telStyle1{padding:0;width: 48px;height: 27px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.telStyle2{padding:0;width: 45px;height: 25px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.campusStyle{padding:0;width: 100%;height: 27px;font-size: 14px;line-height: 30px;color: #3F3F3F;background-color: #transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.curriStyle{padding:0;padding-left:10px;width: 163px;height: 25px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.personalInfoLabel{padding-right:4px;font-weight:normal;font-size:12px;}
+	.personalInfoCheck{padding:0;margin:0;vertical-align:middle}
+	.personalExplain{padding:0 4px;text-decoration:none; color:#3F3F3F;font-size:12px;}
+	.quickBtnStyle{margin:2px 4px;width:64px;height:21px;background-color:#3F3F3F;color:#FFF;border:0;text-align:center;font-weight:bold;font-size:12px;}
+
+	.quickConsultBoxOff{display:none;}
+	.quickConsultBtnBG{background-position:7px 0 !important;color:#fff !important;background-color: #00aeef;}
+
+	.quickCampusTelBG{float:left;width:418px;height:52px;color:#fff;border-right:1px solid #555555;}
+	.quickCampusTelBox{margin:0 auto;width:310px;}
+	.quickCampusTel{float:left;padding-top:11px;font-size:30px;font-weight:bold;}
+
+
+	#quickTempText{display:block;float:left;margin:0 auto;padding:9px 0px;padding-left:40px;width:30px;font-size:12px;font-weight:normal;line-height:17px;background-image:url('/assets/img/quick/quickCampusTel.png');}
+
+	.qTop{position:absolute;right:40px;top:0;width:52px;}
+	.quickTop{display:block;;width:52px;height:52px;text-decoration:none;background-image:url('/assets/img/quick/quickTop.png');text-indent:-9999px;background-size:cover;}
+
+
+/* 여름방학사전예약 Btn */
+	.vacationAdvanceBtn{position:absolute;right:-100px;bottom:55px;color:#ff0000;}
+	.vacationAdvanceBtn a{display:block;width:97px;height:110px;background-image:url('/assets/img/quick/vacationBtn.png');text-indent:-9999px;background-size:contain;}
+	.vacationAdvanceBtn a:hover{background-image:url('/assets/img/quick/vacationBtn_o.png');}
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+	.quickBG{position:fixed;bottom:0;width:100%;height:52px;border-top:1px solid #000630;background-color:#000759;z-index: 9999; }
+	.quick{position:relative;margin:0 auto;width:640px;height:100%;}
+	.qClose{position:absolute;left:0px;bottom:0;float:left;width:60px;}
+	.quickClose{display:block;width:52px;height:52px;background-color:#3c4a9e;background-image:url('/assets/img/quick/quickArrow.png');text-indent:-9999px;background-position:-52px 0;}
+	.quickCloseOff{background-position:0 0;}
+
+	.quickShortCut{float:left;margin-left:76px;padding-right:20px;width:445px;border-right:1px solid #555555;}
+	.quickShortCut > ul > li{position:relative;float:left;width:110px;height:52px;}
+	.quickShortCutList > li > a{display:block;padding-top:34px;font-size:12px;line-height:18px;color:#fff;text-decoration:none;text-align:center;}
+	.quickShortCutList > li a.quickConsultBtn{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-79px 0;color:#ffff00;}
+	.quickShortCutList > li a.quickShortCutList1{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-168px 0;}
+	.quickShortCutList > li a.quickShortCutList2{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-257px 0;}
+	.quickShortCutList > li a.quickShortCutList3{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-346px 0;}
+	.quickShortCutList > li a.quickShortCutList4{background-image:url('/assets/img/quick/quickIconPC.png');background-position:-435px 0;}
+
+	.quickConsultBox{position:absolute;bottom:52px;width:353px;height:102px;background-color:#fff;border:5px solid #00aeef;}
+	.quickConsult li{float:left;margin:4px 5.5px;color:#3F3F3F;}
+	.quickConsult .liL{width: 150px; }
+	.quickConsult .liR{float:right;}
+	.nameStyle{padding:0;text-indent: 4px;width: 100%;height: 25px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none; box-sizing: border-box; }
+	.telStyle1{padding:0;width: 48px;height: 27px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.telStyle2{padding:0;width: 45px;height: 25px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.campusStyle{padding:0;width: 100%;height: 27px;font-size: 14px;line-height: 30px;color: #3F3F3F;background-color: #transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.curriStyle{padding:0;padding-left:10px;width: 163px;height: 25px;font-size: 14px;line-height: 14px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.personalInfoLabel{padding-right:4px;font-weight:normal;font-size:12px;}
+	.personalInfoCheck{padding:0;margin:0;vertical-align:middle}
+	.personalExplain{padding:0 4px;text-decoration:none; color:#3F3F3F;font-size:12px;}
+	.quickBtnStyle{margin:2px 4px;width:64px;height:21px;background-color:#3F3F3F;color:#FFF;border:0;text-align:center;font-weight:bold;font-size:12px;}
+
+	.quickConsultBoxOff{display:none;}
+	.quickConsultBtnBG{background-position:-0 0 !important;color:#fff !important;background-color: #00aeef;}
+
+	.quickCampusTelBG{display:none;}
+
+
+	#quickTempText{display:block;float:left;margin:0 auto;padding:9px 0px;padding-left:40px;width:30px;font-size:12px;font-weight:normal;line-height:17px;background-image:url('/assets/img/quick/quickCampusTel.png');}
+
+	.qTop{position:absolute;right:30px;top:0;width:52px;}
+	.quickTop{display:block;;width:52px;height:52px;text-decoration:none;background-image:url('/assets/img/quick/quickTop.png');text-indent:-9999px;background-size:cover;}
+
+	/* 여름방학사전예약 Btn */
+	.vacationAdvanceBtn{position:absolute;right:0px;bottom:55px;color:#ff0000;}
+	.vacationAdvanceBtn a{display:block;width:97px;height:110px;background-image:url('/assets/img/quick/vacationBtn.png');text-indent:-9999px;background-size:contain;}
+	.vacationAdvanceBtn a:hover{background-image:url('/assets/img/quick/vacationBtn_o.png');}
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+	.quickBG{position:fixed;bottom:0;width:100%;height:52px;border-top:1px solid #000630;background-color:#000759;z-index:9999;}
+	.quick{position:relative;margin:0 auto;width:320px;height:100%;}
+	.qClose{position:absolute;left:0px;bottom:0;float:left;width:36px;}
+	.quickClose{display:block;width:36px;height:52px;background-color:#3c4a9e;background-image:url('/assets/img/quick/quickArrowM.png');text-indent:-9999px;background-position:-36px 0;}
+	.quickCloseOff{background-position:0 0;}
+
+	.quickShortCut{float:left;margin-left:36px;width:184px;border-right:1px solid #555555;}
+	.quickShortCut > ul > li{position:relative;float:left;width:46px;height:52px;}
+	.quickShortCutList > li > a{display:block;height:52px;color:#fff;text-decoration:none;text-align:center;font-size:12px;}
+	.quickShortCutList > li a.quickConsultBtn{background-color:#00AEEF;font-weight:bold;}
+/* 	.quickShortCutList > li a.quickConsultBtn{background-image:url('/assets/img/quick/quickIconM.png');background-position:-46px 0;color:#ffff00;}
+	.quickShortCutList > li a.quickShortCutList1{background-image:url('/assets/img/quick/quickIconM.png');background-position:-92px 0;}
+	.quickShortCutList > li a.quickShortCutList2{background-image:url('/assets/img/quick/quickIconM.png');background-position:-138px 0;}
+	.quickShortCutList > li a.quickShortCutList3{background-image:url('/assets/img/quick/quickIconM.png');background-position:-184px 0;}
+	.quickShortCutList > li a.quickShortCutList4{background-image:url('/assets/img/quick/quickIconM.png');background-position:-230px 0;} */
+	.Mblock{display:block;padding-top:13px;padding-bottom:2px;}
+
+	.quickConsultBox{position:absolute;bottom:52px;left:-36px;width:310px;height:102px;background-color:#fff;border:5px solid #00aeef;}
+	.quickConsult li{float:left;margin:4px 3.5px;color:#3F3F3F;}
+	.nameStyle{padding:0;padding-left:5px;width: 132px;height: 25px;font-size: 12px;line-height: 12px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.telStyle1{padding:0;width: 45px;height: 27px;font-size: 12px;line-height: 12px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.telStyle2{padding:0;width: 40px;height: 25px;font-size: 12px;line-height: 12px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.campusStyle{padding:0;width: 140px;height: 27px;font-size: 12px;line-height: 30px;color: #3F3F3F;background-color: #transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.curriStyle{padding:0;padding-left:10px;width: 141px;height: 25px;font-size: 12px;line-height: 12px;color: #3F3F3F;background-color: transparent;background-image: none;border: 1px solid #3F3F3F;box-shadow: none;}
+	.personalInfoLabel{font-weight:normal;font-size:12px;}
+	.personalInfoCheck{padding:0;margin:0;vertical-align:middle}
+	.personalExplain{padding:0px 1px;text-decoration:none; color:#3F3F3F;font-size:11px;}
+	.quickBtnStyle{margin:2px;width:64px;height:21px;background-color:#3F3F3F;color:#FFF;border:0;text-align:center;font-weight:bold;font-size:12px;}
+
+	.quickConsultBoxOff{display:none;}
+	.quickConsultBtnBG{color:#fff !important;background-color: #00aeef;line-height:52px;}
+
+	.quickCampusTelBG{display:none;}
+
+
+	#quickTempText{display:block;float:left;margin:0 auto;padding:9px 0px;padding-left:40px;width:30px;font-size:12px;font-weight:normal;line-height:17px;background-image:url('/assets/img/quick/quickCampusTel.png');}
+
+	.qTop{position:absolute;right:30px;top:0;width:52px;}
+	.quickTop{display:block;;width:52px;height:52px;text-decoration:none;background-image:url('/assets/img/quick/quickTop.png');text-indent:-9999px;background-size:cover;}
+
+		/* 여름방학사전예약 Btn */
+	.vacationAdvanceBtn{position:absolute;right:0px;bottom:55px;color:#ff0000;}
+	.vacationAdvanceBtn a{display:block;width:78px;height:85px;background-image:url('/assets/img/quick/vacationBtn.png');text-indent:-9999px;background-size:contain;}
+	.vacationAdvanceBtn a:hover{background-image:url('/assets/img/quick/vacationBtn_o.png');}
+}

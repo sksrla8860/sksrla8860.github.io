@@ -1,0 +1,172 @@
+@charset "utf-8";
+.licenseDetailBG  *{ letter-spacing: -1px; word-break: keep-all; box-sizing: border-box;}
+.lineChanger { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.lineChanger > span { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.lineChanger2 { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.tab_silde > li { border: 1px solid #CACACA; float: left; }
+.tab_silde > li > p { text-align: center; cursor: pointer; font-weight: bold; box-sizing: border-box; }
+.tab_silde > li > p > span { font-weight: inherit; font-size: inherit; color: inherit; line-height: inherit; }
+.tab_silde > .on { background-color: #565656; }
+.tab_silde > .on > p { color: #fff; }
+.tab_silde > .on > .triangle-down { margin: 0 auto; width: 30px; overflow: hidden; display: block; }
+.tab_silde > .on .triangle-down:after { margin: 0 auto; content: ""; display: block; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-top: 15px solid #565656; margin-top: -4px; }
+.tab_silde:after { content: ""; display: block; clear: both; }
+.contents_box > .tab_content > ul { background-color: #f5f5f5; }
+.contents_box > .tab_content > ul > .individual_member { float: left; }
+.contents_box > .tab_content > ul > .individual_member > a { width: 100%; height: 100%; display: block; text-decoration: none; }
+.contents_box > .tab_content > ul > .individual_member > a > p { color: #565656; }
+.contents_box > .tab_content > ul > .individual_member > a:hover > p { color: #006cba; }
+.contents_box > .tab_content > ul > .on > a > p { color: #006cba; font-weight: 600; }
+.contents_box > .tab_content > ul > span { display: block; float: left; background-color: #ccc; }
+.contents_box > .tab_content > ul:after { content: ""; display: block; clear: both; }
+
+.borderB{border-bottom:1px solid #dcdcdc;}
+
+ table > thead > tr > th { font-weight: bold; color: #565656; background-color: #f5f5f5; text-align: center; border: 1px solid #dadada; vertical-align: middle; }
+ table > tbody > tr > td { color: #565656; font-weight: normal; text-align: center; border: 1px solid #dadada; vertical-align: middle; }
+
+/* For larger displays */
+@media all and (min-width:1080px){
+.licenseDetailBG{margin:0 auto;margin-top:94px;margin-bottom:147px;width:1080px;}
+.tab_silde { width: 1080px; height: 60px; margin-bottom: 5px; }
+.tab_silde > li { width: 175px; height: 44px; margin: 0 2.5px; }
+.tab_silde > li > p { width: 100%; height: 100%; line-height: 44px; font-size: 14px; }
+.tab_silde > .on > .triangle-down { margin: 0px 72px; margin-top: -4px; border-top: 15px solid #545454; border-right: 15px solid transparent; border-left: 15px solid transparent; width: 0; height: 0; }
+.contents_box { width: 100%; margin-bottom: 80px; }
+.contents_box > .tab_content { width: 100%; }
+.contents_box > .tab_content > ul { width: 100%; height: 38px; padding-left: 20px; }
+.contents_box > .tab_content > ul > .individual_member { width: auto; height: 100%; }
+.contents_box > .tab_content > ul > .individual_member > a { width: auto; }
+.contents_box > .tab_content > ul > .individual_member > a > p { line-height: 38px; }
+.contents_box > .tab_content > ul > span { width: 1px; height: 16px; margin: 0 15px; margin-top: 11px; }
+
+.licenseDetailBox h1{width:100%;padding-bottom:24px;font-size:30px;color:#565656;}
+.servicecenterBtns{padding-top:18px;border-top:1px solid #dcdcdc;}
+.servicecenterBtns a{float:right;display:block;margin-left:13px;width:182px; height:28px;line-height:28px;background-color:#ff8e1d;color:#fff;text-align:center;text-decoration:none;font-size:18px;}
+.licenseDetail{margin-top:45px;padding-bottom:49px;}
+.licenseDetail > li{margin-top:32px;}
+.licenseDetailT{float:left;padding-left:9px;padding-right:43px;width:133px;border-left:4px solid #006cba;font-weight:bold;color:#000;font-size:17px;line-height:22px;}
+.licenseDetailE{float:left;width:947px;}
+.licenseDetailE > li{padding-bottom:17px;color:#565656;font-size:17px;line-height:22px;}
+
+.licenseDetailT2{margin-top:52px;padding-left:9px;padding-right:43px;border-left:4px solid #006cba;font-weight:bold;color:#000;font-size:17px;line-height:18px;}
+.licenseDetailE2{margin-top:9px;padding-left:13px;font-size:14px;color:#aaaaaa;}
+
+.campusList li{width:100%;height:56px;border-bottom:1px solid #dcdcdc;}
+.campusList li:after{display:block;clear:both;content:' ';}
+.campusName{float:left;padding-left:13px;width:150px;line-height:56px;color:#565656;font-size:17px;}
+.campusListTel{float:left;margin-left:85px;margin-right:180px;width:131px;font-size:17px;color:#565656;line-height:56px;}
+.licenseBtns a{float:left;display:inline-block;margin:15px 5px;padding:7px 10px;background-color:#18364f;color:#fff;text-decoration:none;font-size:12px;}
+.GTQBtns{float:right;margin: 45px 333px 49px 0px;}
+.GTQBtns a{float:left;display:inline-block;margin:0 5px;padding:7px 10px;background-color:#18364f;color:#fff;text-decoration:none;font-size:12px;}
+
+.university{margin-bottom:70px;}
+.university li{float:left;width:50%;height:56px;border-bottom:1px solid #dcdcdc;}
+.university .licenseBtns a{float:right;margin-right:150px;}
+
+
+table {float:left;width: 947px; }
+table > thead > tr > th { font-size: 14px; height: 32px; line-height: 24px; }
+table > tbody > tr > td { height: 32px; line-height: 32px; }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+.licenseDetailBG{margin:0 2.5%;margin-top:58px;margin-bottom:124px;width:95%;}
+.lineChanger { display: block; }
+.lineChanger2 { display: inline-block; }
+.tab_silde { width: 100%; margin-bottom: 3%; }
+.tab_silde > li { width: 15.6%; height: 46px; margin: 0 0.5%; }
+.tab_silde > li > p { width: 100%; height: 100%; line-height: 46px; font-size: 14px; }
+.tab_silde > li > .pLine3 { line-height: 18px; padding-top: 5px; }
+.tab_silde > li > .pLine2 { line-height: 18px; padding-top: 5px; }
+.tab_silde > .on > .triangle-down { margin-left: 40%; border-top: 10px solid #545454; border-right: 10px solid transparent; border-left: 10px solid transparent; width: 0; height: 0; }
+.contents_box { margin-bottom: 10%; }
+.contents_box > .tab_content > ul { padding: 0.2%; }
+.contents_box > .tab_content > ul > .individual_member { margin: 0.5%; padding-top: 10px; }
+.contents_box > .tab_content > ul > .individual_member > a > p { font-size: 12px; line-height: 18px; text-align: center; height: auto; }
+.contents_box > .tab_content > ul > .pMargin0 { padding-top: 0; }
+.contents_box > .tab_content > ul > span { width: 1px; height: 16px; margin: 1%; margin-top: 13px; }
+
+
+.licenseDetailBox h1{width:100%;padding-bottom:24px;font-size:30px;color:#565656;}
+.servicecenterBtns{padding-top:18px;border-top:1px solid #dcdcdc;}
+.servicecenterBtns a{float:right;display:block;margin-left:13px;width:182px; height:28px;line-height:28px;background-color:#ff8e1d;color:#fff;text-align:center;text-decoration:none;font-size:18px;}
+.licenseDetail{margin-top:45px;padding-bottom:49px;}
+.licenseDetail > li{margin-top:32px;}
+.licenseDetailT{float:left;padding-left:9px;padding-right:43px;width:23%;max-width:133px;border-left:4px solid #006cba;font-weight:bold;color:#000;font-size:17px;line-height:22px;}
+.licenseDetailE{float:left;width:77%}
+.licenseDetailE > li{padding-bottom:17px;color:#565656;font-size:17px;}
+
+.licenseDetailT2{margin-top:52px;padding-left:9px;padding-right:43px;border-left:4px solid #006cba;font-weight:bold;color:#000;font-size:17px;line-height:18px;}
+.licenseDetailE2{margin-top:9px;padding-left:13px;font-size:14px;color:#aaaaaa;}
+
+.campusList li{width:100%;height:56px;border-bottom:1px solid #dcdcdc;}
+.campusList li:after{display:block;clear:both;content:' ';}
+.campusName{float:left;padding-left:13px;width:130px;line-height:56px;color:#565656;font-size:17px;}
+.campusListTel{float:left;margin-left:3%;margin-right:5%;width:131px;font-size:17px;color:#565656;line-height:56px;}
+.licenseBtns a{float:left;display:inline-block;margin:15px 5px;padding:7px 10px;background-color:#18364f;color:#fff;text-decoration:none;font-size:12px;}
+.GTQBtns{float:right;margin: 45px 0 49px 0px;}
+.GTQBtns a{float:left;display:inline-block;margin:0 5px;padding:7px 10px;background-color:#18364f;color:#fff;text-decoration:none;font-size:12px;}
+
+
+.university li{float:left;width:50%;height:56px;border-bottom:1px solid #dcdcdc;}
+
+table {float:left; width: 77%; }
+.licenseDetailE > li > table{width:100%;}
+table > thead > tr > th { font-size: 14px; padding: 1.5% 0; line-height: 24px; }
+table > tbody > tr > td { font-size: 14px; padding: 1.5% 0; line-height: 24px; }
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+.licenseDetailBG{margin:0 2.5%;margin-top:40px;margin-bottom:50px;width:95%;}
+.lineChanger { display: block; }
+.lineChanger2 { display: block; }
+.tab_silde { width: 100%; margin-bottom: 5%; }
+.tab_silde > li { width: 15%; height: 54px; margin: 0 0.8%; }
+.tab_silde > li > p { width: 100%; height: 100%; line-height: 54px; font-size: 12px; }
+.tab_silde > li > .pLine3 { line-height: 16px; padding-top: 2px; }
+.tab_silde > li > .pLine2 { line-height: 16px; padding-top: 10px; }
+.tab_silde > .on > .triangle-down { margin-left: calc(50% - 10px); border-top: 10px solid #545454; border-right: 10px solid transparent; border-left: 10px solid transparent; width: 0; height: 0; }
+.contents_box { margin-bottom: 10%; }
+.contents_box > .tab_content > ul { padding: 2%; }
+.contents_box > .tab_content > ul > .individual_member { margin: 1%; padding-top: 13px; height: 36px; }
+.contents_box > .tab_content > ul > .individual_member > a > p { font-size: 11px; line-height: 18px; text-align: center; height: auto; }
+.contents_box > .tab_content > ul > .pMargin0 { padding-top: 0; }
+.contents_box > .tab_content > ul > span { width: 1px; height: 16px; margin: 15px 1%; }
+
+
+.licenseDetailBox h1{width:100%;padding-bottom:24px;font-size:18px;color:#565656;}
+.servicecenterBtns{padding-top:18px;border-top:1px solid #dcdcdc;}
+.servicecenterBtns a{float:right;display:block;margin-left:13px;width:125px; height:19px;line-height:19px;background-color:#ff8e1d;color:#fff;text-align:center;text-decoration:none;font-size:12px;}
+.licenseDetail{margin-top:45px;padding-bottom:28px;}
+.licenseDetail > li{margin-top:4px;}
+.licenseDetailT{float:left;padding-left:9px;padding-right:16px;width:35%;max-width:92px;border-left:4px solid #006cba;font-weight:bold;color:#000;font-size:14px;line-height:18px;}
+.licenseDetailE{float:left;width:65%}
+.licenseDetailE > li{padding-bottom:12px;color:#565656;font-size:12px;line-height:20px;}
+
+.licenseDetailT2{margin-top:52px;padding-left:9px;padding-right:43px;border-left:4px solid #006cba;font-weight:bold;color:#000;font-size:14px;line-height:18px;}
+.licenseDetailE2{margin-top:9px;padding-left:13px;font-size:12px;color:#aaaaaa;}
+
+.campusList li{width:100%;border-bottom:1px solid #dcdcdc;}
+.campusList li:after{display:block;clear:both;content:' ';}
+.campusName{float:left;padding-top:20px;padding-left:27px;width:96px;color:#565656;font-size:15px;}
+.campusList .campusListTel{float:left;padding-top:20px;margin-left:5%;margin-right:8%;width:131px;font-size:15px;color:#565656;}
+.campusList .licenseBtns{float:left;padding-left:22px;width:100%;}
+.campusList .licenseBtns a{float:left;display:inline-block;margin:15px 5px;padding:7px 10px;background-color:#18364f;color:#fff;text-decoration:none;font-size:12px;}
+
+.university{padding-bottom:35px;}
+.university li{width:100%;height:56px;border-bottom:1px solid #dcdcdc;}
+.university .licenseBtns a{float:right;display:inline-block;margin:15px 5px;padding:7px 10px;background-color:#18364f;color:#fff;text-decoration:none;font-size:12px;}
+
+.clearfix .floatLeft{float:none;}
+.GTQBtns{display:block;width:100%;padding-left:9px;margin-top:14px;margin-bottom:20px;}
+.GTQBtns a{float:left;display:inline-block;margin:0 5px;padding:7px 10px;background-color:#18364f;color:#fff;text-decoration:none;font-size:12px;}
+
+table {float:left; width: 65%; }
+.licenseDetailE > li > table{width:100%;}
+table > tbody { width: 100%; }
+table > thead > tr > th { font-size: 11px; padding: 3% 0; line-height: 20px; }
+table > tbody > tr > td { font-size: 11px; padding: 2% 0; line-height: 20px; }
+}

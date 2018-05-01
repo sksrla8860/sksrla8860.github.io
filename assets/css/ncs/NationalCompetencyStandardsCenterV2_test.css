@@ -1,0 +1,150 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: contain; letter-spacing: -1px; }
+.container > .section { margin: 0 auto; }
+.container > .section > h3 { background-image: url(/_img/sub/ncs/ncs1.jpg); }
+.container > .section > h3 > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section .nomalT { color: #333; }
+.nomalT > a{font-weight: inherit; color: inherit; text-decoration: none; }
+span > a{font-weight: inherit; color: inherit; text-decoration: none; }
+.container > .section .fcg { color: #689f95; font-weight: bold; }
+.container > .section .fcr { color: #E54E4E; font-weight: bold; }
+.container > .section .fcb { color: #314CD8; font-weight: bold; }
+.container > .section > .img1 { background-image: url(/_img/sub/ncs/ncs2.png); margin: 0 auto; }
+.container > .section > .img1 > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > ul > li > * { float: left; }
+.container > .section > ul > li > div > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section h5 { color: #24518c; text-align: center; }
+.container > .section > ul > .box1 > div { background-image: url(/_img/sub/ncs/ncs3-1.png); }
+.container > .section > ul > .box2 > div { background-image: url(/_img/sub/ncs/ncs3-2.png); }
+.container > .section > .img2 { background-image: url(/_img/sub/ncs/ncs4.png); margin: 0 auto; }
+.container > .section > .img2 > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .footerT { color: #333; }
+.footerT > a{font-weight: inherit; color: inherit; text-decoration: none; }
+.container > .section .dashedBox{border:1px dashed #CBCBCB;padding:10px;}
+.noticeList{border-top:1px solid #565656;color:#565656;}
+.noticeList li{border-bottom:1px solid #bbbbbb;}
+.noticeListTitle a{text-decoration:none;color:#565656;}
+.listBox{width: 325px; margin: 0 auto; }
+.listBox > ul{margin: 0 auto; }
+.listBox > ul > li{width: 30px; height: 28px; float: left; font-weight: normal; text-align: center; line-height: 28px; margin: 0 8px; }
+.listBox > ul > li:hover{border: 1px solid #777; box-sizing: border-box; border-radius: 3px; }
+.listBox > ul > li > a{width: 100%; height: 100%; display: block; text-decoration: none; font-size: 14px; color: #333; }
+.listBox > ul > li > a > span{width: 0; height: 0; display: block; overflow: hidden; }
+.listBox > ul > .btnL{width: 30px; height: 28px; border: 1px solid #ccc; box-sizing: border-box; border-radius: 3px; background-image: url(/_img/sub/btnL.png); background-size: contain; }
+.listBox > ul > .btnR{width: 30px; height: 28px; border: 1px solid #ccc; box-sizing: border-box; border-radius: 3px; background-image: url(/_img/sub/btnR.png); background-size: contain; }
+.listBox > ul > .on{border: 1px solid #006cba; border-radius: 3px; box-sizing: border-box;  }
+.listBox > ul > .on > a{font-weight: bold; color: #006cba; }
+.listBox:after{content: ""; display: block; clear: both; }
+.studentViewTitleBox{margin:0 auto;border-top:2px solid #484848;border-bottom:1px solid #aaaaaa;}
+.studentViewTitle{color:#333333;}
+.studentViewInfo{color:#595959;}
+.studentViewInfo > li{float: left;}
+.studentViewInfo > .date{border-right: 1px solid #595959; -webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box; }
+
+/* 취업맞춤특기병 관련 css*/
+.armyBox img{width:100%;}
+.color43695b{color:#43695b;}
+.colorff4500{color:#ff4500;}
+.colorff003d{color:#ff003d;}
+.color24518c{color:#24518c;}
+.bgc4a8aa0{background-color:#4a8aa0 !important;}
+.armyTitle{margin:66px 0px 16px 0px;font-size:30px;letter-spacing:-1px;font-weight:bold;font-stretch:ultra-condensed;}
+.armyText{font-size:16px;letter-spacing:-1px;line-height:24px;}
+ul.armyText > li{margin-bottom:24px;}
+.armyTitleSub{margin:17px 0px 9px 0px ;font-size:20px;}
+.fontWeightN{font-weight:normal;}
+.fontSize16{font-size:16px;}
+.armyTitleH4{margin:33px 0 16px 0;width:87px;height:24px;text-align:center;color:#fff;background-color:#5a7f70;line-height:24px;font-size:17px;font-weight:bold;}
+.listText  > li{font-size:16px;color:#333;line-height:26px;}
+.listTitle{color:#9d9d9c;}
+.armyImg{margin-top:33px;padding-bottom:67px;border-bottom:1px solid #878787;}
+.grayText{font-size:14px;color:#707070;}
+.armySubText{padding:16px 6px;background-color:#efefef;}
+.armySubText > li{font-size:16px;line-height:24px;}
+.fontWeightB{font-weight:bold;}
+.fontSize14{font-size:14px;}
+
+@media all and (min-width: 1080px) {
+  .container > .section { width: 660px; padding-bottom: 60px; padding-top: 80px;}
+  .container > .section > h3 { width: 100%; height: 380px !important; }
+  .container > .section .nomalT { font-size: 16px; line-height: 24px; margin: 20px 0; }
+  .container > .section .fcg { font-size: 16px; line-height: 24px; }
+  .container > .section > .img1 { width: 710px; height: 350px; margin-top: 50px; margin-bottom: 100px; }
+  .container > .section > ul { width: 100%; padding-top: 30px; }
+  .container > .section > ul > li { width: 100%; height: 250px; margin-bottom: 30px; }
+  .container > .section > ul > li > div { width: 200px; height: 250px; margin-right: 10px; }
+  .container > .section h5 {font-size: 25px; margin-top: 35px; line-height: 34px; }
+  .container > .section > ul > li > .nomalT { width: 660px; margin-top: 10px; }
+  .container > .section > .img2 { width: 660px; height: 470px; margin-top: 50px; margin-bottom: 30px; }
+  .container > .section > .footerT { font-size: 14px; line-height: 24px; }
+.noticeListBG{margin:0 auto;margin-top:94px;margin-bottom:30px;width:700px;}
+.noticeList li{width:100%;height:38px;line-height:38px;}
+.noticeListNum{float:left;width:60px;text-align:center;}
+.noticeListTitle{float:left;padding:0 20px;width:450px;}
+.noticeListDate{float:left;width:150px;text-align:center;}
+.listBox{margin-bottom: 80px; }
+.listBox > ul > li{float: left; font-weight: normal; }
+.listBox > ul > .on{font-weight: bold; }
+.listBox > ul > li > a{text-decoration: none; }
+.studentViewTitleBox{width:100%;}
+.studentViewTitle{padding:14px 20px;font-size:24px;line-height:35px;}
+.studentViewInfo{margin-bottom:14px;padding:0 20px;font-size:14px;}
+.studentViewInfo > .date{margin-right: 20px; padding-right: 20px;}}
+@media (min-width: 641px) and (max-width: 1079px) {
+  .container > .section { width: 100%; padding-bottom: 10%; padding-top: 58px; }
+  .container > .section > * { width: 90%; margin: 0 auto; }
+  .container > .section > h3 { width: 100%; height: 50px; margin-bottom: 20px; }
+  .container > .section .nomalT { font-size: 16px; line-height: 28px; margin: 7px auto; }
+  .container > .section .fcg { font-size: 16px; line-height: 28px; }
+  .container > .section > ul { padding-top: 30px; }
+  .container > .section > ul > li { width: 100%; height: auto; }
+  .container > .section > ul > li > div { width: 30%; height: 215px; }
+  .container > .section h5 {font-size: 22px; margin-top: 50px; line-height: 30px; }
+  .container > .section > ul > li > .nomalT { width: 70%; margin-bottom: 20px; }
+  .container > .section > ul li:after { content: ""; display: block; clear: both; }
+  .container > .section ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .img2 { margin-top: 50px; margin-bottom: 30px; }
+  .container > .section .footerT { font-size: 12px; line-height: 16px; margin-top: 30px; }
+.noticeList{width:96%;border-top:1px solid #565656;color:#565656;margin: 0 auto; margin-bottom: 20px;}
+.noticeList li{width:100%;height:58px;font-size:14px;}
+.noticeListNum{float:left;width:10%;line-height:58px;text-align:center;}
+.noticeListTitle{float:left;padding:0 3%;padding-top:12px;width:82%;height:14px;}
+.noticeListDate{float:left;padding:0 3%;padding-top:10px;width:82%; height:15px;}
+.listBox{margin-bottom: 80px;}
+.listBox > ul > .on{font-weight: bold; }
+.listBox > ul > li > a{text-decoration: none; }
+.studentViewTitleBox{width:100%;}
+.studentViewTitle{padding:14px 20px;font-size:24px;line-height:35px;}
+.studentViewInfo{margin-bottom:14px;padding:0 20px;font-size:14px;}
+.studentViewInfo > .date{margin-right: 20px; padding-right: 20px;}}
+@media (max-width: 640px) {
+  .container > .section { width: 100%; padding-bottom: 5%; padding-top: 40px; }
+  .container > .section > * { width: 96%; margin: 0 auto; }
+  .container > .section > h3 { width: 100%; height: 50px; }
+  .container > .section .nomalT { font-size: 12px; line-height: 18px; margin: 7px auto; }
+  .container > .section .fcg { font-size: 12px; line-height: 18px; }
+  .container > .section > ul { padding-top: 30px; }
+  .container > .section > ul > li { width: 100%; height: auto; }
+  .container > .section > ul > li > div { width: 30%; height: 110px; }
+  .container > .section h5 {font-size: 14px; line-height: 22px; }
+  .container > .section > ul > li > .nomalT { width: 70%; margin-bottom: 20px; }
+  .container > .section ul:after { content: ""; display: block; clear: both; }
+  .container > .section .footerT { font-size: 11px; line-height: 16px; }
+.noticeList{width:96%;margin: 0 auto; margin-bottom: 15px;}
+.noticeListNum{float:left;width:17%;line-height:58px;text-align:center;}
+.noticeListTitle{float:left;padding:0 3%;padding-top:12px;width:77%;height:14px;}
+.noticeListDate{float:left;padding:0 3%;padding-top:10px;width:77%; height:15px;}
+.listBox{width: 280px; margin-bottom: 50px; }
+.listBox > ul > li{ margin: 0 5px;}
+.listBox > ul > .on{font-weight: bold; }
+.listBox > ul > li > a{text-decoration: none; }
+.studentViewTitleBox{width:100%;}
+.studentViewTitle{padding:14px 20px;font-size:14px;line-height:16px;}
+.studentViewInfo{margin-bottom:14px;padding:0 20px;font-size:12px;}
+.studentViewInfo > .date{margin-right: 15px; padding-right: 15px;}}
+
+
+.noticeList li:hover > .noticeListTitle > a {color: #24518c; font-weight: bold; }
+

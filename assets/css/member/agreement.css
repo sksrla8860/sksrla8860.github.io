@@ -1,0 +1,62 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; }
+.container .section { margin: 0 auto; }
+.container .section > .tab_silde { margin: 0 auto; }
+.container .section > .tab_silde > li { text-align: center; cursor: pointer; color: #565656; font-weight: bold; border: 1px solid #CACACA; box-sizing: border-box; background-color: #fff; }
+.container .section > .tab_silde > .on > h5 { background-color: #565656; color: #fff; }
+.container .section > .tab_silde > .on > h5 > span { color: #fff; }
+.container .section > .tab_silde > .on > .triangle-down { margin: 0 auto; width: 10%; overflow: hidden; display: block; }
+.container .section > .tab_silde > .on .triangle-down:after { margin: 0 auto; content: ""; display: block; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-top: 15px solid #565656; margin-top: -4px; }
+.container .section > .tab_silde > .individual_member { float: left; }
+.container .section > .tab_silde > .individual_member > span { display: block; }
+.container .section > .tab_silde > .enterprise_member { float: right; }
+
+dl { background-color: #fff; border: 1px solid #e0e0e0; }
+dl > dt { color: #1c4682; border-bottom: 1px solid #aaa; padding-bottom: 1%; }
+
+@media (min-width: 1080px) { .container > .section { width: 1080px; padding: 5%; }
+  .container > .section > .tab_silde { width: 710px; height: 66px; margin-bottom: 40px; }
+  .container > .section > .tab_silde > li { width: 350px; height: 54px; }
+  .container > .section > .tab_silde > li > h5 { width: 100%; display: block; font-size: 18px; }
+  .container > .section > .tab_silde > .on > .triangle-down { margin: 0 auto; width: 10%; overflow: hidden; display: block; }
+  .container > .section > .tab_silde > .on .triangle-down:after { margin: 0 auto; content: ""; display: block; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-top: 15px solid #565656; margin-top: -4px; }
+  .container > .section > .tab_silde > .individual_member > h5 { height: 38px; padding-top: 16px; }
+  .container > .section > .tab_silde > .enterprise_member > h5 { height: 38px; padding-top: 16px; }
+  .container > .section dl { padding: 20px; }
+  .container > .section dl > dt { font-weight: bold; font-size: 16px; margin-bottom: 10px; }
+  .container > .section dl > dd { margin-bottom: 50px; font-size: 14px; line-height: 24px; }
+  .container > .section dl > dd > strong { font-weight: bold; }
+  .container > .section dl > dl { margin-bottom: 50px; padding: 10px; }
+  .container > .section dl > dl > dt { font-size: 14px; font-weight: bold; margin-bottom: 6px; margin-top: 10px; }
+  .container > .section dl > dl > dd { font-size: 14px; line-height: 24px; } }
+@media (min-width: 641px) and (max-width: 1079px) { .container > .section { width: 96%; padding: 5% 0; }
+  .container > .section > .tab_silde { width: 95%; height: 66px; margin-bottom: 5%; }
+  .container > .section > .tab_silde > li { width: 49%; height: 54px; }
+  .container > .section > .tab_silde > li > h5 { width: 100%; font-size: 16px; }
+  .container > .section > .tab_silde > .on > .triangle-down { margin: 0 auto; width: 20%; overflow: hidden; display: block; }
+  .container > .section > .tab_silde > .on .triangle-down:after { margin: 0 auto; content: ""; display: block; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-top: 15px solid #565656; margin-top: -4px; }
+  .container > .section > .tab_silde > .individual_member > h5 { padding-top: 18px; height: 36px; }
+  .container > .section > .tab_silde > .enterprise_member > h5 { padding-top: 18px; height: 36px; }
+  .container > .section dl { padding: 14px; }
+  .container > .section dl > dt { font-weight: bold; font-size: 15px; margin-bottom: 10px; }
+  .container > .section dl > dd { margin-bottom: 30px; font-size: 12px; line-height: 22px; }
+  .container > .section dl > dd > strong { font-weight: bold; }
+  .container > .section dl > dl { margin-bottom: 30px; padding: 7px; }
+  .container > .section dl > dl > dt { font-size: 14px; font-weight: bold; margin-bottom: 5px; margin-top: 7px; }
+  .container > .section dl > dl > dd { font-size: 12px; line-height: 22px; } }
+@media (max-width: 640px) { .container > .section { width: 96%; padding: 7% 0; }
+  .container > .section > .tab_silde { width: 95%; height: 66px; margin-bottom: 5%; }
+  .container > .section > .tab_silde > li { width: 48%; height: 54px; }
+  .container > .section > .tab_silde > li > h5 { width: 100%; font-size: 16px; }
+  .container > .section > .tab_silde > .on > .triangle-down { margin: 0 auto; width: 20%; overflow: hidden; display: block; }
+  .container > .section > .tab_silde > .on .triangle-down:after { margin: 0 auto; content: ""; display: block; width: 0; height: 0; border-right: 15px solid transparent; border-left: 15px solid transparent; border-bottom: 15px solid transparent; border-top: 15px solid #565656; margin-top: -4px; }
+  .container > .section > .tab_silde > .individual_member > h5 { padding-top: 18px; height: 36px; }
+  .container > .section > .tab_silde > .enterprise_member > h5 { padding-top: 18px; height: 36px; }
+  .container > .section dl { padding: 7px; }
+  .container > .section dl > dt { font-weight: bold; font-size: 14px; margin-bottom: 5px; }
+  .container > .section dl > dd { margin-bottom: 10px; font-size: 12px; line-height: 20px; }
+  .container > .section dl > dd > strong { font-weight: bold; }
+  .container > .section dl > dl { margin-bottom: 10px; padding: 5px; }
+  .container > .section dl > dl > dt { font-size: 14px; font-weight: bold; margin-bottom: 4px; margin-top: 5px; }
+  .container > .section dl > dl > dd { font-size: 12px; line-height: 20px; } }
+.container:after { background-image: url(/assets/img/sub/pyramidalWaveBG.png); top: 0; left: 0; position: absolute; background-size: 75px; z-index: -2; content: ""; width: 100%; height: 100%; background-repeat: repeat; }

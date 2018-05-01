@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+*{font-family:'malgun gothic';}
+/* Text inputs */input:not([type]),input[type=text],input[type=password],input[type=email],input[type=url],input[type=time],input[type=date],input[type=datetime],input[type=datetime-local],input[type=tel],input[type=number],input[type=search],textarea.materialize-textarea {border: 1px solid #f2f2f2;margin:0;}
+input:not([type]):focus:not([readonly]),input[type=text]:focus:not([readonly]),input[type=password]:focus:not([readonly]),input[type=email]:focus:not([readonly]),input[type=url]:focus:not([readonly]),input[type=time]:focus:not([readonly]),input[type=date]:focus:not([readonly]),input[type=datetime]:focus:not([readonly]),input[type=datetime-local]:focus:not([readonly]),input[type=tel]:focus:not([readonly]),input[type=number]:focus:not([readonly]),input[type=search]:focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]) {border:0;}
+.character-counter{display:none;}
+
+.smallT{font-size: .8rem; color: #777; margin-left: 20px; padding-left: 20px; border-left: 1px solid #777; }
+
+.line0{line-height: 0 !important; }
+.container{position: relative; }
+.padding10{padding: 10px; }
+.padding0{padding: 0 !important; }
+.paddingT50{padding-top: 50px !important; }
+.paddingB50{padding-bottom: 50px !important; }
+.marginT4{margin-top:4px;}
+.marginT10{margin-top:10px;}
+.marginT30{margin-top:30px;}
+.marginT40{margin-top:40px;}
+.marginT50{margin-top:50px;}
+.marginT90{margin-top:90px;}
+.marginB50{margin-bottom: 50px; }
+.marginB20{margin-bottom: 20px; }
+.marginB10{margin-bottom: 10px; }
+.margin0{margin: 0 !important; }
+.marginT0{margin-top: 0 !important; }
+.height100P{height: 100%; }
+.positionA{position: absolute; right: 0; }
+.positionR{position: relative; right: 0; }
+.overS{overflow-y: scroll; height: 80%; }
+.overS::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+.overS::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+.overS::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #ccc;
+}
+.txt_line { width:700px; padding:0 5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:block; box-sizing: border-box; }
+
+/* header css */
+.page-header{min-width:980px;width:100%;height:70px;background-color:#29B6F6;}
+.logoW{float:left;width:85px;height:70px;text-align: center; line-height: 32px; color: #fff; font-weight: bold; font-size: 28px; box-sizing: border-box; padding-top: 8px; }
+.logoW > span{width: 100%; height: 100%; font-size: 14px; display:block;}
+.gnb{float:left; margin: 0; }
+.gnb > li{float:left; }
+.gnb > li > a{margin-right:5px;padding:8px 15px;color:#fff ;line-height:70px;font-size:14px;/* font-weight:bold; */letter-spacing:-1px;border-radius:20px;/* background-color:rgba(1, 87, 155, 0.2); */}
+.gnb > li > a:hover{background-color:rgba(1, 87, 155, 0.5);}
+.gnb > li > a.active{background-color:rgba(1, 87, 155, 0.5);}
+
+/* .gnb > li > a{margin-right:10px;padding:8px 15px;color:#fff ;line-height:70px;font-size:14px;font-weight:bold;letter-spacing:-1px;border-radius:20px;background-color:rgba(1, 87, 155, 0.2);}
+.gnb > li > a:hover{background-color:rgba(1, 87, 155, 0.5);} */
+/* .gnb > li > a:hover{border-bottom:3px solid #01579b;color:#01579b;} */
+/* .gnb > li.bar:after{content:'|';color:#fff;padding:0px 20px;font-size:16px;} */
+
+.login{float:right;margin-top:17.5px;padding:8px 20px;color:#fff;border:2px solid #fff;border-radius:5px;}
+.AddressIP{float:right;line-height:17px;padding-top:20px;padding-right:10px;color:#fff;font-size:15px;text-align:right;}
+
+.btnStlye{padding: 5px; line-height: 16px;}
+
+/* contents css */
+.contents{margin-bottom:80px;}
+nav{margin-top:80px;background-color:#F5F5F5;}
+.subMenu li{float:left;}
+.subMenu li .on{background-color: rgba(0, 0, 0, 0.1);}
+.subMenu li a{color:#777;font-weight:bold;font-size:12px;}
+
+.btnText{display:inline;vertical-align:top;line-height: inherit;}
+.floatN{float: none; }
+.afterC:after{content: ""; display: block; clear: both; }
+
+.borderRD{border-radius: 10px; }
+.borderBox{border: 1px solid #ccc !important; text-indent: 5px; }
+.borderT{border-top: 1px solid #ccc !important;}
+.borderR{border-right: 1px solid #ccc !important;}
+.borderB{border-bottom: 1px solid #ccc !important;}
+.borderL{border-left: 1px solid #ccc !important;}
+
+.sfwb{font-weight: bold; }
+.sfwn{font-weight: normal; }
+.fwb:hover{font-weight: bold; }
+.snone{box-shadow: none; }
+
+/* footer css */
+.page-footer{min-width:980px;}
+.directLink li{line-height:29px;font-weight:bold;}
+.directLink a{line-height:29px;vertical-align:top}
+.directLink li a i{padding-right:3px;line-height:29px;}
+

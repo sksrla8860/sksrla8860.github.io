@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+.yellowColorffff00{color:#ffff00;}
+.yellowColorffcb00{color:#ffcb00;}
+.fontWeightB{font-weight:bold;}
+.month_noticeBox img{margin:0 auto;max-width:900px !important;}
+.campusTel{width:100%;text-align:center;}
+.campusTel img{margin: 0 auto;width:274px;height:86px;}
+
+/* For larger displays */
+@media all and (min-width:1080px){
+.moveTab{margin:0 auto;width:900px;}
+.moveTab img{float:left;border:0;margin:0;padding:0;}
+.notice_edu_form{margin:0 auto;width:900px;}
+.subTitle{padding-top:46px;padding-bottom:49px;background-image:url('/upimage/notice_2017/noticePattern.jpg');background-repeat:repeat;}
+.subTitle h2{margin:0 auto;margin-bottom:15px;width:350px;height:51px;background-color:#000;opacity:0.7;color:#ffcb00;font-size:38px;text-align:center;line-height:51px;}
+.subTitle p{margin-bottom:29px;text-align:center;font-size:25px;color:#fff;line-height:30px;}
+.notice_edu_form h3{margin:35px 0px 12px 101px;font-size:35px;color:#e64136;}
+.notice_edu_form h4{margin:0 auto;width:698px;height:41px;color:#fff;text-align:center;font-size:25px; background-color:#e64136;line-height:41px;}
+
+.curriculumLists{margin:0 auto;width:698px; display: flex; flex-wrap: wrap;border-bottom:2px solid #e64136;margin-bottom:17px;}
+.curriculumLists li{float:left;box-sizing:border-box;padding:19px 15px;width:50%;border-bottom:1px solid #dadada;}
+.curriculumLists li:nth-child(odd){border-right:1px solid #dadada;}
+.curriculumLists li span{display:inline-block;width:1px;height:100%;word-break:keep-all;vertical-align:middle;}
+.curriculumLists li div{display:inline-block;width:236px;font-size:17px;line-height:21px;word-break:keep-all;vertical-align:middle;}
+.curriculumLists li a{display:inline-block;padding:5px 12px;max-width:74px;text-align:center;text-decoration:none;color:#fff;font-size:14px;background-color:#000;vertical-align:middle;}
+
+.curriculumLists100 li{width:100%;border-right:0 !important;}
+.curriculumLists100 li span{display:inline-block;width:1px;height:100%;word-break:keep-all;vertical-align:middle;}
+.curriculumLists100 li div{display:inline-block;width:88%;font-size:17px;line-height:21px;word-break:keep-all;vertical-align:middle;}
+.curriculumLists100 li a{display:inline-block;padding:5px 12px;max-width:74px;text-align:center;text-decoration:none;color:#fff;font-size:14px;background-color:#000;vertical-align:middle;}
+
+.benefitExplain{margin:0 auto;margin-bottom:36px;width:698px;background-color:#60605f;}
+.benefitExplain > p {margin:0 auto;width:95%;max-width:641px;color:#fff;font-size:23px;font-weight:bold;text-align:center;line-height:42px;border-bottom:1px solid #fff;}
+.benefitExplain > ul {margin:0 auto;padding:3px 0;width:95%;max-width:641px;color:#fff;}
+.benefitExplain > ul li{padding:7px 0px;font-size:16px;line-height:18px;letter-spacing:-0.5px}
+
+.unemployExplain{position:relative;z-index:0;letter-spacing:-1px}
+.unemployExplain > ul{margin:0 auto;padding:12px 0;margin-bottom:45px;width:698px;}
+.unemployExplain > ul:after{content:' ';display:block;position:absolute;top:0;width:698px;height:100%;background-color:#fff;opacity:0.2;z-index:-1;border-top-left-radius:10px;border-top-right-radius:10px;}
+.unemployExplain > ul > li{padding-left:29px;font-size:16px;font-weight:bold;color:#fff;line-height:30px;}
+.unemployExplain > ul > li > ul > li{padding-left:29px;font-size:16px;font-weight:normal;color:#fff;line-height:30px;}
+
+.stepChart{padding:0 important;margin:0 auto !important;margin-top:19px !important;width:641px;height:107px;background-image:url('/upimage/notice_2017/noticeStep.png');}
+.stepChart > li{float:left;text-align:center;padding-right:3%;width:17%;height:100%;}
+.stepChart > li > ul {display:inline-block;}
+.stepChart > li > div{width:100%;height:30px;line-height:30px;font-size:18px;font-weight:bold;color:#fff;}
+.stepChart > li > p{padding:0 20px 0 10px;width:96px;height:77px;}
+.stepChart > li > p > .width1{display:inline-block;width:0.5%;height:100%;}
+.stepChart > li > p > span{display:inline-block;width:99.5%;color:#1d1d1b;font-size:14px;line-height:16px;vertical-align:middle;font-weight:normal;}
+
+
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+.month_noticeBox > img{display:block;border:0;padding:0;margin:0;}
+.moveTab{margin:0 auto;width:100%;max-width:900px;}
+.moveTab img{float:left;border:0;margin:0;padding:0;}
+#moveTab1{display:block;float:left;width:35%;}
+#moveTab2{display:block;float:left;width:30%;}
+#moveTab3{display:block;float:left;width:35%;}
+.notice_edu_form{margin:0 auto;max-width:900px;width:100%;}
+.subTitle{padding-top:32px;padding-bottom:30px;background-image:url('/upimage/notice_2017/noticePattern.jpg');background-repeat:repeat;}
+.subTitle h2{margin:0 auto;margin-bottom:15px;width:250px;height:36px;background-color:#000;opacity:0.7;color:#ffcb00;font-size:27px;text-align:center;line-height:36px;}
+.subTitle p{margin-bottom:21px;text-align:center;font-size:18px;color:#fff;line-height:22px;}
+.notice_edu_form h3{margin:35px 0px 12px 0;font-size:35px;color:#e64136;}
+.notice_edu_form h4{margin:0 auto;width:100%;max-width:698px;height:41px;color:#fff;text-align:center;font-size:25px; background-color:#e64136;line-height:41px;}
+.curriculumLists{margin:0 auto;width:100%;max-width:698px; display: flex; flex-wrap: wrap;border-bottom:2px solid #e64136;margin-bottom:17px;}
+.curriculumLists li{float:left;box-sizing:border-box;padding:16px 9px;width:50%; border-bottom:1px solid #dadada;}
+.curriculumLists li:nth-child(odd){border-right:1px solid #dadada;}
+.curriculumLists li span{display:inline-block;width:1px;height:100%;word-break:keep-all;vertical-align:middle;}
+.curriculumLists li div{display:inline-block;width:70%;font-size:17px;line-height:21px;word-break:keep-all;vertical-align:middle;}
+.curriculumLists li a{display:inline-block;padding:5px 12px;max-width:74px;text-align:center;text-decoration:none;color:#fff;font-size:14px;background-color:#000;vertical-align:middle;}
+
+.curriculumLists100 li{width:100%;border-right:0 !important;}
+.curriculumLists100 li span{display:inline-block;width:1px;height:100%;word-break:keep-all;vertical-align:middle;}
+.curriculumLists100 li div{display:inline-block;width:85%;font-size:17px;line-height:21px;word-break:keep-all;vertical-align:middle;}
+.curriculumLists100 li a{display:inline-block;padding:5px 12px;max-width:74px;text-align:center;text-decoration:none;color:#fff;font-size:14px;background-color:#000;vertical-align:middle;}
+
+.benefitExplain{margin:0 auto;margin-bottom:36px;width:100%;max-width:698px;background-color:#60605f;}
+.benefitExplain > p {margin:0 auto;width:95%;color:#fff;font-size:23px;font-weight:bold;text-align:center;line-height:42px;border-bottom:1px solid #fff;}
+.benefitExplain > ul {margin:0 auto;padding:3px 0;width:95%;color:#fff;}
+.benefitExplain > ul > li{padding:7px 0px;font-size:14px;line-height:16px;letter-spacing:-0.5px}
+
+.unemployExplain{position:relative;z-index:0;letter-spacing:-1px}
+.unemployExplain > ul{margin:0 auto;padding:12px 0;margin-bottom:45px;width:80%;max-width:698px;}
+.unemployExplain > ul:after{content:' ';display:block;position:absolute;top:0;width:80%;max-width:698px;height:100%;background-color:#fff;opacity:0.2;z-index:-1;border-top-left-radius:10px;border-top-right-radius:10px;}
+.unemployExplain > ul > li{padding-left:29px;font-size:16px;font-weight:bold;color:#fff;line-height:30px;}
+.unemployExplain > ul > li > ul > li{padding-left:29px;font-size:16px;font-weight:normal;color:#fff;line-height:30px;}
+
+.stepChart{padding:0 important;margin:0 auto !important;margin-top:19px !important;width:535px;height:89px;background-image:url('/upimage/notice_2017/noticeStep.png');background-size:100%;}
+.stepChart > li{float:left;text-align:center;padding-right:3%;width:17%;height:100%;}
+.stepChart > li > ul {display:inline-block;}
+.stepChart > li > div{width:100%;height:25px;line-height:25px;font-size:16px;font-weight:bold;color:#fff;}
+.stepChart > li > p{padding:0 7px 0 3px;width:96px;height:64px;}
+.stepChart > li > p > .width1{display:inline-block;width:0.5%;height:100%;}
+.stepChart > li > p > span{display:inline-block;width:99.5%;color:#1d1d1b;font-size:12px;line-height:14px;vertical-align:middle;font-weight:normal;word-break:keep-all;}
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+.month_noticeBox > img{display:block;border:0;padding:0;margin:0;}
+.moveTab{margin:0 auto;width:100%;max-width:900px;}
+.moveTab img{float:left;border:0;margin:0;padding:0;}
+#moveTab1{display:block;float:left;width:35%;}
+#moveTab2{display:block;float:left;width:30%;}
+#moveTab3{display:block;float:left;width:35%;}
+.notice_edu_form{margin:0 auto;width:100%;}
+.subTitle{padding-top:14px;padding-bottom:14px;background-image:url('/upimage/notice_2017/noticePattern.jpg');background-repeat:repeat;}
+.subTitle h2{margin:0 auto;margin-bottom:15px;width:126px;height:19px;background-color:#000;opacity:0.7;color:#ffcb00;font-size:14px;text-align:center;line-height:19px;}
+.subTitle p{margin-bottom:11px;text-align:center;font-size:9px;color:#fff;line-height:11px;}
+.notice_edu_form h3{margin:35px 0px 12px 0;font-size:20px;color:#e64136;}
+.notice_edu_form h4{margin:0 auto;width:100%;height:31px;color:#fff;text-align:center;font-size:18px; background-color:#e64136;line-height:31px;}
+.curriculumLists{margin:0 auto;width:100%;max-width:698px; display: flex; flex-wrap: wrap;border-bottom:2px solid #e64136;margin-bottom:17px;}
+.curriculumLists li{box-sizing:border-box;padding:16px 9px;width:100%;min-width:278px;border-bottom:1px solid #dadada;}
+.curriculumLists li span{display:inline-block;width:1px;height:100%;word-break:keep-all;vertical-align:middle;}
+.curriculumLists li div{display:inline-block;width:70%;min-width:178px;font-size:14px;line-height:20px;word-break:keep-all;vertical-align:middle;}
+.curriculumLists li a{display:inline-block;padding:5px 12px;width:20%;max-width:72px;text-align:center;text-decoration:none;color:#fff;font-size:14px;background-color:#000;vertical-align:middle;}
+
+.benefitExplain{margin:0 auto;margin-bottom:30px;width:100%;max-width:698px;background-color:#60605f;}
+.benefitExplain > p {margin:0 auto;width:95%;color:#fff;font-size:23px;font-weight:bold;text-align:center;line-height:42px;border-bottom:1px solid #fff;}
+.benefitExplain > ul {margin:0 auto;padding:3px 0;width:95%;color:#fff;}
+.benefitExplain > ul > li{padding:7px 0px;font-size:14px;line-height:16px;letter-spacing:-0.5px}
+
+.unemployExplain{position:relative;z-index:0;letter-spacing:-1px}
+.unemployExplain > ul{margin:0 auto;padding:12px 0;margin-bottom:20px;width:80%;}
+.unemployExplain > ul:after{content:' ';display:block;position:absolute;top:0;width:80%;height:100%;background-color:#fff;opacity:0.2;z-index:-1;border-top-left-radius:10px;border-top-right-radius:10px;}
+.unemployExplain > ul > li{padding-left:5pxpx;font-size:14px;font-weight:bold;color:#fff;line-height:22px;}
+.unemployExplain > ul > li > ul > li{padding-left:15px;font-size:14px;font-weight:normal;color:#fff;line-height:20px;}
+
+.stepChart{margin:0 auto;margin-top:12px;width:301px;height:297px;background-image:url('/upimage/notice_2017/MnoticeStep.png');background-size:100%;}
+.stepChart > li{height:20%;text-align:center;}
+.stepChart > li > ul {}
+.stepChart > li > div{float:left;margin-top:15px;width:12%;color:#fff;font-size:13px;word-break:keep-all;}
+.stepChart > li > p{float:left;margin-top:23px;width:88%;color:#1d1d1b;word-break:keep-all;line-height:16px;}
+.stepChart > li > p > .width1{visibility:hidden;}
+
+
+}

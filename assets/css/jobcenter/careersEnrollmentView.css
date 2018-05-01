@@ -1,0 +1,249 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { letter-spacing: -1px; box-sizing: border-box; }
+.container a { text-decoration: none; }
+.container button {cursor:pointer;}
+.container textarea {resize: none;}
+.container > .section { margin: 0 auto; border: 1px solid #e0e0e0; background-color: #fff; }
+.container > .section > .title_box { width: 100%; border-bottom: 1px solid #aaa; }
+.container > .section > .title_box > h3 { font-weight: bold; color: #1c4682;float:left; }
+  .container > .section > .title_box > p { float:right; font-weight:bold; }
+  .container > .section > .title_box > p > span { font-weight:normal !important;}
+.container > .section > .articleBox > div > h4 { display: block; font-weight: normal; border-left: 4px solid #006cba; color: #333; }
+.container > .section > .articleBox > div > div { border-top: 2px solid #484848; }
+.container > .section > .articleBox > div > div > div > h5 { float: left; background-color: #EFEFEF; display: block; text-align: center; font-weight: bold; color: #333; border-bottom: 1px solid #aaa; }
+.container > .section > .articleBox > div > div > div > div { float: left; border-bottom: 1px solid #aaa;  }
+.container > .section > .articleBox > div > div > div > div > * { color: #595959; float: left; text-decoration: none; }
+.container > .section > .articleBox > div > div > div > div > a:hover { color: #006cba; }
+.container > .section > .articleBox > div > div:after { content: ""; display: block; clear: both; }
+
+.container > .section > .articleBox > .box3 > form > fieldset > div > label {width:100%;display:block;cursor:pointer;font-weight:bold;color:#333;border-bottom: 1px solid #ccc;padding:10px; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > label > span {font-weight:normal;color:#777;margin-left:5px; line-height: inherit; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView{background-color: #F3F3F7;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li {border-bottom: 1px solid #ccc;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div {float: left; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >h3 {float: left; color: #006cb8;font-weight:bold;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >div {float: left; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >div > pre {display: block; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div:after {content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox {float: right; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > div:after {content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > div > h4 {color: #aaa; margin-bottom: 5px;}
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > div >a {color: #555; display: block; float: left; text-align: center; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > div >span {border-right: 1px solid #555; display: block; float: left; height: 14px; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > div >a:hover {color: #006cb8; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div {padding: 10px 0; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div:after {content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > input{float: left; color: #006cb8;font-weight:bold; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > textarea{float: left; resize: none; border: 1px solid #ccc; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > button {float: left; color:#fff;background-color:#1c4682;text-align:center;border-radius:3px;text-decoration: none;border:0;font-weight:bold;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > button:hover {color:#ffff00;}
+.btnCommentEditGo {display:block;color:#fff;background-color:#1c4682;text-align:center;border-radius:3px;text-decoration: none;border:0;font-weight:bold;float:none;}
+ .btnCommentEditDel {display:block;color:#fff;background-color:#999;text-align:center;border-radius:3px;text-decoration: none;border:0;font-weight:bold;float:none;}
+
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > div > div > a:hover {color: #006cb8; }
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > div > div > *{float: left;color: #595959;text-align:center;cursor:pointer;}
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > div > div > .btnEditGo {border-right: 1px solid #595959; }
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > div > .modified > .btnCommentEditGo {display:block;color:#fff;background-color:#1c4682;text-align:center;border-radius:3px;text-decoration: none;border:0;font-weight:bold;float:none;}
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > div > .modified > .btnCommentEditDel {display:block;color:#fff;background-color:#999;text-align:center;border-radius:3px;text-decoration: none;border:0;font-weight:bold;float:none;}
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > div > .modified > .btnCommentEditGo:hover {color: #ffff00; }
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > div > .modified > .btnCommentEditDel:hover {color: #555; }
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > .commentFormBox > .commentFormBox {color: #333;display:block; }
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li > .commentFormBox > .editCommentArea {overflow-y: scroll;border: 1px solid #ccc; }
+.container > .section > .articleBox > .box3 > form > fieldset > ul > li div:after {content: ""; display: block; clear: both;}
+.container > .section > .articleBox > .box3 > form > fieldset > div {border:0;}
+.container > .section > .articleBox > .box3 > form > fieldset > div:after {content: ""; display: block; clear: both; }
+
+.container > .section > .articleBox > .box3 > form > fieldset > div > textarea {overflow-y: scroll;border: 1px solid #ccc; }
+.container > .section > .articleBox > .btn_box { border: 0; margin: 0 auto; }
+.container > .section > .articleBox > .btn_box > a { font-weight: bold; color: #333; border: 0; cursor: pointer; float: left; display: block; text-align: center; text-decoration: none; }
+.container > .section > .articleBox > .btn_box > #okBtn { background-color: #006CB8; color: #fff;}
+.container > .section > .articleBox > .btn_box > #cancleBtn { background-color: #aaa; color: #fff;}
+  .container > .section > .articleBox > .btn_box > #modify{line-height: normal; font-weight: normal; border-right: 1px solid #595959; }
+  .container > .section > .articleBox > .btn_box > #delete{line-height: normal; font-weight: normal; }
+  .container > .section > .articleBox > .btn_box > #modify:hover{color: #006cba; font-weight: bold;}
+  .container > .section > .articleBox > .btn_box > #delete:hover{color: #006cba; font-weight: bold;}
+
+@media all and (min-width: 1080px) { .container { padding: 100px 0; }
+  .container > .section { width: 1082px; padding: 40px; }
+  .container > .section > .title_box { height: 60px; margin-bottom: 40px; }
+  .container > .section > .title_box > h3 { width: auto; height: 50px; font-size: 44px; margin-bottom: 6px; }
+  .container > .section > .title_box > p { width: auto; height: 50px; font-size: 14px; margin-bottom: 6px; padding-top:35px;margin-right:20px;}
+  .container > .section > .articleBox { width: 100%; }
+  .container > .section > .articleBox > div { width: 100%; height: auto; margin-bottom: 65px; }
+  .container > .section > .articleBox > div > h4 { width: auto; height: 22px; line-height: 22px; font-size: 20px; padding-left: 10px; margin-bottom: 20px; }
+  .container > .section > .articleBox > div > div > div { width: 50%; float: left; }
+  .container > .section > .articleBox > div > div > div > * { height: 56px; line-height: 56px; }
+  .container > .section > .articleBox > div > div > div > h5 { width: 110px; font-size: 14px; float: left; }
+  .container > .section > .articleBox > div > div > div > div { width: 390px; float: left; padding-left: 15px; }
+  .container > .section > .articleBox > div > div > div > div > p { line-height: 56px; margin: 0 5px; }
+  .container > .section > .articleBox > div > div > div > div > a { line-height: 56px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > h5 { height: 120px; padding-top: 35px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > div { height: 120px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > div > pre { line-height: 22px !important; margin: 5px 5px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 5 !important; -webkit-box-orient: vertical; word-wrap:break-word;}
+  .container > .section > .articleBox > div > div > .categoryTwo { width: 25%; }
+  .container > .section > .articleBox > div > div > .categoryTwo > div { width: 140px; }
+  .container > .section > .articleBox > div > div > .categoryOne { width: 100%; }
+  .container > .section > .articleBox > div > div > .categoryOne > div { width: 890px; }
+  .container > .section > .articleBox > div > div > .category013 > div > p { width:85%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+  .container > .section > .articleBox > div > div > .category017 > h5, .container > .section > .articleBox > div > div .category019 > h5 { line-height: 22px; }
+  .container > .section > .articleBox > .box3 > form > fieldset {width: 100%; margin: 0 auto; padding:3% 5%;border-radius: 4px; }
+	
+.container > .section > .articleBox > .box3 > form > fieldset > div {padding: 0 15px; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > label {font-size:12px;}
+.container > .section > .articleBox > .box3 > form > fieldset > div > label > span {font-weight:normal;color:#777;margin-left:5px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView{background-color: #f5f5fd; border-radius: 5px; margin-bottom: 20px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul {width: 100%;margin:15px 0; padding-bottom: 15px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li {width: 100%;padding:20px 0; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div {width: 85%; margin-bottom:3px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >h3 {width: 20%; height: 100%; font-size: 14px; padding-left: 10px; line-height: 18px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >div {width: 80% !important;  }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >div > pre {line-height: 20px; }
+	.editCommentArea{width: 85%; float: left; }
+	.modified{width: 13%; float: right; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > h4 {font-size: 11px; padding-left: 20px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > .btnEditGo {width:50px; height: 14px; font-size: 12px; margin-top: 8px; line-height: 14px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > .btnDelGo {width:50px; font-size: 12px; margin-top: 8px;line-height: 14px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > span {margin-top: 8px;line-height: 14px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox {width: 15%; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > h4 {color: #aaa; margin-bottom: 5px;}
+.btnCommentEditGo {width: 120px;height:30px;line-height:30px;font-size:14px;margin-bottom:10px;}
+.btnCommentEditDel {width: 120px;height:30px;line-height:30px;font-size:14px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > input{width: 120px;font-size: 14px;line-height: 18px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > textarea{width: 600px;height:70px;margin-right:10px;margin-left: 10px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div >  button {width: 120px;height:30px;line-height:30px;font-size:14px;}
+	
+  .container > .section > .articleBox > .btn_box { width: 100%; height: 35px; padding-left:396px; }
+  .container > .section > .articleBox > .btn_box > a { width: 100px; height: 100%; line-height: 35px; }
+  .container > .section > .articleBox > .btn_box > #cancleBtn { margin-left: 10px; }
+  .container > .section > .articleBox > .btn_box > #modify { font-size: 12px; margin-top:10px; height:15px; width: 80px; margin-left: 230px; }
+  .container > .section > .articleBox > .btn_box > #delete { font-size: 12px; margin-top:10px; height:15px; width: 80px; } 
+}
+
+@media (min-width: 641px) and (max-width: 1079px) { .container { padding: 5% 0; }
+  .container > .section { width: 96%; padding: 2%; }
+  .container > .section > .title_box { height: 50px; margin-bottom: 30px; }
+  .container > .section > .title_box > h3 { font-size: 30px; height: 30px; width: auto;}
+  .container > .section > .title_box > p { width: auto; height: 50px; font-size: 14px; margin-bottom: 6px; padding-top:35px;margin-right:15px; }
+  .container > .section > .articleBox { width: 100%; }
+  .container > .section > .articleBox > div { margin-bottom: 30px; }
+  .container > .section > .articleBox > div > h4 { width: auto; height: 22px; line-height: 22px; font-size: 18px; padding-left: 10px; margin-bottom: 2%; }
+  .container > .section > .articleBox > div > div > div { width: 100%; }
+  .container > .section > .articleBox > div > div > div > * { height: 50px; line-height: 50px; }
+  .container > .section > .articleBox > div > div > div > h5 { width: 12.5%; font-size: 16px; float: left; }
+  .container > .section > .articleBox > div > div > div > div { width: 37.5%; float: left; }
+  .container > .section > .articleBox > div > div > div > div > p, .container > .section > .articleBox > div > div > div > div a { font-size: 16px; line-height: 50px; margin-left: 10px; }
+  .container > .section > .articleBox > div > div > .categoryOne { width: 100%; }
+  .container > .section > .articleBox > div > div > .categoryOne > div { width: 87.5%; }
+  .container > .section > .articleBox > div > div > .categoryTwo { width: 25%; float: left; }
+  .container > .section > .articleBox > div > div > .categoryTwo > h5 { width: 50%; }
+  .container > .section > .articleBox > div > div > .categoryTwo > div { width: 50%; }
+  .container > .section > .articleBox > div > div > .categoryHauto > h5 { height: 100px; padding-top: 28px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > div { height: 100px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > div > pre { line-height: 22px; margin: 7px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; word-wrap:break-word;}
+  .container > .section > .articleBox > div > div > .category013 > div > p {width:80%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+  .container > .section > .articleBox > div > div > .category017 > h5, .container > .section > .articleBox > div > div .category019 > h5 { line-height: 24px; padding-top: 25px; }
+  .container > .section > .articleBox > .box3 {width: 100%; }
+  .container > .section > .articleBox > .box3 > form {width: 100%;padding: 2%;}
+  .container > .section > .articleBox > .box3 > form > fieldset {width: 100%; margin: 0 auto; border-radius: 4px;  }
+	
+	
+.container > .section > .articleBox > .box3 > form > fieldset > div {padding: 0 15px; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > label {width:auto;font-size:14px;}
+.container > .section > .articleBox > .box3 > form > fieldset > div > label > span {font-weight:normal;color:#777;margin-left:5px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView{background-color: #f5f5fd; border-radius: 5px; margin-bottom: 20px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul {width: 100%; padding-bottom: 20px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li {width: 100%;padding:20px 0;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div {width: 80%; margin-bottom:5px;  }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >h3 {width: 20%; font-size: 15px; line-height: 24px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div > div {width:80%;height: auto; padding: 0 10px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div > div > pre {font-size: 14px;line-height: 22px; }
+	.editCommentArea{width: 100%;  }
+	.modified{width: 100%; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div{padding: 0; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > h4 {font-size: 12px;margin-top:5px; padding-left: 10px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > .btnEditGo {width:40px; font-size: 12px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > .btnDelGo {width:40px; font-size: 12px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > span {line-height: 14px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox {width: 20%; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > h4 {color: #aaa; margin-bottom: 5px;}
+.btnCommentEditGo {width: 49.5%;height:40px;line-height:40px;font-size:16px;float:left;}
+.btnCommentEditDel {width: 49.5%;height:40px;line-height:40px;font-size:16px;float:right;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > input{width: 100%;font-size: 15px;margin:5px 0; line-height: 20px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > textarea{width: 100%;height:100px;margin-bottom:4px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div >  button {width: 100%;height:50px;line-height:40px;font-size:16px;}
+
+	
+  .container > .section > .articleBox > .btn_box { width: 50%; height: 100px; margin: 0 auto; }
+  .container > .section > .articleBox > .btn_box > a { width: 49%; height: 40px; font-size: 14px; line-height: 40px; }
+  .container > .section > .articleBox > .btn_box > #okBtn { margin-right: 2%; }
+  .container > .section > .articleBox > .btn_box > #modify { width: 50%; font-size: 14px; margin-top:40px; height:20px; }
+  .container > .section > .articleBox > .btn_box > #delete { width: 50%; font-size: 14px; margin-top:40px; height:20px; }
+  .container > .section > .articleBox > .btn_box:after{content: ""; display: block; clear: both; } }
+@media (max-width: 640px) { .container { padding: 5% 0; }
+  .container > .section { width: 96%; padding: 2%; }
+  .container > .section > .title_box { height: 30px; margin-bottom: 5%; }
+  .container > .section > .title_box > h3 { font-size: 20px; height: 26px; width: auto; }
+  .container > .section > .title_box > p { width: auto; height: 30px; font-size: 11px; margin-bottom: 6px;padding-top:10px;margin-right:10px; }
+  .container > .section > .articleBox { width: 100%; }
+  .container > .section > .articleBox > div { margin-bottom: 30px; }
+  .container > .section > .articleBox > div > h4 { width: auto; height: 22px; line-height: 22px; font-size: 16px; padding-left: 10px; margin-bottom: 2%; }
+  .container > .section > .articleBox > div > div > div { width: 100%; }
+  .container > .section > .articleBox > div > div > div > * { height: 40px; line-height: 40px; }
+  .container > .section > .articleBox > div > div > div > h5 { width: 25%; font-size: 13px; float: left; }
+  .container > .section > .articleBox > div > div > div > div { width: 75%; float: left; }
+  .container > .section > .articleBox > div > div > div > div > p, .container > .section > .articleBox > div > div > div > div a { font-size: 13px; line-height: 40px; margin-left: 10px; }
+  .container > .section > .articleBox > div > div > .categoryTwo { width: 50%; float: left; }
+  .container > .section > .articleBox > div > div > .categoryTwo > h5 { width: 50%; }
+  .container > .section > .articleBox > div > div > .categoryTwo > div { width: 50%; }
+  .container > .section > .articleBox > div > div > .category020 > h5 { height: 80px; line-height: 80px; }
+  .container > .section > .articleBox > div > div > .category020 > div { height: 80px; }
+  .container > .section > .articleBox > div > div > .category021 > h5 { height: 80px; line-height: 80px;}
+  .container > .section > .articleBox > div > div > .category021 > div { height: 80px; }
+  .container > .section > .articleBox > div > div > .category021 > div > p { line-height: 24px; margin-top: 6px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > h5 { height: 100px; line-height: 22px; padding-top: 30px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > div { height: 100px; }
+  .container > .section > .articleBox > div > div > .categoryHauto > div > pre { line-height: 22px; margin: 6px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; word-wrap:break-word;}
+  .container > .section > .articleBox > div > div > .category013 > div > p {width:80%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+  .container > .section > .articleBox > div > div > .category017 > h5, .container > .section > .articleBox > div > div .category019 > h5 { padding-top: 20px; }
+	
+	
+	
+.container > .section > .articleBox > .box3 > form > fieldset > div > label {width:auto;font-size:12px; line-height: 18px; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > label > span {font-weight:normal;color:#777;margin-left:5px;  }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView{background-color: #f5f5fd; border-radius: 5px; margin-bottom: 20px; padding: 10px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul {width: 100%; padding-bottom: 10px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li {width: 100%;padding:15px 0; position: relative; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div {width: 100%; margin-bottom:5px;  }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div >h3 {width: 100%; font-size: 12px;line-height: 18px; float: none; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div > div {width:100%; float: none; padding-top: 10px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div > div > pre {width:100%; line-height: 18px; }
+	.editCommentArea{width: 100%; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox {width: 70px; position: absolute; right: 0; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > h4 {font-size: 11px;margin-top:5px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > .btnEditGo {width:25px; font-size: 12px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > .btnDelGo {width:25px; font-size: 12px; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > .commentFormBox > div > span {line-height: 14px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > .replyView > ul > li > div:after{content: ""; display: block; clear: both; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox {width: 15%; }
+.container > .section > .articleBox > .box3 > form > fieldset > div > ul > li > .commentFormBox > h4 {color: #aaa; margin-bottom: 5px;}
+.btnCommentEditGo {width: 49%;height:30px;line-height:30px;font-size:14px;float:left;}
+.btnCommentEditDel {width: 49%;height:30px;line-height:30px;font-size:14px;float:right;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > input{width: 100%; font-size: 12px;margin:5px 0; line-height: 18px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div > textarea{width: 100%;height:80px;margin-bottom:4px;}
+.container > .section > .articleBox > .box3 > form > fieldset > .replyWrite > div >  button {width: 100%;height:30px;line-height:30px;font-size:14px;}
+	
+	
+  .container > .section > .articleBox > .btn_box { width: 60%; height: 80px; margin: 0 auto; }
+  .container > .section > .articleBox > .btn_box > a { width: 48%; height: 40px; font-size: 14px; line-height: 40px; }
+  .container > .section > .articleBox > .btn_box > #okBtn { margin-right: 4%; }
+  .container > .section > .articleBox > .btn_box > #modify { width: 50%; font-size: 12px; margin-top:20px; height:20px; }
+  .container > .section > .articleBox > .btn_box > #delete { width: 50%; font-size: 12px; margin-top:20px; height:20px; }
+  .container > .section > .articleBox > .btn_box:after{content: ""; display: block; clear: both; } }
+.container:after { background-image: url(/_img/sub/pyramidalWaveBG.png); top: 0; left: 0; position: absolute; background-size: 75px; z-index: -2; content: ""; width: 100%; height: 100%; background-repeat: repeat; }

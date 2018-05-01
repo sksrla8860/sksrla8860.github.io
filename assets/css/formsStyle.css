@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+*{font-family:'malgun gothic';}
+/* Text inputs */input:not([type]),input[type=text],input[type=password],input[type=email],input[type=url],input[type=time],input[type=date],input[type=datetime],input[type=datetime-local],input[type=tel],input[type=number],input[type=search],textarea.materialize-textarea {border: 1px solid #e7e7e7;margin:0;}
+input:not([type]):focus:not([readonly]),input[type=text]:focus:not([readonly]),input[type=password]:focus:not([readonly]),input[type=email]:focus:not([readonly]),input[type=url]:focus:not([readonly]),input[type=time]:focus:not([readonly]),input[type=date]:focus:not([readonly]),input[type=datetime]:focus:not([readonly]),input[type=datetime-local]:focus:not([readonly]),input[type=tel]:focus:not([readonly]),input[type=number]:focus:not([readonly]),input[type=search]:focus:not([readonly]),textarea.materialize-textarea:focus:not([readonly]) {border:0;}
+.character-counter{display:none;}
+
+
+/* table forms style */
+.tableStyle{margin:20px 0px;width:100%;color:#565656;border-top:1px solid #dadada;border-right:1px solid #dadada;word-break:keep-all;font-size:13px;}
+.contentT{color:#565656; font-weight: normal;}
+.tableStyle th{line-height:25px; padding: 7px 10px; font-weight:bold;text-align:center;background-color:#f5f5f5;border-bottom:1px solid #dadada;border-left:1px solid #dadada;}
+.tableStyle .dashTh{line-height: 15px; }
+.tableStyle td{padding:7px 5px;border-bottom:1px solid #dadada;border-left:1px solid #dadada;line-height:25px; }
+.paddingLR0 td, .paddingLR0 th{padding-left: 0; padding-right: 0; }
+form > fieldset{width: 100%; height: 100%; }
+
+.input-field{float:left;margin:0;margin-right:1%;border:none;line-height: 47px; }
+.select-wrapper input.select-dropdown{margin-bottom:0;}
+.width2P{width:2%;}
+.width3P{width:3%;}
+.width4P{width:4%;}
+.width5P{width:5%;}
+.width6P{width:6%;}
+.width7P{width:7%;}
+.width10P{width:10%;}
+.width20P{width:20%;}
+.width30P{width:30%;}
+.width40P{width:40%;}
+.width50P{width:50%;}
+.width60P{width:60%;}
+.width70P{width:70%;}
+.width80P{width:80%;}
+.width90P{width:90%;}
+.width100P{width:100%;}
+.width05P{width:5%;}
+.width15P{width:15%;}
+.width25P{width:25%;}
+.width35P{width:35%;}
+.width45P{width:45%;}
+.width55P{width:55%;}
+.width65P{width:65%;}
+.width75P{width:75%;}
+.width85P{width:85%;}
+.width95P{width:95%;}
+.fontSize9{font-size: 0.9rem !important; }
+
+.top0{top: 0 !important; }
+
+/*  textarea style  */
+textarea:focus{background-color: #f4f4ff; }
+textarea{visibility: visible !important;}
+
+/*  select  style  */
+.ui-datepicker-title select{display: inline-block; }
+select{border: 1px solid #c7c7d5;}
+/* buttom style*/
+.buttonBox{display:inline-block;}
+.floatRight{float:right;}
+
+/* checkBox style*/
+.onlyCheckBox {margin:0 auto;width:20px;height:25px;}
+
+.refund{display:inline-block;margin:0;margin-right:40px;}
+.refund label{color:#565656;}
+
+label{font-size: 14px; font-weight: bold; color: #333; line-height: 22px; }
+
+/*  modal  */
+/*.modalB{width: 1080px; height: auto; margin: 0 auto; padding: 30px 0; }*/
+.modalB{width: 100%; height: 100%; margin: 0 auto; position: fixed; background-color: rgba(44,44,44, 0.9); top: 0; left:0; z-index: 9000; }
+.modalB > form{width: 1080px; height: auto; margin: 0 auto; padding: 20px 10px; position: relative; margin-top: 70px; border-radius: 10px; }

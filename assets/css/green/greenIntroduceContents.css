@@ -1,0 +1,405 @@
+@charset "utf-8";
+
+.contain {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .contain * {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+		letter-spacing: -5%;}
+  .contain span {
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden; }
+  .contain > .section_01 .top_icon > .infor_01 {
+    background-image: url(/assets/img/sub/green/infor_01.png); }
+  .contain > .section_01 .top_icon > .infor_02 {
+    background-image: url(/assets/img/sub/green/infor_02.png); }
+  .contain > .section_01 .top_icon > .infor_03 {
+    background-image: url(/assets/img/sub/green/infor_03.png); }
+  .contain > .section_01 .top_icon > .infor_04 {
+    background-image: url(/assets/img/sub/green/infor_04.png); }
+  .contain > .section_02 > .article .icon {
+    background-image: url(/assets/img/sub/green/spirit.png); }
+  .contain > .section_02 > .article > .picture_box > .img_01 {
+    background-image: url(/assets/img/sub/green/img_01_01.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_01_01.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_01_01.jpg', sizingMethod='scale')"; }
+  .contain > .section_02 > .article > .picture_box > .img_02 {
+    background-image: url(/assets/img/sub/green/img_01_02.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_01_02.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_01_02.jpg', sizingMethod='scale')"; }
+  .contain > .section_02 > .article > .picture_box > .img_03 {
+    background-image: url(/assets/img/sub/green/img_01_03.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_01_03.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_01_03.jpg', sizingMethod='scale')"; }
+  .contain > .section_03 > .article .icon {
+    background-image: url(/assets/img/sub/green/passion.png); }
+  .contain > .section_03 > .article > .picture_box > .img_01 {
+    background-image: url(/assets/img/sub/green/img_02_01.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_02_01.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_02_01.jpg', sizingMethod='scale')"; }
+  .contain > .section_03 > .article > .picture_box > .img_02 {
+    background-image: url(/assets/img/sub/green/img_02_02.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_02_02.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_02_02.jpg', sizingMethod='scale')"; }
+  .contain > .section_03 > .article > .picture_box > .img_03 {
+    background-image: url(/assets/img/sub/green/img_02_03.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_02_03.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_02_03.jpg', sizingMethod='scale')"; }
+  .contain > .section_04 > .article .icon {
+    background-image: url(/assets/img/sub/green/emotion.png); }
+  .contain > .section_04 > .article > .picture_box > .img_01 {
+    background-image: url(/assets/img/sub/green/img_03_01.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_03_01.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_03_01.jpg', sizingMethod='scale')"; }
+  .contain > .section_04 > .article > .picture_box > .img_02 {
+    background-image: url(/assets/img/sub/green/img_03_02.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_03_02.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_03_02.jpg', sizingMethod='scale')"; }
+  .contain > .section_04 > .article > .picture_box > .img_03 {
+    background-image: url(/assets/img/sub/green/img_03_03.jpg);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_03_03.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img_03_03.jpg', sizingMethod='scale')"; }
+  .contain > .section_05 > .article .icon {
+    background-image: url(/assets/img/sub/green/joy.png); }
+  .contain > .section_05 > .article > .s_logo {
+    background-image: url(/assets/img/sub/green/joy_img.png);
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='joy_img.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='joy_img.png', sizingMethod='scale')"; }
+
+/* For larger displays */
+@media all and (min-width:1080px){
+  .contain > div {
+    width: 100%;
+    height: auto; }
+    .contain > div > .article {
+      width: 1080px;
+      height: auto;
+      margin: 0 auto;
+      padding: 55px 0; }
+      .contain > div > .article > div {
+        width: 100%;
+        height: auto; }
+        .contain > div > .article > div > * {
+          color: #2d3847; }
+        .contain > div > .article > div > .icon {
+          width: 100px;
+          height: 100px;
+          float: left;
+          margin-right: 47px; }
+        .contain > div > .article > div > .sub_title {
+          width: 933px;
+          height: auto;
+          float: left;
+          margin-bottom: 25px;}
+          .contain > div > .article > div > .sub_title > h3 {
+            width: auto;
+            height: auto;
+            font-size: 20px;
+            font-weight: 900;
+            margin-bottom: 1%; }
+          .contain > div > .article > div > .sub_title > h4 {
+            width: auto;
+            height: auto;
+            font-size: 26px;
+            font-weight: 900;
+            line-height: 30px; }
+        .contain > div > .article > div > p {
+          width: 64%;
+          font-size: 16px;
+          line-height: 30px;
+          float: left;
+          display: block;
+          margin-bottom: 5%; }
+      .contain > div > .article > div:after {
+        content: "";
+        display: block;
+        clear: both; }
+      .contain > div > .article > ul {
+        width: 100%;
+        height: auto;
+        margin: 0 auto; }
+        .contain > div > .article > ul > li {
+          width: 351px;
+          height: 100%;
+          float: left;
+          margin-right: 13.5px; }
+        .contain > div > .article > ul > .img_03 {
+          margin-right: 0; }
+  .contain > .section_01 {
+    background-color: #fff; }
+    .contain > .section_01 > .article {
+      padding: 0;
+      padding-top: 67px; }
+      .contain > .section_01 > .article > div {
+        width: 577px;
+        height: 70px;margin: 0 auto;
+        margin-bottom: 15px; }
+      .contain > .section_01 > .article > div > img{
+        width: 100%;  }
+      .contain > .section_01 > .article > ul {
+        width: 948px;
+        height: 291px;
+        margin: 0 auto; }
+        .contain > .section_01 > .article > ul > li {
+          width: 237px;
+          height: 100%;
+          background-size: 100%;
+          float: left;
+          margin-right: 0;
+          background-position: bottom center; }
+  .contain > .section_02 {
+    background-color: #6b7887; }
+    .contain > .section_02 > .article > div * {
+      color: #fff; }
+	.contain > .section_03 > .article > div > .sub_title {
+    padding-top: 1%; }
+		.contain > .section_03 > .article > div > p{
+				  margin-left: 147px;}
+  .contain > .section_04 {
+    background-color: #6b7887; }
+    .contain > .section_04 > .article > div * {
+      color: #fff; }
+  .contain > .section_05 > .article p > span {
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    display: block;
+    margin-top: 8px; }
+  .contain > .section_05 > .article > .s_logo {
+    width: 100%;
+    height: 100px;
+    background-size: 100%; }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+  .contain > div {
+    width: 100%;
+    height: auto; }
+    .contain > div > .article {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      padding: 6% 0; }
+      .contain > div > .article > div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 7%; }
+        .contain > div > .article > div > * {
+          color: #2d3847; }
+        .contain > div > .article > div > .icon {
+          width: 80px;
+          height: 80px;
+          float: left;
+          margin-left: 7%;
+          margin-right: 15px; }
+        .contain > div > .article > div > .sub_title {
+          width: auto;
+          height: auto;
+          padding-top: 1.5%; }
+          .contain > div > .article > div > .sub_title > h3 {
+            width: auto;
+            height: auto;
+            font-size: 20px;
+            font-weight: 900;
+            margin-bottom: 1%; }
+          .contain > div > .article > div > .sub_title > h4 {
+            width: 100%;
+            height: auto;
+            font-size: 22px;
+            font-weight: 900;
+            margin-bottom: 38px; }
+        .contain > div > .article > div > p {
+          margin-left: 7%;
+          margin-right: 7%;
+          font-size: 16px;
+          line-height: 30px; }
+      .contain > div > .article > div:after {
+        content: "";
+        display: block;
+        clear: both; }
+      .contain > div > .article > ul {
+        width: 98%;
+        height: 116px;
+        margin: 0 auto; }
+        .contain > div > .article > ul > li {
+          width: 32%;
+          height: 100%;
+          float: left;
+          margin-right: 2%; }
+        .contain > div > .article > ul > .img_03 {
+          margin-right: 0; }
+  .contain > .section_01 {
+    background-color: #fff; }
+    .contain > .section_01 > .article {
+      padding: 0;
+      padding-top: 67px; }
+      .contain > .section_01 > .article > div {
+        width: 80%;
+        height: 100px;
+        margin: 0 auto; 
+        margin-bottom: 50px; }
+      .contain > .section_01 > .article > div > img{
+        width: 100%;}
+      .contain > .section_01 > .article > ul {
+        width: 100%;
+        height: 330px;
+        margin: 0 auto; }
+        .contain > .section_01 > .article > ul > li {
+          width: 25%;
+          background-size: 100%;
+          float: left;
+          margin-right: 0;
+          background-position: bottom center; }
+  .contain > .section_02 {
+    background-color: #6b7887; }
+    .contain > .section_02 > .article > div * {
+      color: #fff; }
+  .contain > .section_04 {
+    background-color: #6b7887; }
+    .contain > .section_04 > .article > div * {
+      color: #fff; }
+  .contain > .section_05 > .article p > span {
+    width: 100%;
+    height: 24px;
+    font-size: 14px;
+    display: block;
+    margin-top: 6px; }
+  .contain > .section_05 > .article > .s_logo {
+    width: 98%;
+    height: 130px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-position: left top;
+    background-size: 135%; }
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+  .contain > div {
+    width: 100%;
+    height: auto; }
+    .contain > div > .article {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      padding: 6% 0; }
+      .contain > div > .article > div {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%; }
+        .contain > div > .article > div > * {
+          color: #2d3847; }
+        .contain > div > .article > div > .icon {
+          width: 60px;
+          height: 60px;
+          float: left;
+          margin-left: 3%;
+          margin-right: 3%;
+          background-size: 100%; }
+        .contain > div > .article > div > .sub_title {
+					float: left;
+          width: 70%;
+          height: auto;
+          padding-top: 1.5%;
+          margin-bottom: 6%;  }
+          .contain > div > .article > div > .sub_title > h3 {
+            width: auto;
+            height: auto;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 1%; }
+          .contain > div > .article > div > .sub_title > h4 {
+					  line-height: 22px;
+            width: auto;
+            height: auto;
+            font-size: 15px;
+            font-weight: bold;}
+        .contain > div > .article > div > p {
+					float: left;
+          margin-left: 3%;
+          margin-right: 3%;
+          font-size: 12px;
+          line-height: 30px;
+          line-height: 17px; }
+      .contain > div > .article > div:after {
+        content: "";
+        display: block;
+        clear: both; }
+      .contain > div > .article > ul {
+        width: 98%;
+        height: 60px;
+        margin: 0 auto; }
+        .contain > div > .article > ul > li {
+          width: 32%;
+          height: 100%;
+          float: left;
+          margin-right: 2%; }
+        .contain > div > .article > ul > .img_03 {
+          margin-right: 0; }
+  .contain > .section_01 {
+    background-color: #fff; }
+    .contain > .section_01 > .article {
+      padding: 0;
+      padding-top: 6%; }
+      .contain > .section_01 > .article > div {
+        width: 85%;
+        height: auto;margin: 0 auto; 
+        margin-bottom: 3%; }
+      .contain > .section_01 > .article > div > img{
+        width: 100%; }
+      .contain > .section_01 > .article > ul {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        overflow: hidden; }
+        .contain > .section_01 > .article > ul > li {
+          width: 25%;
+          height: 100%;
+          background-size: 100%;
+          float: left;
+          margin-right: 0;
+          background-position: bottom center; }
+      .contain > .section_01 > .article > ul:after {
+        content: "";
+        display: block;
+        clear: both; }
+  .contain > .section_02 {
+    background-color: #6b7887; }
+    .contain > .section_02 > .article > div * {
+      color: #fff; }
+  .contain > .section_04 {
+    background-color: #6b7887; }
+    .contain > .section_04 > .article > div * {
+      color: #fff; }
+  .contain > .section_05 > .article p > span {
+    width: 100%;
+    height: 14px;
+    font-size: 12px;
+    display: block;
+    margin-top: 6px; }
+  .contain > .section_05 > .article > .s_logo {
+    width: 98%;
+    height: 76px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    background-position: left top;
+    background-size: 135%; }
+}
+.contain:after {
+  background-image: url(/assets/img/sub/pyramidalWaveBG.png);
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 75px;
+  z-index: -2;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat; }

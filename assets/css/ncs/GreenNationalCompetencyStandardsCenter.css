@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+#test{}
+::-webkit-scrollbar {
+  display:none;
+}
+/* For larger displays */
+@media all and (min-width:1080px){
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {}
+
+/* For smartphones */
+@media (max-width: 640px) {}

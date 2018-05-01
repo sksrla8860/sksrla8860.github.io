@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+
+/* For larger displays */
+@media all and (min-width:1080px){
+	.greenStudyPortfolioBG{margin:94px auto;width:1080px;}
+
+	.comm_tab1 {margin-top:94px;}
+	.comm_tab1>.tab_menu{margin:0 auto;width:720px;}
+	.comm_tab1>.tab_menu>li{position:relative;float:left;margin:0 4px;width:350px;height:53px;border:1px solid #CACACA;}
+	.comm_tab1>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:53px;font-size:18px;font-weight:bold;color:#565656;}
+	.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:53px;left:168px;}
+	.comm_tab1>.tab_menu .on{background-color:#565656;}
+	.comm_tab1>.tab_menu .on>a{color:#fff;}
+
+	.comm_tab2>.tab_menu{margin-top:33px;width:1080px;border-top:1px solid #CACACA;border-left:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li{position:relative;float:left;width:179px;height:42px;border-bottom:1px solid #CACACA;border-right:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:42px;font-size:18px;color:#565656;}
+	.comm_tab2>.tab_menu .on{background-color:#006CBA;}
+	.comm_tab2>.tab_menu .on>a{color:#fff;}
+
+	.curriculumField{margin:0 auto;width:1080px;border-top:1px solid #CACACA;border-right:1px solid #CACACA;}
+	.curriculumField li{float:left;width:134px;height:52px;border-left:1px solid #CACACA;border-bottom:1px solid #CACACA;}
+	.curriculumField li a{display:block;text-decoration:none;text-align:center;line-height:52px;font-size:17px;color:#565656;}
+	.curriculumField li a:hover{background-color:#006cba;color:#fff;font-weight:bold;}
+	.curriculumField li a.on{background-color:#006cba;color:#fff;font-weight:bold;}
+
+	.greenStudyPortfolioBG > h3{padding:10px;margin-top:77px;font-size:40px;color:#006cba;border-bottom:1px solid #888888;}
+	.temp1{color:#595959;font-size:20px;font-weight:bold;letter-spacing:10px;}
+	.portfolioExplain{margin:13px;font-size:12px;letter-spacing:10px;color:#595959;}
+
+	.portfolioList{}
+	.portfolioList li{position:relative;float:left;margin:5.5px;width:257px;height:214px;border:1px solid #d1d1d1;}
+	.portfolioList li:hover{}
+	.portfolioList li a{position:relative;display:block;width:100%;height:100%;}
+	.portfolioList li a:hover{}
+	.portfolioList li .portfolioImg{width:257px;height:182px;border-bottom:1px solid #d1d1d1;overflow:hidden}
+		.portfolioList li .portfolioImg img{width:100%;}
+	.portfolioList li .studentName{float:left;padding:10px;width:40px;font-size:12px;color:#595959 ;}
+	.portfolioList li .className{float:right;padding:10px;width:172px;font-size:12px;color:#595959 ;}
+
+	.detailView{position:absolute;top:0;left:0;display:inline-block;padding-top:5%;width:100%;height:95%;background-color:#000;opacity:0;color:#fff;text-align:center;line-height:202px;background-image:url('/_img/sub/community/magnifyingGlass_small.png');background-position:48% 40%;}
+
+	.moreBtn{display:block;margin-top:40px;width:1078px;height:52px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:52px;font-size:22px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+	.greenStudyPortfolioBG{margin:58px 5%;width:90%;}
+
+	.comm_tab1 {margin-top:94px;}
+	.comm_tab1>.tab_menu{margin:0 auto;width:70%;}
+	.comm_tab1>.tab_menu>li{position:relative;float:left;margin:0 1%;width:46%;height:53px;border:1px solid #CACACA;}
+	.comm_tab1>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:53px;font-size:18px;font-weight:bold;color:#565656;}
+	.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:53px;left:45%;}
+	.comm_tab1>.tab_menu .on{background-color:#565656;}
+	.comm_tab1>.tab_menu .on>a{color:#fff;}
+
+	.comm_tab2>.tab_menu{margin:0 5%;margin-top:33px;width:90%;border-left:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li{position:relative;float:left;width:16.4%;height:42px;border-bottom:1px solid #CACACA;border-right:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:42px;font-size:18px;font-weight:bold;color:#565656;}
+	.comm_tab2>.tab_menu .on{background-color:#006CBA;}
+	.comm_tab2>.tab_menu .on>a{color:#fff;}
+
+
+	.curriculumField{width:100%;border-left:1px solid #CACACA;}
+	.curriculumField li{float:left;width:24.8%;height:52px;border-right:1px solid #CACACA;border-bottom:1px solid #CACACA;}
+	.curriculumField li a{display:block;text-decoration:none;text-align:center;line-height:52px;font-size:17px;color:#565656;}
+	.bdbCACACA{border-top:1px solid #CACACA;}
+	.TbdbCACACA{border-top:1px solid #CACACA;}
+
+	.curriculumField li a:hover{background-color:#006cba;color:#fff;font-weight:bold;}
+	.curriculumField li a.on{background-color:#006cba;color:#fff;font-weight:bold;}
+
+	.greenStudyPortfolioBG > h3{padding:10px;margin-top:77px;font-size:40px;color:#006cba;border-bottom:1px solid #888888;}
+	.temp1{color:#595959;font-size:20px;font-weight:bold;letter-spacing:10px;}
+	.portfolioExplain{margin:13px;font-size:12px;letter-spacing:5px;color:#595959;}
+
+	.portfolioList{margin:0 auto;width:560px;}
+	.portfolioList li{position:relative;float:left;margin:6px;width:266px;height:223px;border:1px solid #d1d1d1;}
+	.portfolioList li:hover{}
+	.portfolioList li a{position:relative;display:block;width:100%;height:100%;}
+	.portfolioList li a:hover{}
+	.portfolioList li .portfolioImg{width:266px;height:189px;border-bottom:1px solid #d1d1d1;overflow:hidden}
+		.portfolioList li .portfolioImg img{width:100%;}
+	.portfolioList li .studentName{float:left;padding:12px;width:40px;font-size:12px;color:#595959 ;}
+	.portfolioList li .className{float:right;padding:12px;width:172px;font-size:12px;color:#595959 ;}
+
+	.detailView{position:absolute;top:0;left:0;display:inline-block;width:100%;height:100%;background-color:#000;opacity:0;color:#fff;text-align:center;line-height:255px;background-image:url('/_img/sub/community/magnifyingGlass_small.png');background-position:49% 40%;}
+
+	.moreBtn{display:block;margin-top:30px;width:100%;height:52px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:52px;font-size:22px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+	.greenStudyPortfolioBG{margin:40px 5%;margin-top:width:90%;}
+
+	.comm_tab1 {margin-top:94px;}
+	.comm_tab1>.tab_menu{margin:0 auto;width:90%;}
+	.comm_tab1>.tab_menu>li{position:relative;float:left;margin:0 1%;width:46%;height:30px;border:1px solid #CACACA;}
+	.comm_tab1>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:30px;font-size:12px;font-weight:bold;color:#565656;}
+	.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:30px;left:45%;}
+	.comm_tab1>.tab_menu .on{background-color:#565656;}
+	.comm_tab1>.tab_menu .on>a{color:#fff;}
+
+	.comm_tab2>.tab_menu{margin:0 5%;margin-top:33px;width:90%;border-left:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li{position:relative;float:left;width:24%;height:26px;border-bottom:1px solid #CACACA;border-right:1px solid #CACACA;}
+	.comm_tab2>.tab_menu>li>a{display:block;width:100%;height:100%;text-decoration:none;text-align:center;line-height:26px;font-size:12px;font-weight:bold;color:#565656;}
+	.comm_tab2>.tab_menu .on{background-color:#006CBA;}
+	.comm_tab2>.tab_menu .on>a{color:#fff;}
+	.MbdbCACACA{border-top:1px solid #CACACA;}
+
+	.curriculumField{width:100%;border-left:1px solid #CACACA;}
+	.curriculumField li{float:left;width:32%;height:30px;border-right:1px solid #CACACA;border-bottom:1px solid #CACACA;}
+	.curriculumField li a{display:block;text-decoration:none;text-align:center;line-height:30px;font-size:11px;color:#565656;}
+	.MbdbCACACA{border-top:1px solid #CACACA;}
+
+	.curriculumField li a:hover{background-color:#006cba;color:#fff;font-weight:bold;}
+	.curriculumField li a.on{background-color:#006cba;color:#fff;font-weight:bold;}
+
+	.greenStudyPortfolioBG > h3{padding:10px;margin-top:35px;font-size:20px;color:#006cba;border-bottom:1px solid #888888;}
+	.temp1{color:#595959;font-size:12px;font-weight:bold;letter-spacing:5px;}
+	.portfolioExplain{margin:13px;font-size:12px;color:#595959;line-height:14px;}
+
+	.portfolioList{margin:0 auto;width:280px;}
+	.portfolioList li{position:relative;float:left;margin:6px;width:266px;height:223px;border:1px solid #d1d1d1;}
+	.portfolioList li:hover{}
+	.portfolioList li a{position:relative;display:block;width:100%;height:100%;}
+	.portfolioList li a:hover{}
+	.portfolioList li .portfolioImg{width:266px;height:189px;border-bottom:1px solid #d1d1d1;overflow:hidden}
+		.portfolioList li .portfolioImg img{width:100%;}
+	.portfolioList li .studentName{float:left;padding:12px;width:40px;font-size:12px;color:#595959 ;}
+	.portfolioList li .className{float:right;padding:12px;width:172px;font-size:12px;color:#595959 ;}
+
+	.detailView{position:absolute;top:0;left:0;display:inline-block;width:100%;height:100%;background-color:#000;opacity:0;color:#fff;text-align:center;line-height:255px;background-image:url('/_img/sub/community/magnifyingGlass_small.png');background-position:49% 40%;}
+
+	.moreBtn{display:block;margin-top:10px;width:100%;height:38px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:38px;font-size:16px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+}

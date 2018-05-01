@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+/* For larger displays */
+@media all and (min-width:1080px){
+.affiliationsSuggestionsListBG{margin:0 auto;margin-top:94px;width:1080px;}
+.blueEmphasis{color:#006CBA;font-size:22px;font-weight:bold;text-align:center;line-height:30px;}
+.grayEmphasis{margin-top:18px;color:#aaaaaa;font-size:16px;text-align:center;}
+.affiliationsField{margin:50px auto;width:740px;}
+.affiliationsField li{position:relative;float:left;margin:0 2px;width:142px;height:52px;border:1px solid #cacaca;}
+.affiliationsField li a{display:block;width:100%;height:100%;line-height:53px;text-align:center;font-size:16px;font-weight:bold;color:#565656;text-decoration:none;}
+.affiliationsField li a.on{background-color:#565656;color:#fff;}
+.blueBtn{color:#fff !important;background-color:#006cba;}
+.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:52px;left:57px;}
+
+.companyList{margin-bottom:180px;border-top:1px solid #565656;}
+.companyList > li{border-bottom:1px solid #565656;}
+.companyLogo{float:left;margin:15px 17px 30px;width:156px;height:117px;}
+.companyLogo > img{display:block;margin:0 auto;width:156px;height:117px;}
+.companyInfo{float:left;width:750px;color:#565656;font-size:16px;}
+.companyInfo li{margin-bottom:13px;}
+.companyName{margin:20px 0px 18px 0px !important ;font-size:21px;font-weight:bold;}
+.companyBar{float:left;width:50px;padding-right:12px;}
+.companyBar:after{content:"|";}
+.companyBar > span{display:inline-block;margin-right:12px;}
+.campanyText{float:left;width:650px;}
+.btnBG{float:left;margin-top:116px;}
+.btnBG a{display:block;width:126px;height:30px;text-align:center;text-decoration:none;line-height:30px;font-size:14px;font-weight:bold;}
+
+.moreBtn{display:block;margin:80px 0px;width:1078px;height:52px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:52px;font-size:22px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+.affiliationsSuggestionsListBG{margin:0 5%;margin-top:58px;width:90%;}
+.blueEmphasis{color:#006CBA;font-size:17px;font-weight:bold;text-align:center;line-height:23px;}
+.grayEmphasis{margin-top:14px;color:#aaaaaa;font-size:12px;text-align:center;}
+.affiliationsField{margin:50px auto;width:455px;}
+.affiliationsField li{position:relative;float:left;margin:0 2px;width:85px;height:42px;border:1px solid #cacaca;}
+.affiliationsField li a{display:block;width:100%;height:100%;line-height:43px;text-align:center;font-size:12.5px;font-weight:bold;color:#565656;text-decoration:none;}
+.affiliationsField li a.on{background-color:#565656;color:#fff;}
+.blueBtn{color:#fff !important;background-color:#006cba;}
+.triangle{border-color:#565656 transparent transparent transparent; border-width:14px; border-style:solid; width:0;height:0;position:absolute;top:42px;left:28.5px;}
+
+.companyList{margin-bottom:80px;border-top:1px solid #565656;}
+.companyList > li{border-bottom:1px solid #565656;}
+.companyLogo{float:left;margin:15px 0 30px;width:30%;}
+.companyLogo > img{display:block;margin:0 auto;width:156px;height:117px;}
+.companyInfo{float:left;width:70%;color:#565656;font-size:14px;}
+.companyInfo li{margin-bottom:13px;}
+.companyName{margin:20px 0px 18px 0px !important ;font-size:21px;font-weight:bold;}
+.companyBar{float:left;padding-right:12px;}
+.companyBar:after{content:"|";}
+.companyBar > span{display:inline-block;margin-right:12px;}
+.campanyText{float:left;width:85%;}
+.btnBG{float:right;margin-bottom:18px;}
+.btnBG a{display:block;width:126px;height:30px;text-align:center;text-decoration:none;line-height:30px;font-size:14px;font-weight:bold;}
+
+.moreBtn{display:block;margin:60px 0;width:100%;height:52px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:52px;font-size:22px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+.affiliationsSuggestionsListBG{margin:0;margin-top:40px;width:100%;}
+.blueEmphasis{color:#006CBA;font-size:16px;font-weight:bold;text-align:center;line-height:23px;}
+.MdisplayBlock{display:block;}
+.grayEmphasis{margin-top:14px;color:#aaaaaa;font-size:12px;text-align:center;line-height:16px;}
+.affiliationsField{margin:30px auto;min-width:320px;width:100%;}
+.affiliationsField li{position:relative;float:left;display:table;margin:0 0.5%;width:19%;height:34px;}
+.affiliationsField li a{display:table-cell;width:100%;height:100%;line-height:14px;text-align:center;font-size:11px;font-weight:bold;color:#565656;text-decoration:none;vertical-align:middle;border:1px solid #cacaca; box-sizing: border-box; }
+.affiliationsField li a.on{background-color:#565656;color:#fff; border: 0; }
+.blueBtn{color:#fff !important;background-color:#006cba;}
+.triangle{border-color:#565656 transparent transparent transparent; border-width:9px; border-style:solid; width:0;height:0;position:absolute;top:33px;left:39%;}
+
+.companyList{margin:0 2.5%;margin-bottom:60px;width:95%;border-top:1px solid #565656;}
+.companyList > li{position:relative;border-bottom:1px solid #565656;}
+.companyLogo{margin:15px 0 30px;}
+.companyLogo > img{display:block;margin:0 auto;width:156px;height:117px;}
+.companyInfo{width:100%;color:#565656;font-size:12px;}
+.companyInfo li{margin-bottom:13px;min-width:277px;}
+.companyName{margin:20px 0px 18px 0px !important ;font-size:16px;font-weight:bold;}
+.companyBar{float:left;padding-right:12px;}
+.companyBar:after{content:"|";}
+.companyBar > span{display:inline-block;margin-right:12px;}
+.campanyText{float:left;width:80%;}
+.btnBG{text-align:right;margin-bottom:18px;}
+.btnBG a{display:inline-block;width:90px;height:24px;text-align:center;text-decoration:none;line-height:24px;font-size:12px;font-weight:bold;}
+
+.moreBtn{display:block;margin:50px 2.5%;width:95%;height:38px;text-decoration:none;border:1px solid #bcbcbc;text-align:center;line-height:38px;font-size:16px;font-weight:bold;color:#565656;background-color:#eaeaea;}
+}

@@ -1,0 +1,376 @@
+@charset "utf-8";
+.NCSbox{display: none; }
+
+.shortCut {text-align: center;height:40px;margin:10px auto;}
+
+	.shortCut ul {list-style: none;display: inline-table;}
+ .shortCut ul li {display: inline;}
+
+ .shortCut ul li a {display: block;float: left;height: 26px;text-align: center;padding: 14px 10px 0 30px;position: relative;margin: 0 10px 0 0;font-size: 12px;text-decoration: none;color: #fff;}
+ .shortCut ul li a:after {content: "";border-top: 20px solid transparent;border-bottom: 20px solid transparent;position: absolute; right: -20px; top: 0;z-index: 1;}
+
+ .shortCut ul li a:before {content: "";border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 20px solid #fff;position: absolute; left: 0; top: 0;}
+
+ .shortCut ul li:first-child a {border-top-left-radius: 10px; border-bottom-left-radius: 10px;}
+ .shortCut ul li:first-child a:before {display: none;}
+
+ .shortCut ul li:last-child a {padding-right: 30px;border-top-right-radius: 10px; border-bottom-right-radius: 10px;}
+ .shortCut ul li:last-child a:after {display: none;}
+
+ .shortCut ul li a:hover {background: #fa5ba5;}
+ .shortCut ul li a:hover:after {border-left-color: #fa5ba5;}
+ .shortCutHover {background: #fa5ba5 !important;}
+ .shortCutHover:after {border-left-color: #fa5ba5 !important;}
+ .clr349 {background-color:#3498db;}
+ .clr349:after { border-left: 20px solid #3498db;}
+ .clr036 {background-color:#003366;}
+ .clr036:after { border-left: 20px solid #003366;}
+ .clr036:hover {background: #fa5ba5;}
+ .clr036:hover:after {border-left-color: #fa5ba5;}
+.curriculumTableBG table *{word-break: keep-all; }
+.portfolioImg img{width:100%; height:100%;}
+
+/* For larger displays */
+@media all and (min-width:1080px){
+.curriculumTabMoveBG{width:100%;height:41px;border-bottom:2px solid #ACACAC;background-color:#D3D8DD;}
+.curriculumTabMove{margin:0 auto;width:696px;}
+.curriculumTabMove li{float:left;width:116px;text-align:center;}
+.curriculumTabMove li:hover{float:left;width:112px;border:2px solid #ACACAC;border-bottom:none;background-color:#FFF;}
+.curriculumTabMove li a{display:block;text-decoration:none;line-height:41px;color:#000;font-size:17px;}
+.curriculumTabMove li a:hover{color:#1C4684;font-weight:bold;}
+.curriculumTabMove .active{width:112px;border:2px solid #ACACAC;border-bottom:none;background-color:#FFF;}
+.curriculumTabMove .active a{color:#1C4684;font-weight:bold;}
+
+.curriculumExplainTop{margin:42px auto;/* margin-top:42px; */width:1080px;/* height:315px; */}
+.curriculumExplainImage{float:left;margin-right:24px;width:461px;height:271px;border:1px solid #E4E8ED;}
+.curriculumExplainImage img{width:100%;}
+.curriculumExplain{float:left;width:593px;/* height:271px; */line-height:20px;}
+.curriculumExplain h3{line-height:27px ;font-size:27px;color:#006CB8;font-weight:bolder;padding-bottom:37px ;}
+.curriculumExplain p{/* height:245px; */line-height:25px;}
+.curriCourseExplainBox > p.emphasis24398a{line-height:30px ;font-size:27px;color:#006CB8;font-weight:bolder;padding-bottom:37px ;}
+.curriculumExplainDown{padding:20px 0px;width:100%;background-color:#FAFAFA;}
+.curriculumInfo{margin:0 auto;width:616px;display:table;}
+.curriculumInfo ul{margin-bottom:10px;}
+.curriculumInfo ul li{line-height:20px;}
+
+.target{float:left;margin-right:30px;display:table;}
+.target span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+.studentList{float:left;width:486px;font-size:15px;line-height:26px;}
+
+.employmentField{float:left;margin-right:30px;display:table;}
+.employmentField span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+/* .employmentFieldExplain{float:left;width:486px;font-size:15px;line-height:26px;} */
+
+.license{float:left;margin-right:30px;display:table;}
+.license span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+/* .licenseExplain{float:left;width:486px;font-size:15px;line-height:26px;} */
+
+.step1 span{display:block;width:68px;border:1px solid #000;padding:5px 15px;}
+
+.curriculumTableBG > h3.title{margin:0 auto;margin-top:93px;width:1050px;height:30px;border:0;font-size:30px;}
+.curriculumTableBG > .imageCurri{margin:60px auto;width:638px;}
+
+.studentListBox > div.emphasis24398a{float:left;margin-right:200px;padding:10px;font-size:18px;border:1px solid #000;}
+.studentListBox  > ul.studentList{float:left;}
+
+.ncsHistoryTbl{width:1080px;margin:93px  auto;margin-top:40px;border-top:4px solid #ACACAC;border-bottom:2px solid #ACACAC;}
+.ncsHistoryTbl caption{display:none;}
+.ncsHistoryTbl tr.bdbACACAC{border-bottom:2px solid #ACACAC;}
+.ncsHistoryTbl th.tableTH1{width:188px;}
+.ncsHistoryTbl th.tableTH2{width:244px;}
+.ncsHistoryTbl th.tableTH3{width:262px;}
+.ncsHistoryTbl th{height:36px;font-size:17px;text-align:center;vertical-align:middle;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;line-height:20px;}
+.ncsHistoryTbl th:last-child{border-right:0;}
+.ncsHistoryTbl td{padding:10px;font-size:14px;vertical-align:middle;line-height:20px;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;}
+.ncsHistoryTbl td:last-child{border-right:0;}
+
+.curriculumInstructorBG{}
+.curriculumInstructorList{margin:0 auto;margin-top:90px;margin-bottom:44px;width:1080px;}
+.curriculumInstructorList li{float:left;position:relative;margin-right:27px;width:80px;height:80px;margin-bottom: 27px;}
+.instructorListBG{position:absolute;top:0;left:0;}
+.InstructorImg{position:absolute;top:0;left:0;}
+.curriculumInstructorList li img{width:100%;}
+.curriculumInstructorInfoBG{width:100%;background-color:#FAFAFA;}
+.curriculumInstructor{margin:0 auto;padding-top:21px;padding-bottom:92px;width:1080px;}
+.curriculumInstructorImg{float:left;width:224px;height:224px;}
+.curriculumInstructorImg img{width:100%;}
+.curriculumInstructorInfo{width: 350px; float:left;margin-left:25px;margin-right:25px ; font-size:16px;font-weight:bold;color:#595959;}
+.curriculumInstructorInfo li{padding:6px 0px;line-height:24px;font-size: 15px;}
+.curriculumInstructorInfo > .name{font-size:20px;font-weight:bold;}
+.curriculumInstructorCareer{float:left;padding-left:25px;width:420px;border-left:1px solid #ACACAC; font-size:16px;color:#595959;}
+.curriculumInstructorCareer li{padding:4px 0px;line-height:18px;}
+.careerTitle{font-size:20px;font-weight:bold;}
+
+.portfolioList{margin:0 auto; margin-top:89px ;width:968px;}
+.portfolioList li{float:left;margin:9px;width:464px;height:373px;border:1px solid #D1D1D1 ;}
+.portfolioImg{width:464px;height:309px;}
+.portfolioImg img{width:100%;}
+.contents iframe{width:100%; height:309px;}
+.portfolioExplain{width:464px;height:64px;}
+.studentName{display:block;float:left;padding:0px 17px;color:#595959;font-size:16px;line-height:64px;}
+.studentClass{display:block;float:right;padding:0px 10px;width:65%;color:#595959;font-size:16px;line-height:64px;}
+.portfolioBtn{display:block;margin:0 auto;margin-top:25px ;margin-bottom:90px;width:952px;height:48px;border:1px solid #D1D1D1;background-image:url('/assets/img/sub/curriculum/portfolioBtnBG.png');background-repeat:repeat;text-decoration:none; color:#fff;text-align:center;font-size:21px;font-weight:bold;line-height:48px;}
+
+.classPostscriptBG{margin:0 auto;width:955px;}
+.classPostscript{margin:0 auto;margin-top:106px;width:955px;border-top:3px solid #CACACA;}
+.classPostscript li{line-height:51px;font-size:16px;border-bottom:2px solid #CACACA;cursor:pointer;}
+.classPostscript li p{padding-left:49px;}
+.classPostscriptName{float:right;display:block;width:185px;font-size:16px;text-align:center;}
+.classPostscriptText{padding:20px 49px;border-top:1px solid #CACACA;font-size:16px;line-height:20px;}
+.classPostscriptBtn{float:right;display:block;padding-bottom:3px;margin-top:20px;margin-bottom:90px;width:222px;height:43px;background-image:url('/assets/img/sub/curriculum/classPostscriptBtn.png');line-height:43px;text-align:center;text-decoration:none;color:#fff;font-size:16px;}
+
+.recommendationClassBG{margin:0 auto;width:780px;}
+.recommendationClassBG h3{margin-top:89px;text-align:center;font-size:24px;font-weight:bold;color:#383E42;}
+.buleEmphasis{color:#0A63A5;}
+.approachingDay{float:right;padding-left:14px;margin-bottom:4px;width:58px;text-align:right;font-size:15px;background-image:url('/assets/img/sub/curriculum/approachingDay.jpg');}
+.recommendationClass{margin:0 auto;width:780px;margin-bottom:78px;border-top:3px solid #CACACA;}
+.recommendationClass li{border-bottom:2px solid #CACACA;}
+.recommendationClassName{float:left;width:314px;padding:46px 29px;font-size:17px;line-height:19px;}
+.approachingDayImg{display:inline-block;width:19px;height:19px;background-image:url('/assets/img/sub/curriculum/approachingDay.jpg');background-position:0 50%;text-indent:-9999px;}
+.searchBtn{float:left;display:block;margin:46px 10px 46px 0px ;width:123px;height:32px;border:1px solid #CACACA;text-decoration:none;color:#383E42;text-align:center;line-height:32px;font-size:15px;font-weight:bold;}
+.detailViewBtn{color:#fff;background-color:#1C4684;}
+/*.ncsHistoryTbl > thead > tr > th:first-child{width: 300px !important; }*/
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 641px) and (max-width: 1079px) {
+.curriculumTabMoveBG{width:100%;height:41px;border-bottom:2px solid #ACACAC;background-color:#D3D8DD;}
+.curriculumTabMove{margin:0 auto;width:600px;}
+.curriculumTabMove li{float:left;width:100px;text-align:center;}
+.curriculumTabMove li:hover{float:left;width:96px;border:2px solid #ACACAC;border-bottom:none;background-color:#FFF;}
+.curriculumTabMove li a{display:block;text-decoration:none;line-height:41px;color:#000;font-size:17px;}
+.curriculumTabMove li a:hover{color:#1C4684;font-weight:bold;}
+.curriculumTabMove .active{width:96px;border:2px solid #ACACAC;border-bottom:none;background-color:#FFF;}
+.curriculumTabMove .active a{color:#1C4684;font-weight:bold;}
+
+
+.curriculumExplainTop{margin:0 auto;margin-top:42px;width:100%;height:;}
+.curriculumExplainImage{margin:0 auto;width:514px;height:302px;border:1px solid #E4E8ED;}
+.curriculumExplainImage img{width:100%;}
+.curriculumExplain{margin:0 auto;width:514px;line-height:20px;}
+.curriculumExplain h3{margin-top:26px ;line-height:27px ;font-size:27px;color:#006CB8;font-weight:bolder;padding-bottom:17px ;}
+.curriculumExplain p{margin-bottom:9px;line-height:25px;}
+.curriCourseExplainBox > p.emphasis24398a{margin-top:26px ;line-height:27px ;font-size:27px;color:#006CB8;font-weight:bolder;padding-bottom:17px ;}
+.curriculumExplainDown{width:100%;background-color:#FAFAFA;}
+.curriculumInfo{margin:0 auto;padding-top:43px;padding-bottom:38px;width:616px;display:table;}
+.curriculumInfo ul{margin-bottom:10px;}
+.curriculumInfo ul li{line-height:20px;}
+
+/* .target{float:left;margin-right:30px;display:table;}
+.target .step1{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+.step1 span{display:block;width:98px;border:1px solid #000;padding:5px 0px;}
+.targetExplain{float:left;width:486px;font-size:15px;line-height:26px;}
+.employmentField{float:left;margin-right:30px;display:table;}
+.employmentField span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+.employmentFieldExplain{float:left;width:486px;font-size:15px;line-height:26px;}
+.license{float:left;margin-right:30px;display:table;}
+.license span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+.licenseExplain{float:left;width:486px;font-size:15px;line-height:26px;} */
+
+.target{float:left;margin-right:30px;display:table;}
+.target span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+.studentList{float:left;width:486px;font-size:15px;line-height:26px;}
+
+.employmentField{float:left;margin-right:30px;display:table;}
+.employmentField span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+/* .employmentFieldExplain{float:left;width:486px;font-size:15px;line-height:26px;} */
+
+.license{float:left;margin-right:30px;display:table;}
+.license span{display:block;text-align:center;line-height:18px;font-size:18px;vertical-align:middle;display:table-cell;}
+/* .licenseExplain{float:left;width:486px;font-size:15px;line-height:26px;} */
+
+.step1 span{display:block;width:68px;border:1px solid #000;padding:5px 15px;}
+
+.curriculumTableBG > h3.title{margin:0 auto;margin-top:93px;width:599px;height:30px;border:0;font-size:30px;}
+.curriculumTableBG > .imageCurri{margin:40px auto;width:90%;}
+.curriculumTableBG > .imageCurri > img{width:100%;}
+.studentListBox > div.emphasis24398a{float:left;margin-right:200px;padding:10px;font-size:18px;border:1px solid #000;}
+.studentListBox  > ul.studentList{float:left;}
+
+.ncsHistoryTbl{margin:47px auto;border-top:4px solid #ACACAC;}
+.ncsHistoryTbl caption{display:none;}
+.ncsHistoryTbl th.tableTH1{width:126px;}
+.ncsHistoryTbl th.tableTH2{width:177px;}
+.ncsHistoryTbl th.tableTH3{width:262px;}
+.ncsHistoryTbl th{height:36px;font-size:17px;text-align:center;vertical-align:middle;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;line-height:20px;}
+.ncsHistoryTbl th:last-child{border-right:0;}
+.ncsHistoryTbl td{padding:10px;font-size:14px;vertical-align:middle;line-height:20px;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;}
+.ncsHistoryTbl td:last-child{border-right:0;}
+
+.curriculumInstructorBG{}
+.curriculumInstructorList{margin:33px auto;width:532px;}
+.curriculumInstructorList li{float:left;position:relative;margin:5px 13px;width:80px;height:80px;}
+.instructorListBG{position:absolute;top:0;left:0;}
+.InstructorImg{position:absolute;top:0;left:0;}
+.curriculumInstructorList li img{width:100%;}
+
+
+.curriculumInstructorInfoBG{width:100%;background-color:#FAFAFA;}
+.curriculumInstructor{margin:0 auto;padding-top:30px;padding-bottom:52px;width:590px;}
+.curriculumInstructorImg{float:left;width:224px;height:224px;}
+.curriculumInstructorImg img{width:100%;}
+.curriculumInstructorInfo{float:left;margin-top:27px; margin-left:30px;font-size:14px;font-weight:bold;color:#595959;}
+.curriculumInstructorInfo li{padding:6px 0px;line-height:18px;}
+.curriculumInstructorInfo > .name{font-size:20px;font-weight:bold;}
+.curriculumInstructorCareer{float:right;padding-top:25px;margin-left:42px;width:332px;border-top:1px solid #ACACAC; font-size:14px;color:#595959;}
+.curriculumInstructorCareer li{padding:4px 0px;line-height:18px;}
+.careerTitle{margin-bottom:20px;font-size:20px;font-weight:bold;}
+
+.portfolioList{margin:0 auto; margin-top:89px;width:94%;}
+.portfolioList li{float:left;margin:1.2%;width:47%;border:1px solid #D1D1D1 ;}
+.portfolioImg{width:100%;}
+.portfolioImg img{width:100%;}
+.portfolioExplain{width:100%;}
+.studentName{display:block;float:left;padding:13px 10px;color:#595959;font-size:14px;}
+.studentClass{display:block;float:right;padding:13px 5px;width:65%;color:#595959;font-size:14px;}
+.portfolioBtn{display:block;margin:0 auto;margin-top:40px ;margin-bottom:55px;width:94%;height:48px;border:1px solid #D1D1D1;background-image:url('/assets/img/sub/curriculum/portfolioBtnBG.png');background-repeat:repeat;text-decoration:none; color:#fff;text-align:center;font-size:21px;font-weight:bold;line-height:48px;}
+
+.classPostscriptBG{margin:0 auto;width:90%;}
+.classPostscript{margin-top:62px;width:100%;border-top:3px solid #CACACA;}
+.classPostscript li{line-height:51px;font-size:12px;border-bottom:2px solid #CACACA;cursor:pointer;}
+.classPostscript li p{padding-left:32px;}
+.classPostscriptName{float:right;display:block;width:127px;font-size:12px;text-align:center;border-left:1px solid #CACACA;}
+.classPostscriptText{padding:20px 49px;border-top:1px solid #CACACA;font-size:12px;line-height:16px;}
+.classPostscriptBtn{float:right;display:block;padding-bottom:3px;margin-top:20px;margin-bottom:55px;width:222px;height:43px;background-image:url('/assets/img/sub/curriculum/classPostscriptBtn.png');line-height:43px;text-align:center;text-decoration:none;color:#fff;font-size:16px;}
+
+
+.recommendationClassBG{margin:0 5%;width:90%;}
+.recommendationClassBG h3{margin-top:55px;text-align:center;font-size:24px;font-weight:bold;color:#383E42;}
+.buleEmphasis{color:#0A63A5;}
+.approachingDay{float:right;padding-left:14px;margin-bottom:4px;width:58px;text-align:right;font-size:15px;background-image:url('/assets/img/sub/curriculum/approachingDay.jpg');}
+.recommendationClass{margin:0 auto;width:100%;margin-bottom:78px;border-top:3px solid #CACACA;}
+.recommendationClass li{border-bottom:2px solid #CACACA;}
+.recommendationClassName{margin:0 auto;width:405px;padding:28px 0;font-size:17px;line-height:19px;}
+.BtnsBG{margin:0 auto;}
+.approachingDayImg{display:inline-block;width:19px;height:19px;background-image:url('/assets/img/sub/curriculum/approachingDay.jpg');background-position:0 50%;text-indent:-9999px;}
+.searchBtnBG{display:block;margin:0 auto;width:405px;}
+.searchBtn{float:left;display:block;margin:0 5px 24px 5px ;width:123px;height:32px;border:1px solid #CACACA;text-decoration:none;color:#383E42;text-align:center;line-height:32px;font-size:15px;font-weight:bold;}
+.detailViewBtn{color:#fff;background-color:#1C4684;}
+
+
+}
+
+/* For smartphones */
+@media (max-width: 640px) {
+.curriculumTabMoveBG{width:100%;height:41px;border-bottom:2px solid #ACACAC;background-color:#D3D8DD;}
+.curriculumTabMove{margin:0 auto;width:100%;}
+.curriculumTabMove li{float:left;width:16.6%;text-align:center;}
+.curriculumTabMove li:hover{float:left;width:15.5%;border:2px solid #ACACAC;border-bottom:none;background-color:#FFF;}
+.curriculumTabMove li a{display:block;text-decoration:none;line-height:41px;color:#000;font-size:12px;letter-spacing:-1px}
+.curriculumTabMove li a:hover{color:#1C4684;font-weight:bold;}
+.curriculumTabMove .active{width:15.5%;border:2px solid #ACACAC;border-bottom:none;background-color:#FFF;}
+.curriculumTabMove .active a{color:#1C4684;font-weight:bold;}
+
+.curriculumPageTitle{padding: 30px 0;}
+.curriculumPageTitleBG{height: 400px; }
+.curriculumPageTitle > h1{font-size: 18px; line-height: 26px; word-break: keep-all;}
+.curriculumPageTitle > h2{word-break: keep-all;}
+.curriculumBtn{padding-top: 30px; }
+.curriculumBtn li a{line-height: 55px;}
+
+.curriculumExplainTop{margin:0 auto;margin-top:42px;width:100%;height:;}
+.curriculumExplainImage{margin:0 10px;width:95%;border:1px solid #E4E8ED;}
+.curriculumExplainImage img{width:100%;}
+.curriculumExplain{margin:0 10px;line-height:18px;}
+.curriculumExplain h3{margin-top:23px ;line-height:16px ;font-size:16px;color:#006CB8;font-weight:bolder;padding-bottom:17px;text-align:left;}
+.curriculumExplain p{margin-bottom:9px;line-height: 21px;}
+.curriCourseExplainBox > p.emphasis24398a{margin-top:23px ;line-height:18px ;font-size:16px;color:#006CB8;font-weight:bolder;padding-bottom:17px;text-align:left;}
+.curriculumExplainDown{width:100%;background-color:#FAFAFA;}
+.curriculumInfo{margin:0 auto;padding-top:30px;padding-bottom:38px;}
+.curriculumInfo ul{margin-bottom:10px;}
+.curriculumInfo ul li{line-height:18px;}
+
+
+.target{height:30px;padding-left:10px;}
+.target .step1{display:block;text-align:center;line-height:18px;font-size:15px;}
+.step1 span{display:block;padding-left:10px;width:79px;border:1px solid #000;padding:5px 0px;}
+.targetExplain{margin:9px 10px 21px 10px;width:95%;font-size:12px;line-height:20px;}
+.employmentField{height:30px;padding-left:10px;}
+.employmentField span{display:block;text-align:center;line-height:18px;font-size:15px;}
+.employmentFieldExplain{margin:9px 10px 21px 10px;width:95%;font-size:12px;line-height:20px;}
+.license{height:48px;padding-left:10px;}
+.license span{display:block;text-align:center;line-height:18px;font-size:15px;}
+.licenseExplain{margin:9px 10px 21px 10px;width:95%;font-size:12px;line-height:20px;}
+.studentList{margin:2% 5%;width:90%;}
+.studentList li{line-height:16px;}
+
+
+
+.curriculumTableBG > h3.title{margin:0 auto;margin-top:43px;min-width:320px;height:20px;border:0;font-size:14px;}
+.curriculumTableBG > .imageCurri{margin:40px auto;width:90%;}
+.curriculumTableBG > .imageCurri > img{width:100%;}
+.studentListBox > div.emphasis24398a{float:left;margin-right:200px;padding:10px;font-size:12px;border:1px solid #000;}
+.studentListBox  > ul.studentList{float:left;}
+
+.ncsHistoryTbl{min-width:320px;margin:30px 10px;border-top:4px solid #ACACAC;}
+.ncsHistoryTbl caption{display:none;}
+.ncsHistoryTbl th.tableTH1{width:126px;}
+.ncsHistoryTbl th.tableTH2{width:177px;}
+.ncsHistoryTbl th.tableTH3{width:262px;}
+.ncsHistoryTbl th{height:32px;font-size:12px;text-align:center;vertical-align:middle;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;}
+.ncsHistoryTbl th:last-child{border-right:0;}
+.ncsHistoryTbl td{padding:5px;font-size:12px;vertical-align:middle;line-height:14px;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;}
+.ncsHistoryTbl td:last-child{border-right:0;}
+
+
+.ncshistorytbl{min-width:320px;margin:30px 10px;border-top:4px solid #ACACAC;}
+.ncshistorytbl caption{display:none;}
+.ncshistorytbl th.tableTH1{width:126px;}
+.ncshistorytbl th.tableTH2{width:177px;}
+.ncshistorytbl th.tableTH3{width:262px;}
+.ncshistorytbl th{height:32px;font-size:12px;text-align:center;vertical-align:middle;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;line-height:18px;}
+.ncshistorytbl th:last-child{border-right:0;}
+.ncshistorytbl td{padding:5px;font-size:12px;vertical-align:middle;line-height:18px;border-right:1px solid #ACACAC;border-bottom:1px solid #ACACAC;}
+.ncshistorytbl td:last-child{border-right:0;}
+
+.curriculumInstructorBG{}
+.curriculumInstructorList{margin:33px auto;width:276px;}
+.curriculumInstructorList li{float:left;position:relative;margin:5px 6px;width:80px;height:80px;}
+.instructorListBG{position:absolute;top:0;left:0;}
+.InstructorImg{position:absolute;top:0;left:0;}
+.curriculumInstructorList li img{width:100%;}
+
+.curriculumInstructorInfoBG{width:100%;background-color:#FAFAFA;}
+.curriculumInstructor{margin:0 auto;padding-top:15px;padding-bottom:30px;width:100%;}
+.curriculumInstructorImg{margin:0 auto;width:224px;height:224px;}
+.curriculumInstructorImg img{width:100%;}
+.curriculumInstructorInfo{margin:14px 10px 38px 10px;font-size:12px;font-weight:bold;color:#595959;}
+.curriculumInstructorInfo li{padding:6px 0px;line-height:14px;}
+.curriculumInstructorInfo > .name{font-size:20px;font-weight:bold;}
+.curriculumInstructorCareer{padding-top:25px;margin:0 10px;border-top:1px solid #ACACAC; font-size:12px;color:#595959;}
+.curriculumInstructorCareer li{padding:4px 0px;line-height:14px;}
+.careerTitle{margin-bottom:20px;font-size:20px;font-weight:bold;}
+
+
+.portfolioList{margin:0 auto; margin-top:89px; width:94%;}
+.portfolioList li{;margin:3%;width:94%;border:1px solid #D1D1D1 ;}
+.portfolioImg{width:100%;}
+.portfolioImg img{width:100%;}
+.portfolioExplain{width:100%;}
+.studentName{display:block;float:left;padding:13px 17px;color:#595959;font-size:14px;}
+.studentClass{display:block;float:right;padding:13px 5px;width:65%;color:#595959;font-size:14px;}
+.portfolioBtn{display:block;margin:0 4%;margin-top:20px ;margin-bottom:30px;width:92%;height:31px;border:1px solid #D1D1D1;background-image:url('/assets/img/sub/curriculum/portfolioBtnBG.png');background-repeat:repeat;text-decoration:none; color:#fff;text-align:center;font-size:16px;font-weight:bold;line-height:31px;}
+
+.classPostscriptBG{margin:0 auto;width:90%;}
+.classPostscript{margin-top:62px;width:100%;border-top:3px solid #CACACA;}
+.classPostscript li{width: 100%; line-height:51px;font-size:12px;border-bottom:2px solid #CACACA;cursor:pointer;}
+.classPostscript li p{padding-left:5%;}
+.ellipsis{float:left;display:block;width:80%;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.classPostscriptName{float:right;display:block;width:15%;font-size:11px;text-align:center;border-left:1px solid #CACACA;}
+.classPostscriptText{padding:20px;border-top:1px solid #CACACA;font-size:11px;line-height:16px; box-sizing: border-box; width: 100%; word-break: break-all; }
+.classPostscriptBtn{display:block;margin:0 auto;padding-bottom:3px;margin-top:10px;margin-bottom:30px;width:222px;height:43px;background-image:url('/assets/img/sub/curriculum/classPostscriptBtn.png');line-height:43px;text-align:center;text-decoration:none;color:#fff;font-size:16px;}
+
+.recommendationClassBG{margin:0 5%;width:90%;}
+.recommendationClassBG h3{margin-top:55px;font-size:18px;font-weight:bold;color:#383E42;}
+.buleEmphasis{color:#0A63A5;}
+.approachingDay{float:right;padding-left:14px;margin-bottom:4px;width:48px;line-height:15px;text-align:right;font-size:12px;background-image:url('/assets/img/sub/curriculum/approachingDay.jpg');}
+.recommendationClass{margin:0 auto;width:100%;margin-bottom:10px;border-top:3px solid #CACACA;}
+.recommendationClass li{border-bottom:2px solid #CACACA;}
+.recommendationClassName{margin:0 auto;width:306px;padding:12px 0;font-size:12px;line-height:15px;}
+.BtnsBG{margin:0 auto;}
+.approachingDayImg{display:inline-block;width:19px;height:19px;background-image:url('/assets/img/sub/curriculum/approachingDay.jpg');background-position:0 50%;text-indent:-9999px;}
+.searchBtnBG{margin:0 auto;width:306px;}
+.searchBtn{float:left;display:block;margin:0 2px 24px 2px ;width:96px;height:26px;border:1px solid #CACACA;text-decoration:none;color:#383E42;text-align:center;line-height:26px;font-size:12px;font-weight:bold;}
+.detailViewBtn{color:#fff;background-color:#1C4684;}
+
+}

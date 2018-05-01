@@ -1,0 +1,86 @@
+	.marginB10{margin-bottom:10px;}
+	@media all and (min-width: 1080px) {
+	.backgroundImg{position:relative;margin:0 auto;max-width:900px;}
+	.backgroundImg img{display:block;border:0;margin:0;padding:0;}
+	.section2{height:378px;background-image:url('http://www.greenart.co.kr/upimage/new_editor/20175/broadcasting_notice_02.jpg'); }
+	.section2 iframe{margin-left:15%;width:630px;height:378px;}
+	.section4{background-image:url('http://www.greenart.co.kr/upimage/new_editor/20175/broadcasting_notice_04.jpg');background-size:100%;}
+
+   form > fieldset { padding:10px ;width: 654px; height: 328px; margin: 0 auto;border:1px solid #c1c1c1;}
+   form > fieldset > ul { width: 100%; height: auto; }
+   form > fieldset > ul > li { margin-bottom: 15px; }
+   form > fieldset > ul > li > * { float: left; height: 45px; line-height: 50px; font-size: 16px; }
+   form > fieldset > ul > li > select#ev_subject { width: 400px; margin-right:10px;}
+   form > fieldset > ul > li > select#notice_cam { width: 120px; }
+   form > fieldset > ul > li > select > option { font-size: 22px; }
+   form > fieldset > ul > li > label { text-align: center; margin-right: 10px;}
+   form > fieldset > ul > li > input { width: 110px; text-indent: 10px; }
+   form > fieldset > ul > li > .nameText { width: 133px; margin-right: 10px; }
+   form > fieldset > ul > li > span { margin: 0 10px; }
+   form > fieldset > ul > li:after { content: ""; display: block; clear: both; }
+   form > fieldset > ul > .category01 > select { width: 100px; }
+   form > fieldset > ul > .category03 > label { line-height: 22px;margin-top:4px; }
+   form > fieldset > ul > .category03 > textarea { width: 580px; height: 100px; resize: none; }
+   form > fieldset > div > div {float:left; margin-left: 40px; width:410px;}
+   form > fieldset > div > div > label { text-align: right; font-size: 18px; vertical-align:top;}
+   form > fieldset > div > div > a { text-align: right; font-size: 15px; margin-top: 5px; text-decoration:none; vertical-align:top;color:#515151;}
+   form > fieldset > div > div > input {width: 20px; height: 20px; }
+   form > fieldset > div > .submitBtn { margin-left:17px;width: 135px; height: 56px; font-size: 20px; text-align: center; float: left; line-height: 56px; background-color:#44005e;color:#fff;border:0;}
+	}
+	@media (min-width: 641px) and (max-width: 1079px) {
+	.backgroundImg{position:relative;width:100%;max-width:900px;}
+	.backgroundImg img{display:block;border:0;margin:0;padding:0;width:100%;}
+	.section2{width:100%;background-image:url('http://www.greenart.co.kr/upimage/new_editor/20175/broadcasting_notice_02.jpg');background-size:100%;}
+	.section2 iframe{margin:0 15%;width:69%;}
+	.section4{background-image:url('http://www.greenart.co.kr/upimage/new_editor/20175/broadcasting_notice_04.jpg');background-size:100%;}
+
+   form > fieldset { margin: 0 auto;padding:10px ;width: 450px; }
+	 form > fieldset > ul { width: 100%; height: auto; }
+   form > fieldset > ul > li { margin-bottom: 15px; }
+   form > fieldset > ul > li > * { float: left; height: 25px; line-height: 25px; font-size: 12px; }
+   form > fieldset > ul > li > select#ev_subject { width: 300px; margin-right:10px;}
+   form > fieldset > ul > li > select#notice_cam { width: 60px; }
+   form > fieldset > ul > li > select > option { font-size: 12px; }
+   form > fieldset > ul > li > label { text-align: center; margin-right: 10px;}
+   form > fieldset > ul > li > input { width: 66px; text-indent: 10px; }
+   form > fieldset > ul > li > .nameText { width: 100px; margin-right: 10px; }
+   form > fieldset > ul > li > span { margin: 0 10px; }
+   form > fieldset > ul > li:after { content: ""; display: block; clear: both; }
+   form > fieldset > ul > .category01 > select { width: 65px; }
+   form > fieldset > ul > .category03 > label { line-height: 22px;margin-top:4px; }
+   form > fieldset > ul > .category03 > textarea { width: 410px; height: 50px; resize: none; }
+   form > fieldset > div > div {float:left; margin-left: 40px; width:287px;}
+   form > fieldset > div > div > label { text-align: right; font-size: 12px; vertical-align:top; }
+   form > fieldset > div > div > a { text-align: right; font-size: 12px; margin-top: 5px; text-decoration:none; vertical-align:top;color:#515151;}
+   form > fieldset > div > div > input {width: 12px; height: 12px; }
+   form > fieldset > div > .submitBtn { margin-left:17px;width: 80px; height: 25px; font-size: 12px; text-align: center; float: left; line-height: 25px; background-color:#44005e;color:#fff;border:0;}
+	}
+	@media (max-width: 640px) {
+	.backgroundImg{position:relative;width:100%;}
+	.backgroundImg img{display:block;border:0;margin:0;padding:0;width:100%;}
+	.section2{width:100%;background-image:url('http://www.greenart.co.kr/upimage/new_editor/20175/broadcasting_notice_02.jpg');background-size:100%;}
+	.section2 iframe{margin:0 15%;width:68.5%;}
+	.section4{background-image:url('http://www.greenart.co.kr/upimage/new_editor/20175/broadcasting_notice_04.jpg');background-size:100%;}
+
+   form > fieldset { margin: 0 auto;padding:5px ;width: 234px;}
+	 form > fieldset > ul { width: 100%;}
+   form > fieldset > ul > li { margin-bottom: 3px; }
+   form > fieldset > ul > li > * { float: left; height: 15px; line-height: 15px; font-size: 10px; }
+   form > fieldset > ul > li > select#ev_subject { width: 125px; margin-right:10px;}
+   form > fieldset > ul > li > select#notice_cam { width: 50px; }
+   form > fieldset > ul > li > select > option { font-size: 10px; }
+   form > fieldset > ul > li > label { text-align: center; margin-right: 4px;}
+   form > fieldset > ul > li > input { width: 32px; text-indent: 2px; }
+   form > fieldset > ul > li > .nameText { width: 42px; margin-right: 4px; }
+   form > fieldset > ul > li > span { margin: 0 2px; }
+   form > fieldset > ul > li:after { content: ""; display: block; clear: both; }
+   form > fieldset > ul > .category01 > select { width: 50px; }
+   form > fieldset > ul > .category03 > label { line-height: 13px;margin-top:4px; }
+   form > fieldset > ul > .category03 > textarea { width: 213px; height: 30px; resize: none; }
+   form > fieldset > div > div {float:left; margin-left: 15px; width:234px;}
+   form > fieldset > div > div > label { text-align: right; font-size: 10px; }
+   form > fieldset > div > div > a { display:inline-block;text-align: right; font-size: 10px; margin-top: 5px; text-decoration:none;color:#515151;}
+   form > fieldset > div > input { float:left; width: 10px; height: 10px;}
+   form > fieldset > div > .submitBtn { margin-left:17px;width: 80px; height: 15px; font-size: 10px; text-align: center; float: right; line-height: 15px; background-color:#44005e;color:#fff;border:0;}
+
+	}
